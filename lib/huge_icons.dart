@@ -1,4917 +1,4917 @@
-library huge_icons;
-
 import 'package:flutter/widgets.dart';
 
-final class HugeIcons {
-  const HugeIcons._();
+class HugeIcons {
+  HugeIcons._();
 
-  static const _kIconFontFamily = 'huge_icons_dipflixs_export';
-  static const IconData arrowsOutlineArrowBack =
-      IconData(0xe000, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowBackCircle =
-      IconData(0xe001, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowBackRectangle =
-      IconData(0xe002, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowDown =
-      IconData(0xe003, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowDownCircle =
-      IconData(0xe004, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowDownRectangle =
-      IconData(0xe005, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowLeft =
-      IconData(0xe006, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowLeftCircle =
-      IconData(0xe007, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowLeftRectangle =
-      IconData(0xe008, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowMove =
-      IconData(0xe009, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowMoveCircle =
-      IconData(0xe00a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowMoveRectangle =
-      IconData(0xe00b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowReturn =
-      IconData(0xe00c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowReturnCircle =
-      IconData(0xe00d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowReturnRectangle =
-      IconData(0xe00e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowRight =
-      IconData(0xe00f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowRightCircle =
-      IconData(0xe010, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowRightRectangle =
-      IconData(0xe011, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowSort =
-      IconData(0xe012, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowSort1 =
-      IconData(0xe013, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowSortRectangle =
-      IconData(0xe014, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowSortRectangle1 =
-      IconData(0xe015, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowTransfer =
-      IconData(0xe016, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowTransfer1 =
-      IconData(0xe017, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowTransferRectangle =
-      IconData(0xe018, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowTransferRectangle1 =
-      IconData(0xe019, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowUp =
-      IconData(0xe01a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowUpCircle =
-      IconData(0xe01b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineArrowUpRectangle =
-      IconData(0xe01c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionDown =
-      IconData(0xe01d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionDown01 =
-      IconData(0xe01e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionDownCircle =
-      IconData(0xe01f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionDownRectangle =
-      IconData(0xe020, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionLeft =
-      IconData(0xe021, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionLeft01 =
-      IconData(0xe022, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionLeftCircle =
-      IconData(0xe023, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionLeftRectangle =
-      IconData(0xe024, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionRight =
-      IconData(0xe025, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionRight01 =
-      IconData(0xe026, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionRightCircle =
-      IconData(0xe027, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionRightRectangle =
-      IconData(0xe028, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionUp =
-      IconData(0xe029, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionUp01 =
-      IconData(0xe02a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionUpCircle =
-      IconData(0xe02b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDirectionUpRectangle =
-      IconData(0xe02c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDownArrow =
-      IconData(0xe02d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDownArrow01 =
-      IconData(0xe02e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDownload =
-      IconData(0xe02f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineDownload01 =
-      IconData(0xe030, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineExchange =
-      IconData(0xe031, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineExchangeRectangle =
-      IconData(0xe032, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineIn =
-      IconData(0xe033, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineIn01 =
-      IconData(0xe034, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineLeftArrow =
-      IconData(0xe035, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineLeftArrow01 =
-      IconData(0xe036, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineMaximize =
-      IconData(0xe037, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineMaximize01 =
-      IconData(0xe038, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineMaximize02 =
-      IconData(0xe039, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineMinimize =
-      IconData(0xe03a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineMinimize01 =
-      IconData(0xe03b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineMinimize02 =
-      IconData(0xe03c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineNextArrow =
-      IconData(0xe03d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineOut =
-      IconData(0xe03e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineOut01 =
-      IconData(0xe03f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlinePreviousArrow =
-      IconData(0xe040, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineRedo =
-      IconData(0xe041, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineRedoCircle =
-      IconData(0xe042, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineRedoRectangle =
-      IconData(0xe043, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineRedoRectangle1 =
-      IconData(0xe044, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineReload =
-      IconData(0xe045, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineReloadCircle =
-      IconData(0xe046, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineReloadRectangle =
-      IconData(0xe047, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineRightArrow =
-      IconData(0xe048, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineRightArrow01 =
-      IconData(0xe049, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineUndo =
-      IconData(0xe04a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineUndoCircle =
-      IconData(0xe04b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineUpArrow =
-      IconData(0xe04c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineUpArrow01 =
-      IconData(0xe04d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineUpload =
-      IconData(0xe04e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineUpload01 =
-      IconData(0xe04f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineZoomIn =
-      IconData(0xe050, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineZoomInRectangle =
-      IconData(0xe051, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineZoomOut =
-      IconData(0xe052, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineZoomOutCircle =
-      IconData(0xe053, fontFamily: _kIconFontFamily);
-  static const IconData arrowsOutlineZoomOutRectangle =
-      IconData(0xe054, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowBackCircle =
-      IconData(0xe055, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowBackRectangle =
-      IconData(0xe056, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowDown =
-      IconData(0xe057, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowDownCircle =
-      IconData(0xe058, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowDownRectangle =
-      IconData(0xe059, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowLeft =
-      IconData(0xe05a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowLeftCircle =
-      IconData(0xe05b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowLeftRectangle =
-      IconData(0xe05c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowMove =
-      IconData(0xe05d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowMoveCircle =
-      IconData(0xe05e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowMoveRectangle =
-      IconData(0xe05f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowReturn =
-      IconData(0xe060, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowReturnCircle =
-      IconData(0xe061, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowReturnRectangle =
-      IconData(0xe062, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowRight =
-      IconData(0xe063, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowRightCircle =
-      IconData(0xe064, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowRightRectangle =
-      IconData(0xe065, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowSort =
-      IconData(0xe066, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowSort1 =
-      IconData(0xe067, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowSortRectangle =
-      IconData(0xe068, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowSortRectangle1 =
-      IconData(0xe069, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowTransfer =
-      IconData(0xe06a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowTransfer1 =
-      IconData(0xe06b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowTransferRectangle =
-      IconData(0xe06c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowTransferRectangle1 =
-      IconData(0xe06d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowUp =
-      IconData(0xe06e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowUpCircle =
-      IconData(0xe06f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidArrowUpRectangle =
-      IconData(0xe070, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionDown =
-      IconData(0xe071, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionDown01 =
-      IconData(0xe072, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionDownCircle =
-      IconData(0xe073, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionDownRectangle =
-      IconData(0xe074, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionLeft =
-      IconData(0xe075, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionLeft01 =
-      IconData(0xe076, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionLeftCircle =
-      IconData(0xe077, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionLeftRectangle =
-      IconData(0xe078, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionRight =
-      IconData(0xe079, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionRight01 =
-      IconData(0xe07a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionRightCircle =
-      IconData(0xe07b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionRightRectangle =
-      IconData(0xe07c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionUp =
-      IconData(0xe07d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionUp01 =
-      IconData(0xe07e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionUpCircle =
-      IconData(0xe07f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDirectionUpRectangle =
-      IconData(0xe080, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDownArrow =
-      IconData(0xe081, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDownArrow01 =
-      IconData(0xe082, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDownload =
-      IconData(0xe083, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidDownload01 =
-      IconData(0xe084, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidExchange =
-      IconData(0xe085, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidExchangeRectangle =
-      IconData(0xe086, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidIn =
-      IconData(0xe087, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidIn01 =
-      IconData(0xe088, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidLeftArrow =
-      IconData(0xe089, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidLeftArrow01 =
-      IconData(0xe08a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidMaximize =
-      IconData(0xe08b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidMaximize01 =
-      IconData(0xe08c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidMaximize02 =
-      IconData(0xe08d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidMinimize =
-      IconData(0xe08e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidMinimize01 =
-      IconData(0xe08f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidMinimize02 =
-      IconData(0xe090, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidNextArrow =
-      IconData(0xe091, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidOut =
-      IconData(0xe092, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidOut01 =
-      IconData(0xe093, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidPreviousArrow =
-      IconData(0xe094, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidRedo =
-      IconData(0xe095, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidRedoCircle =
-      IconData(0xe096, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidRedoRectangle =
-      IconData(0xe097, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidRedoRectangle01 =
-      IconData(0xe098, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidReload =
-      IconData(0xe099, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidReloadCircle =
-      IconData(0xe09a, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidReloadRectangle =
-      IconData(0xe09b, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidRightArrow =
-      IconData(0xe09c, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidRightArrow01 =
-      IconData(0xe09d, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidUndo =
-      IconData(0xe09e, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidUndoCircle =
-      IconData(0xe09f, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidUpArrow =
-      IconData(0xe0a0, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidUpArrow01 =
-      IconData(0xe0a1, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidUpload =
-      IconData(0xe0a2, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidUpload01 =
-      IconData(0xe0a3, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidZoomIn =
-      IconData(0xe0a4, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidZoomInRectangle =
-      IconData(0xe0a5, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidZoomOut =
-      IconData(0xe0a6, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidZoomOutCircle =
-      IconData(0xe0a7, fontFamily: _kIconFontFamily);
-  static const IconData arrowsSolidZoomOutRectangle =
-      IconData(0xe0a8, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineArchive =
-      IconData(0xe0a9, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineBarChart =
-      IconData(0xe0aa, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineBarChart01 =
-      IconData(0xe0ab, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineBriefcase =
-      IconData(0xe0ac, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineBriefcase01 =
-      IconData(0xe0ad, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineBriefcase02 =
-      IconData(0xe0ae, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineBriefcase03 =
-      IconData(0xe0af, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineBriefcase04 =
-      IconData(0xe0b0, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineCalculator =
-      IconData(0xe0b1, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartArrowDown =
-      IconData(0xe0b2, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartArrowDown01 =
-      IconData(0xe0b3, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartArrowDownRectangle =
-      IconData(0xe0b4, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartArrowUp =
-      IconData(0xe0b5, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartArrowUp01 =
-      IconData(0xe0b6, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartArrowUpRectangle =
-      IconData(0xe0b7, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartBar =
-      IconData(0xe0b8, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartBar01 =
-      IconData(0xe0b9, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartLine =
-      IconData(0xe0ba, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartNotification =
-      IconData(0xe0bb, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartPie =
-      IconData(0xe0bc, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartPie01 =
-      IconData(0xe0bd, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartWave =
-      IconData(0xe0be, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartWave01 =
-      IconData(0xe0bf, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineChartWaveRectangle =
-      IconData(0xe0c0, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineDeal =
-      IconData(0xe0c1, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineHome =
-      IconData(0xe0c2, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineHome01 =
-      IconData(0xe0c3, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineLike =
-      IconData(0xe0c4, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlinePresentationChart =
-      IconData(0xe0c5, fontFamily: _kIconFontFamily);
-  static const IconData businessOutlineTarget =
-      IconData(0xe0c6, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidArchive =
-      IconData(0xe0c7, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidBarChart =
-      IconData(0xe0c8, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidBarChart01 =
-      IconData(0xe0c9, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidBriefcase =
-      IconData(0xe0ca, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidBriefcase01 =
-      IconData(0xe0cb, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidBriefcase02 =
-      IconData(0xe0cc, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidBriefcase03 =
-      IconData(0xe0cd, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidBriefcase04 =
-      IconData(0xe0ce, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidCalculator =
-      IconData(0xe0cf, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartArrowDown =
-      IconData(0xe0d0, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartArrowDown01 =
-      IconData(0xe0d1, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartArrowDownRectangle =
-      IconData(0xe0d2, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartArrowUp =
-      IconData(0xe0d3, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartArrowUp01 =
-      IconData(0xe0d4, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartArrowUpRectangle =
-      IconData(0xe0d5, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartBar01 =
-      IconData(0xe0d6, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartBar1 =
-      IconData(0xe0d7, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartLine =
-      IconData(0xe0d8, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartNotification =
-      IconData(0xe0d9, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartPie =
-      IconData(0xe0da, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartPie01 =
-      IconData(0xe0db, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartWave01 =
-      IconData(0xe0dc, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartWave1 =
-      IconData(0xe0dd, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidChartWaveRectangle =
-      IconData(0xe0de, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidDeal =
-      IconData(0xe0df, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidHome =
-      IconData(0xe0e0, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidHome01 =
-      IconData(0xe0e1, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidLike =
-      IconData(0xe0e2, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidPresentationChart =
-      IconData(0xe0e3, fontFamily: _kIconFontFamily);
-  static const IconData businessSolidTarget =
-      IconData(0xe0e4, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineBroadcast =
-      IconData(0xe0e5, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCall =
-      IconData(0xe0e6, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallBlock =
-      IconData(0xe0e7, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallIn =
-      IconData(0xe0e8, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallIn01 =
-      IconData(0xe0e9, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCalling =
-      IconData(0xe0ea, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallLove =
-      IconData(0xe0eb, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallOut =
-      IconData(0xe0ec, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallOut01 =
-      IconData(0xe0ed, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallUser =
-      IconData(0xe0ee, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineCallVoicemail =
-      IconData(0xe0ef, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChat =
-      IconData(0xe0f0, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChat01 =
-      IconData(0xe0f1, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChat02 =
-      IconData(0xe0f2, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatAccept =
-      IconData(0xe0f3, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatArrowDown =
-      IconData(0xe0f4, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatArrowUp =
-      IconData(0xe0f5, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatBlock =
-      IconData(0xe0f6, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatClock =
-      IconData(0xe0f7, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatClose =
-      IconData(0xe0f8, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatFavourite =
-      IconData(0xe0f9, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatInformation =
-      IconData(0xe0fa, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatLock =
-      IconData(0xe0fb, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatLove =
-      IconData(0xe0fc, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatNegative =
-      IconData(0xe0fd, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatNotification =
-      IconData(0xe0fe, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatNotification1 =
-      IconData(0xe0ff, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatPlus =
-      IconData(0xe100, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatSad =
-      IconData(0xe101, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatSearch =
-      IconData(0xe102, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatSilent =
-      IconData(0xe103, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatSmile =
-      IconData(0xe104, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatting =
-      IconData(0xe105, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineChatUser =
-      IconData(0xe106, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineFeather =
-      IconData(0xe107, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineIdCard =
-      IconData(0xe108, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMail =
-      IconData(0xe109, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailArrowDown =
-      IconData(0xe10a, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailArrowLeft =
-      IconData(0xe10b, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailArrowRight =
-      IconData(0xe10c, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailArrowUp =
-      IconData(0xe10d, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailBlock =
-      IconData(0xe10e, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailbox =
-      IconData(0xe10f, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailDelay =
-      IconData(0xe110, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailFail =
-      IconData(0xe111, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailFast =
-      IconData(0xe112, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailFavourite =
-      IconData(0xe113, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailNegative =
-      IconData(0xe114, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailNotification =
-      IconData(0xe115, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailPlus =
-      IconData(0xe116, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineMailSilent =
-      IconData(0xe117, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineSend =
-      IconData(0xe118, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineSentFast =
-      IconData(0xe119, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineSignal =
-      IconData(0xe11a, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineSticker =
-      IconData(0xe11b, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineVoiceMail =
-      IconData(0xe11c, fontFamily: _kIconFontFamily);
-  static const IconData communicationOutlineWifi =
-      IconData(0xe11d, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineAboutPhone =
-      IconData(0xe11e, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineAccessibility =
-      IconData(0xe11f, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineAirplaneMode =
-      IconData(0xe120, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineAirplaneModeOff =
-      IconData(0xe121, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineAuto =
-      IconData(0xe122, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineAutoRotation =
-      IconData(0xe123, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBattery =
-      IconData(0xe124, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryAlert =
-      IconData(0xe125, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryCharging =
-      IconData(0xe126, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryChargingFull =
-      IconData(0xe127, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryHorizontal =
-      IconData(0xe128, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryHorizontalCharging =
-      IconData(0xe129, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryHorizontalFull =
-      IconData(0xe12a, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryHorizontalLowbet =
-      IconData(0xe12b, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryHorizontalSavingMode =
-      IconData(0xe12c, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatteryLowbet =
-      IconData(0xe12d, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBatterySavingMode =
-      IconData(0xe12e, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBluetooth =
-      IconData(0xe12f, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBluetoothConnected =
-      IconData(0xe130, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineBluetoothOff =
-      IconData(0xe131, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineCamera =
-      IconData(0xe132, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineCameraOff =
-      IconData(0xe133, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineCameraSwitch =
-      IconData(0xe134, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineCast =
-      IconData(0xe135, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineColorInversion =
-      IconData(0xe136, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineComputer =
-      IconData(0xe137, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineDarkMode =
-      IconData(0xe138, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineDevices =
-      IconData(0xe139, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineDigitalHealth =
-      IconData(0xe13a, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineDoNotDisturb =
-      IconData(0xe13b, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineFilter =
-      IconData(0xe13c, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineFilter01 =
-      IconData(0xe13d, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineFingerPrint =
-      IconData(0xe13e, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineFlash =
-      IconData(0xe13f, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineFlashAuto =
-      IconData(0xe140, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineFlashLight =
-      IconData(0xe141, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineFlashOff =
-      IconData(0xe142, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineGps =
-      IconData(0xe143, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineGpsOff =
-      IconData(0xe144, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineGraphicEq =
-      IconData(0xe145, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineHotspot =
-      IconData(0xe146, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineHotspotOff =
-      IconData(0xe147, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineLaptop =
-      IconData(0xe148, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineLightMode =
-      IconData(0xe149, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineLocation =
-      IconData(0xe14a, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineLock =
-      IconData(0xe14b, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineMobile =
-      IconData(0xe14c, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineMobileData =
-      IconData(0xe14d, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineMobileDataOff =
-      IconData(0xe14e, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineMusic =
-      IconData(0xe14f, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineMusicOff =
-      IconData(0xe150, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineNightMode =
-      IconData(0xe151, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineNotification =
-      IconData(0xe152, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineNotification01 =
-      IconData(0xe153, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineNotificationOff =
-      IconData(0xe154, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlinePhoneLock =
-      IconData(0xe155, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineQrScan =
-      IconData(0xe156, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineRestart =
-      IconData(0xe157, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineRotateLock =
-      IconData(0xe158, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineScreenRotate =
-      IconData(0xe159, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineScreenshot =
-      IconData(0xe15a, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSdStorage =
-      IconData(0xe15b, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSecurity =
-      IconData(0xe15c, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSetting =
-      IconData(0xe15d, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineShutDown =
-      IconData(0xe15e, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSignalCelluler =
-      IconData(0xe15f, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSignalCellulerBad =
-      IconData(0xe160, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSignalCellulerNoInternet =
-      IconData(0xe161, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSignalCellulerNoInternet1 =
-      IconData(0xe162, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSignalCellulerOff =
-      IconData(0xe163, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSimCard =
-      IconData(0xe164, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineStandbyMode =
-      IconData(0xe165, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineStorage =
-      IconData(0xe166, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineSwitch =
-      IconData(0xe167, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineTablet =
-      IconData(0xe168, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineTaskCheck =
-      IconData(0xe169, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineUnlock =
-      IconData(0xe16a, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineUsb =
-      IconData(0xe16b, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineUser =
-      IconData(0xe16c, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineUserCircle =
-      IconData(0xe16d, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineUserRectangle =
-      IconData(0xe16e, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineVibrateMode =
-      IconData(0xe16f, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineVideo =
-      IconData(0xe170, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineVideoOff =
-      IconData(0xe171, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineView =
-      IconData(0xe172, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineViewOff =
-      IconData(0xe173, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineViewPrivacy =
-      IconData(0xe174, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWidgets =
-      IconData(0xe175, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWifi =
-      IconData(0xe176, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWifiOff =
-      IconData(0xe177, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWifiSignal =
-      IconData(0xe178, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWifiSignalBad =
-      IconData(0xe179, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWifiSignalNoInternet =
-      IconData(0xe17a, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWifiSignalOff =
-      IconData(0xe17b, fontFamily: _kIconFontFamily);
-  static const IconData deviceOutlineWirelessCharging =
-      IconData(0xe17c, fontFamily: _kIconFontFamily);
-  static const IconData deviceSolidUserCircle =
-      IconData(0xe17d, fontFamily: _kIconFontFamily);
-  static const IconData deviceSolidUserRectangle =
-      IconData(0xe17e, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBadgePercent =
-      IconData(0xe17f, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBag =
-      IconData(0xe180, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBag01 =
-      IconData(0xe181, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBagAdd =
-      IconData(0xe182, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBagCheck =
-      IconData(0xe183, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBagFavourite =
-      IconData(0xe184, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBagMinus =
-      IconData(0xe185, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBagRemove =
-      IconData(0xe186, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBoard =
-      IconData(0xe187, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineBookmark =
-      IconData(0xe188, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCard =
-      IconData(0xe189, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCart =
-      IconData(0xe18a, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCart01 =
-      IconData(0xe18b, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCart02 =
-      IconData(0xe18c, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCartAdd =
-      IconData(0xe18d, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCartArrowDown =
-      IconData(0xe18e, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCartArrowUp =
-      IconData(0xe18f, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCartCheck =
-      IconData(0xe190, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCartMinus =
-      IconData(0xe191, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineCartRemove =
-      IconData(0xe192, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineDeposit =
-      IconData(0xe193, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineFavourite =
-      IconData(0xe194, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineGlassBroken =
-      IconData(0xe195, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineHanger =
-      IconData(0xe196, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineInvoice =
-      IconData(0xe197, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineInvoice01 =
-      IconData(0xe198, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineLocation =
-      IconData(0xe199, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineMoney =
-      IconData(0xe19a, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineMoney01 =
-      IconData(0xe19b, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineMoneyBag =
-      IconData(0xe19c, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlinePackageBox =
-      IconData(0xe19d, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlinePackageBox01 =
-      IconData(0xe19e, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineReceipt =
-      IconData(0xe19f, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineReward =
-      IconData(0xe1a0, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShield =
-      IconData(0xe1a1, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBag =
-      IconData(0xe1a2, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBagAdd =
-      IconData(0xe1a3, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBagCheck =
-      IconData(0xe1a4, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBagLove =
-      IconData(0xe1a5, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBagMinus =
-      IconData(0xe1a6, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBagRemove =
-      IconData(0xe1a7, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasket =
-      IconData(0xe1a8, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasket01 =
-      IconData(0xe1a9, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasket02 =
-      IconData(0xe1aa, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasket03 =
-      IconData(0xe1ab, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasketAdd =
-      IconData(0xe1ac, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasketArrowDown =
-      IconData(0xe1ad, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasketArrowOut =
-      IconData(0xe1ae, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasketCheck =
-      IconData(0xe1af, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasketLove =
-      IconData(0xe1b0, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasketMinus =
-      IconData(0xe1b1, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineShoppingBasketRemove =
-      IconData(0xe1b2, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineStore =
-      IconData(0xe1b3, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineStore01 =
-      IconData(0xe1b4, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineStore02 =
-      IconData(0xe1b5, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineStore03 =
-      IconData(0xe1b6, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineTag =
-      IconData(0xe1b7, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineTag01 =
-      IconData(0xe1b8, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineTrolley =
-      IconData(0xe1b9, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineTrolley01 =
-      IconData(0xe1ba, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineVoucher =
-      IconData(0xe1bb, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineWallet =
-      IconData(0xe1bc, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineWallet01 =
-      IconData(0xe1bd, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceOutlineWithdraw =
-      IconData(0xe1be, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBadgePercent =
-      IconData(0xe1bf, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBag =
-      IconData(0xe1c0, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBag01 =
-      IconData(0xe1c1, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBagAdd =
-      IconData(0xe1c2, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBagCheck =
-      IconData(0xe1c3, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBagFavourite =
-      IconData(0xe1c4, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBagMinus =
-      IconData(0xe1c5, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBagRemove =
-      IconData(0xe1c6, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBoard =
-      IconData(0xe1c7, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidBookmark =
-      IconData(0xe1c8, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCard =
-      IconData(0xe1c9, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCart =
-      IconData(0xe1ca, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCart01 =
-      IconData(0xe1cb, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCart02 =
-      IconData(0xe1cc, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCartAdd =
-      IconData(0xe1cd, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCartArrowDown =
-      IconData(0xe1ce, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCartArrowUp =
-      IconData(0xe1cf, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCartCheck =
-      IconData(0xe1d0, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCartMinus =
-      IconData(0xe1d1, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidCartRemove =
-      IconData(0xe1d2, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidDeposit =
-      IconData(0xe1d3, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidFavourite =
-      IconData(0xe1d4, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidGlassBroken =
-      IconData(0xe1d5, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidHanger =
-      IconData(0xe1d6, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidInvoice =
-      IconData(0xe1d7, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidInvoice01 =
-      IconData(0xe1d8, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidLocation =
-      IconData(0xe1d9, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidMoney =
-      IconData(0xe1da, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidMoney01 =
-      IconData(0xe1db, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidMoneyBag =
-      IconData(0xe1dc, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidPackageBox =
-      IconData(0xe1dd, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidPackageBox01 =
-      IconData(0xe1de, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidReceipt =
-      IconData(0xe1df, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidReward =
-      IconData(0xe1e0, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShield =
-      IconData(0xe1e1, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBag =
-      IconData(0xe1e2, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBagAdd =
-      IconData(0xe1e3, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBagCheck =
-      IconData(0xe1e4, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBagLove =
-      IconData(0xe1e5, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBagMinus =
-      IconData(0xe1e6, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBagRemove =
-      IconData(0xe1e7, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasket =
-      IconData(0xe1e8, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasket01 =
-      IconData(0xe1e9, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasket02 =
-      IconData(0xe1ea, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasket03 =
-      IconData(0xe1eb, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasketAdd =
-      IconData(0xe1ec, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasketArrowDown =
-      IconData(0xe1ed, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasketArrowOut =
-      IconData(0xe1ee, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasketCheck =
-      IconData(0xe1ef, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasketLove =
-      IconData(0xe1f0, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasketMinus =
-      IconData(0xe1f1, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidShoppingBasketRemove =
-      IconData(0xe1f2, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidStore =
-      IconData(0xe1f3, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidStore01 =
-      IconData(0xe1f4, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidStore02 =
-      IconData(0xe1f5, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidStore03 =
-      IconData(0xe1f6, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidTag =
-      IconData(0xe1f7, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidTag01 =
-      IconData(0xe1f8, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidTrolley =
-      IconData(0xe1f9, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidTrolley01 =
-      IconData(0xe1fa, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidVoucher =
-      IconData(0xe1fb, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidWallet =
-      IconData(0xe1fc, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidWallet01 =
-      IconData(0xe1fd, fontFamily: _kIconFontFamily);
-  static const IconData ecommerceSolidWithdraw =
-      IconData(0xe1fe, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineAlignCenter =
-      IconData(0xe1ff, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineAlignDown =
-      IconData(0xe200, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineAlignJustify =
-      IconData(0xe201, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineAlignLeft =
-      IconData(0xe202, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineAlignRight =
-      IconData(0xe203, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineAlignTop =
-      IconData(0xe204, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineArticle =
-      IconData(0xe205, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineBold =
-      IconData(0xe206, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineDescription =
-      IconData(0xe207, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineDocumentText =
-      IconData(0xe208, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFontColor =
-      IconData(0xe209, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFontRectangle =
-      IconData(0xe20a, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFontSize =
-      IconData(0xe20b, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFontSize01 =
-      IconData(0xe20c, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFormatClear =
-      IconData(0xe20d, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFormatLineSpacing =
-      IconData(0xe20e, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFormatQuote =
-      IconData(0xe20f, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineFormatShapes =
-      IconData(0xe210, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineHeading =
-      IconData(0xe211, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineIndentDecrease =
-      IconData(0xe212, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineIndentIncrease =
-      IconData(0xe213, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineInputCursorMove =
-      IconData(0xe214, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineItalic =
-      IconData(0xe215, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineLink =
-      IconData(0xe216, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineLinkUnlink =
-      IconData(0xe217, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineNote =
-      IconData(0xe218, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlinePageSeparator =
-      IconData(0xe219, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineParagraph =
-      IconData(0xe21a, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlinePostAdd =
-      IconData(0xe21b, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineSpellcheck =
-      IconData(0xe21c, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineStrikethrough =
-      IconData(0xe21d, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineStrikethrough01 =
-      IconData(0xe21e, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineSubject =
-      IconData(0xe21f, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineTable =
-      IconData(0xe220, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineText =
-      IconData(0xe221, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineTextArea =
-      IconData(0xe222, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineTextRotationNone =
-      IconData(0xe223, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineTextRotationVertical =
-      IconData(0xe224, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineTextSpacing =
-      IconData(0xe225, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineTextWrap =
-      IconData(0xe226, fontFamily: _kIconFontFamily);
-  static const IconData editorOutlineUnderline =
-      IconData(0xe227, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidAlignBottom =
-      IconData(0xe228, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidAlignCenter =
-      IconData(0xe229, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidAlignJustify =
-      IconData(0xe22a, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidAlignLeft =
-      IconData(0xe22b, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidAlignRight =
-      IconData(0xe22c, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidAlignTop =
-      IconData(0xe22d, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidArticle =
-      IconData(0xe22e, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidBold =
-      IconData(0xe22f, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidDescription =
-      IconData(0xe230, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidDocumentText =
-      IconData(0xe231, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFontColor =
-      IconData(0xe232, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFontRectangle =
-      IconData(0xe233, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFontSize =
-      IconData(0xe234, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFontSize01 =
-      IconData(0xe235, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFormatClear =
-      IconData(0xe236, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFormatLineSpacing =
-      IconData(0xe237, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFormatQuote =
-      IconData(0xe238, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidFormatShapes =
-      IconData(0xe239, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidHeading =
-      IconData(0xe23a, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidIndentDecrease =
-      IconData(0xe23b, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidIndentIncrease =
-      IconData(0xe23c, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidInputCursorMove =
-      IconData(0xe23d, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidItalic =
-      IconData(0xe23e, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidLink =
-      IconData(0xe23f, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidLinkUnlink =
-      IconData(0xe240, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidPageSeparator =
-      IconData(0xe241, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidParagraph =
-      IconData(0xe242, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidPostAdd =
-      IconData(0xe243, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidSpellCheck =
-      IconData(0xe244, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidStickyNote =
-      IconData(0xe245, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidStrikethrough =
-      IconData(0xe246, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidStrikethrough01 =
-      IconData(0xe247, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidSubject =
-      IconData(0xe248, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidTable =
-      IconData(0xe249, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidText =
-      IconData(0xe24a, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidTextArea =
-      IconData(0xe24b, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidTextRotationNone =
-      IconData(0xe24c, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidTextRotationVertical =
-      IconData(0xe24d, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidTextSpacing =
-      IconData(0xe24e, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidTextWrap =
-      IconData(0xe24f, fontFamily: _kIconFontFamily);
-  static const IconData editorSolidUnderLine =
-      IconData(0xe250, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineAbacus =
-      IconData(0xe251, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineAnnouncement =
-      IconData(0xe252, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineArchive =
-      IconData(0xe253, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineAssignment =
-      IconData(0xe254, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineAudioBook =
-      IconData(0xe255, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBackpack =
-      IconData(0xe256, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBasketBall =
-      IconData(0xe257, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBellSchool =
-      IconData(0xe258, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBlackboard =
-      IconData(0xe259, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBoard =
-      IconData(0xe25a, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBoard1 =
-      IconData(0xe25b, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBook =
-      IconData(0xe25c, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBook01 =
-      IconData(0xe25d, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBook02 =
-      IconData(0xe25e, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBook03 =
-      IconData(0xe25f, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBook04 =
-      IconData(0xe260, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookAdd =
-      IconData(0xe261, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookAdd1 =
-      IconData(0xe262, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookCheck =
-      IconData(0xe263, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookDownload =
-      IconData(0xe264, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookDownload1 =
-      IconData(0xe265, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookFavourite =
-      IconData(0xe266, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookHelp =
-      IconData(0xe267, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookHelp1 =
-      IconData(0xe268, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookInfo =
-      IconData(0xe269, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookInfo1 =
-      IconData(0xe26a, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookMinus =
-      IconData(0xe26b, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookMinus1 =
-      IconData(0xe26c, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookRemove =
-      IconData(0xe26d, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookRemove1 =
-      IconData(0xe26e, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBooks =
-      IconData(0xe26f, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookSearch =
-      IconData(0xe270, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookSearch1 =
-      IconData(0xe271, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookUpload =
-      IconData(0xe272, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBookUpload1 =
-      IconData(0xe273, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBrowser =
-      IconData(0xe274, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineBus =
-      IconData(0xe275, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineCalculator =
-      IconData(0xe276, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineCalculator1 =
-      IconData(0xe277, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineCalendar =
-      IconData(0xe278, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineCanvas =
-      IconData(0xe279, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineCartesian =
-      IconData(0xe27a, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineChart =
-      IconData(0xe27b, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineChemistry =
-      IconData(0xe27c, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineChemistry01 =
-      IconData(0xe27d, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineChemistry02 =
-      IconData(0xe27e, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineClipboard =
-      IconData(0xe27f, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineCompass =
-      IconData(0xe280, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineCubeStack =
-      IconData(0xe281, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineDesk =
-      IconData(0xe282, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineDiploma =
-      IconData(0xe283, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineDiploma1 =
-      IconData(0xe284, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineDivideCircle =
-      IconData(0xe285, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineDivideRectangle =
-      IconData(0xe286, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineDna =
-      IconData(0xe287, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineELearning =
-      IconData(0xe288, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineEqualityCircle =
-      IconData(0xe289, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineEqualityRectangle =
-      IconData(0xe28a, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineExam =
-      IconData(0xe28b, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineFiles =
-      IconData(0xe28c, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineFlask =
-      IconData(0xe28d, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineFountainPen =
-      IconData(0xe28e, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineGlasses =
-      IconData(0xe28f, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineGlobe =
-      IconData(0xe290, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineGraduationCap =
-      IconData(0xe291, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineHelp =
-      IconData(0xe292, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineHelp01 =
-      IconData(0xe293, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineHelp02 =
-      IconData(0xe294, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineIdea =
-      IconData(0xe295, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineLibrary =
-      IconData(0xe296, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineLockers =
-      IconData(0xe297, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMaths =
-      IconData(0xe298, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMatrix =
-      IconData(0xe299, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMedal =
-      IconData(0xe29a, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMedal1 =
-      IconData(0xe29b, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMicroscope =
-      IconData(0xe29c, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMinusCircle =
-      IconData(0xe29d, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMinusRectangle =
-      IconData(0xe29e, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMonitor =
-      IconData(0xe29f, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMultiplyCircle =
-      IconData(0xe2a0, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineMultiplyRectangle =
-      IconData(0xe2a1, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineNotebook =
-      IconData(0xe2a2, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineNotebook1 =
-      IconData(0xe2a3, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineOnlineLearning =
-      IconData(0xe2a4, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePaintBoard =
-      IconData(0xe2a5, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePen =
-      IconData(0xe2a6, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePencil =
-      IconData(0xe2a7, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePencilBook =
-      IconData(0xe2a8, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePencilPaper =
-      IconData(0xe2a9, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePhysics =
-      IconData(0xe2aa, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePlusCircle =
-      IconData(0xe2ab, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlinePlusRectangle =
-      IconData(0xe2ac, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineProjector =
-      IconData(0xe2ad, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineProtractor =
-      IconData(0xe2ae, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineProtractor1 =
-      IconData(0xe2af, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineQuiz =
-      IconData(0xe2b0, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineRank =
-      IconData(0xe2b1, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineReport =
-      IconData(0xe2b2, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineRuler =
-      IconData(0xe2b3, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineSchool =
-      IconData(0xe2b4, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineSmartphoneLearning =
-      IconData(0xe2b5, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineSquareRoot =
-      IconData(0xe2b6, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineStationery =
-      IconData(0xe2b7, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineStudent =
-      IconData(0xe2b8, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineStudentCard =
-      IconData(0xe2b9, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineStudents =
-      IconData(0xe2ba, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTableLamp =
-      IconData(0xe2bb, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTeacher =
-      IconData(0xe2bc, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTeacher01 =
-      IconData(0xe2bd, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTelescope =
-      IconData(0xe2be, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTestTube =
-      IconData(0xe2bf, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTestTube1 =
-      IconData(0xe2c0, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTransform =
-      IconData(0xe2c1, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineTrophy =
-      IconData(0xe2c2, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineVideoCall =
-      IconData(0xe2c3, fontFamily: _kIconFontFamily);
-  static const IconData educationOutlineWhistle =
-      IconData(0xe2c4, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidAbacus =
-      IconData(0xe2c5, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidAnnouncement =
-      IconData(0xe2c6, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidArchive =
-      IconData(0xe2c7, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidAssignment =
-      IconData(0xe2c8, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidAudioBook =
-      IconData(0xe2c9, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBackpack =
-      IconData(0xe2ca, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBasketBall =
-      IconData(0xe2cb, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBellSchool =
-      IconData(0xe2cc, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBlackboard =
-      IconData(0xe2cd, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBoard =
-      IconData(0xe2ce, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBoard1 =
-      IconData(0xe2cf, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBook =
-      IconData(0xe2d0, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBook01 =
-      IconData(0xe2d1, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBook02 =
-      IconData(0xe2d2, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBook03 =
-      IconData(0xe2d3, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBook04 =
-      IconData(0xe2d4, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookAdd =
-      IconData(0xe2d5, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookAdd1 =
-      IconData(0xe2d6, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookCheck =
-      IconData(0xe2d7, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookCheck1 =
-      IconData(0xe2d8, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookDownload =
-      IconData(0xe2d9, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookDownload1 =
-      IconData(0xe2da, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookFavourite =
-      IconData(0xe2db, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookFavourite1 =
-      IconData(0xe2dc, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookHelp =
-      IconData(0xe2dd, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookHelp1 =
-      IconData(0xe2de, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookInfo =
-      IconData(0xe2df, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookInfo1 =
-      IconData(0xe2e0, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookMinus =
-      IconData(0xe2e1, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookMinus1 =
-      IconData(0xe2e2, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookRemove =
-      IconData(0xe2e3, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookRemove1 =
-      IconData(0xe2e4, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBooks =
-      IconData(0xe2e5, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookSearch =
-      IconData(0xe2e6, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookSearch1 =
-      IconData(0xe2e7, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookUpload =
-      IconData(0xe2e8, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBookUpload1 =
-      IconData(0xe2e9, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBrowser =
-      IconData(0xe2ea, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidBus =
-      IconData(0xe2eb, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidCalculator =
-      IconData(0xe2ec, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidCalculator1 =
-      IconData(0xe2ed, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidCalendar =
-      IconData(0xe2ee, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidCanvas =
-      IconData(0xe2ef, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidCartesian =
-      IconData(0xe2f0, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidChart =
-      IconData(0xe2f1, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidChemistry =
-      IconData(0xe2f2, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidChemistry01 =
-      IconData(0xe2f3, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidChemistry02 =
-      IconData(0xe2f4, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidClipboard =
-      IconData(0xe2f5, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidCompass =
-      IconData(0xe2f6, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidCubeStack =
-      IconData(0xe2f7, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidDesk =
-      IconData(0xe2f8, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidDiploma =
-      IconData(0xe2f9, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidDiploma1 =
-      IconData(0xe2fa, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidDivideCircle =
-      IconData(0xe2fb, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidDivideRectangle =
-      IconData(0xe2fc, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidDna =
-      IconData(0xe2fd, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidELearning =
-      IconData(0xe2fe, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidEqualityCircle =
-      IconData(0xe2ff, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidEqualityRectangle =
-      IconData(0xe300, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidExam =
-      IconData(0xe301, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidFiles =
-      IconData(0xe302, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidFlask =
-      IconData(0xe303, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidFountainPen =
-      IconData(0xe304, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidGlasses =
-      IconData(0xe305, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidGlobe =
-      IconData(0xe306, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidGlobe1 =
-      IconData(0xe307, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidGraduationCap =
-      IconData(0xe308, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidHelp =
-      IconData(0xe309, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidHelp01 =
-      IconData(0xe30a, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidHelp02 =
-      IconData(0xe30b, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidIdea =
-      IconData(0xe30c, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidLibrary =
-      IconData(0xe30d, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidLockers =
-      IconData(0xe30e, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMaths =
-      IconData(0xe30f, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMatrix =
-      IconData(0xe310, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMedal =
-      IconData(0xe311, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMedal1 =
-      IconData(0xe312, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMicroscope =
-      IconData(0xe313, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMinusCircle =
-      IconData(0xe314, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMinusRectangle =
-      IconData(0xe315, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMonitor =
-      IconData(0xe316, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMultiplyCircle =
-      IconData(0xe317, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidMultiplyRectangle =
-      IconData(0xe318, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidNotebook =
-      IconData(0xe319, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidNotebook1 =
-      IconData(0xe31a, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidOnlineLearning =
-      IconData(0xe31b, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPaintBoard =
-      IconData(0xe31c, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPen =
-      IconData(0xe31d, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPencil =
-      IconData(0xe31e, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPencilBook =
-      IconData(0xe31f, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPencilPaper =
-      IconData(0xe320, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPhysics =
-      IconData(0xe321, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPlusCircle =
-      IconData(0xe322, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidPlusRectangle =
-      IconData(0xe323, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidProjector =
-      IconData(0xe324, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidProtractor =
-      IconData(0xe325, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidProtractor1 =
-      IconData(0xe326, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidQuiz =
-      IconData(0xe327, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidRank =
-      IconData(0xe328, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidReport =
-      IconData(0xe329, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidRuler =
-      IconData(0xe32a, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidSchool =
-      IconData(0xe32b, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidSmartphoneLearning =
-      IconData(0xe32c, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidSquareRoot =
-      IconData(0xe32d, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidStationery =
-      IconData(0xe32e, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidStudent =
-      IconData(0xe32f, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidStudentCard =
-      IconData(0xe330, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidStudents =
-      IconData(0xe331, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTableLamp =
-      IconData(0xe332, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTeacher =
-      IconData(0xe333, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTeacher01 =
-      IconData(0xe334, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTelescope =
-      IconData(0xe335, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTestTube =
-      IconData(0xe336, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTestTube1 =
-      IconData(0xe337, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTestTube2 =
-      IconData(0xe338, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTransform =
-      IconData(0xe339, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidTrophy =
-      IconData(0xe33a, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidVideoCall =
-      IconData(0xe33b, fontFamily: _kIconFontFamily);
-  static const IconData educationSolidWhistle =
-      IconData(0xe33c, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchive =
-      IconData(0xe33d, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchive01 =
-      IconData(0xe33e, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchive1 =
-      IconData(0xe33f, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveAdd =
-      IconData(0xe340, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveClear =
-      IconData(0xe341, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveDone =
-      IconData(0xe342, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveDownload =
-      IconData(0xe343, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveFavourite =
-      IconData(0xe344, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveRemove =
-      IconData(0xe345, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveSearch =
-      IconData(0xe346, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineArchiveUpload =
-      IconData(0xe347, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineAttachment =
-      IconData(0xe348, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFile =
-      IconData(0xe349, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFile01 =
-      IconData(0xe34a, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFile02 =
-      IconData(0xe34b, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFile03 =
-      IconData(0xe34c, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFile04 =
-      IconData(0xe34d, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileAccept =
-      IconData(0xe34e, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileAccept01 =
-      IconData(0xe34f, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileAdd =
-      IconData(0xe350, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileAdd01 =
-      IconData(0xe351, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileDoc =
-      IconData(0xe352, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileDownload =
-      IconData(0xe353, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileDownload01 =
-      IconData(0xe354, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileFavourite =
-      IconData(0xe355, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileFavourite01 =
-      IconData(0xe356, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileJpg =
-      IconData(0xe357, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileMinus =
-      IconData(0xe358, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileMinus01 =
-      IconData(0xe359, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileMusic =
-      IconData(0xe35a, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFilePdf =
-      IconData(0xe35b, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFilePng =
-      IconData(0xe35c, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileReload =
-      IconData(0xe35d, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileRemove =
-      IconData(0xe35e, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileRemove01 =
-      IconData(0xe35f, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFiles =
-      IconData(0xe360, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFiles01 =
-      IconData(0xe361, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileSearch =
-      IconData(0xe362, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileSearch01 =
-      IconData(0xe363, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileSharing =
-      IconData(0xe364, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileUpload =
-      IconData(0xe365, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileUpload01 =
-      IconData(0xe366, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFileVideo =
-      IconData(0xe367, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolder =
-      IconData(0xe368, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolder01 =
-      IconData(0xe369, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolder02 =
-      IconData(0xe36a, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolder03 =
-      IconData(0xe36b, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderAccept =
-      IconData(0xe36c, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderAccept01 =
-      IconData(0xe36d, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderAdd =
-      IconData(0xe36e, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderAdd01 =
-      IconData(0xe36f, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderDownload =
-      IconData(0xe370, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderDownload01 =
-      IconData(0xe371, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderFavourite =
-      IconData(0xe372, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderFavourite01 =
-      IconData(0xe373, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderMinus =
-      IconData(0xe374, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderMinus01 =
-      IconData(0xe375, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderReload =
-      IconData(0xe376, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderRemove =
-      IconData(0xe377, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderRemove01 =
-      IconData(0xe378, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderSearch =
-      IconData(0xe379, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderSearch01 =
-      IconData(0xe37a, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderShare =
-      IconData(0xe37b, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderUpload =
-      IconData(0xe37c, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderOutlineFolderUpload01 =
-      IconData(0xe37d, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchive =
-      IconData(0xe37e, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchive01 =
-      IconData(0xe37f, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchive2 =
-      IconData(0xe380, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveAdd =
-      IconData(0xe381, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveClear =
-      IconData(0xe382, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveDone =
-      IconData(0xe383, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveDownload =
-      IconData(0xe384, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveFavourite =
-      IconData(0xe385, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveRemove =
-      IconData(0xe386, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveSearch =
-      IconData(0xe387, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidArchiveUpload =
-      IconData(0xe388, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidAttachment =
-      IconData(0xe389, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFile =
-      IconData(0xe38a, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFile01 =
-      IconData(0xe38b, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFile02 =
-      IconData(0xe38c, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFile03 =
-      IconData(0xe38d, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFile04 =
-      IconData(0xe38e, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileAccept =
-      IconData(0xe38f, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileAccept01 =
-      IconData(0xe390, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileAdd =
-      IconData(0xe391, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileAdd01 =
-      IconData(0xe392, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileDoc =
-      IconData(0xe393, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileDownload =
-      IconData(0xe394, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileDownload01 =
-      IconData(0xe395, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileFavourite =
-      IconData(0xe396, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileFavourite01 =
-      IconData(0xe397, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileJpg =
-      IconData(0xe398, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileMinus =
-      IconData(0xe399, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileMinus01 =
-      IconData(0xe39a, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileMusic =
-      IconData(0xe39b, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFilePdf =
-      IconData(0xe39c, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFilePng =
-      IconData(0xe39d, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileReload =
-      IconData(0xe39e, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileRemove =
-      IconData(0xe39f, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileRemove01 =
-      IconData(0xe3a0, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFiles =
-      IconData(0xe3a1, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFiles01 =
-      IconData(0xe3a2, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileSearch =
-      IconData(0xe3a3, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileSearch01 =
-      IconData(0xe3a4, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileSharing =
-      IconData(0xe3a5, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileUpload =
-      IconData(0xe3a6, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileUpload01 =
-      IconData(0xe3a7, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFileVideo =
-      IconData(0xe3a8, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolder =
-      IconData(0xe3a9, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolder01 =
-      IconData(0xe3aa, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolder02 =
-      IconData(0xe3ab, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolder03 =
-      IconData(0xe3ac, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderAccept =
-      IconData(0xe3ad, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderAccept01 =
-      IconData(0xe3ae, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderAdd =
-      IconData(0xe3af, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderAdd01 =
-      IconData(0xe3b0, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderDownload =
-      IconData(0xe3b1, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderDownload01 =
-      IconData(0xe3b2, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderFavourite =
-      IconData(0xe3b3, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderFavourite01 =
-      IconData(0xe3b4, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderMinus =
-      IconData(0xe3b5, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderMinus01 =
-      IconData(0xe3b6, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderReload =
-      IconData(0xe3b7, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderRemove =
-      IconData(0xe3b8, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderRemove01 =
-      IconData(0xe3b9, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderSearch =
-      IconData(0xe3ba, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderSearch01 =
-      IconData(0xe3bb, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderShare =
-      IconData(0xe3bc, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderUpload =
-      IconData(0xe3bd, fontFamily: _kIconFontFamily);
-  static const IconData filesAndFolderSolidFolderUpload01 =
-      IconData(0xe3be, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineAtm =
-      IconData(0xe3bf, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineBank =
-      IconData(0xe3c0, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineBarChart =
-      IconData(0xe3c1, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineBarChart01 =
-      IconData(0xe3c2, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineBill =
-      IconData(0xe3c3, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineBriefcase =
-      IconData(0xe3c4, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineBriefcase01 =
-      IconData(0xe3c5, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCard =
-      IconData(0xe3c6, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardAdd =
-      IconData(0xe3c7, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardArrowDown =
-      IconData(0xe3c8, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardArrowLeft =
-      IconData(0xe3c9, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardArrowRight =
-      IconData(0xe3ca, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardArrowUp =
-      IconData(0xe3cb, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardCheck =
-      IconData(0xe3cc, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardMinus =
-      IconData(0xe3cd, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardRemove =
-      IconData(0xe3ce, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardUser =
-      IconData(0xe3cf, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCardWithdraw =
-      IconData(0xe3d0, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCoin =
-      IconData(0xe3d1, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCoinDollar =
-      IconData(0xe3d2, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCoinEuro =
-      IconData(0xe3d3, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCoinPound =
-      IconData(0xe3d4, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCoinYen =
-      IconData(0xe3d5, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineCube =
-      IconData(0xe3d6, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineDollar =
-      IconData(0xe3d7, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineDonate =
-      IconData(0xe3d8, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineDonateCoin =
-      IconData(0xe3d9, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineEarnings =
-      IconData(0xe3da, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineEuro =
-      IconData(0xe3db, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineGold =
-      IconData(0xe3dc, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineHartArrowDown =
-      IconData(0xe3dd, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineHartArrowUp =
-      IconData(0xe3de, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineHartHistogram =
-      IconData(0xe3df, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineLineChart =
-      IconData(0xe3e0, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineLineChart01 =
-      IconData(0xe3e1, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineLineChart02 =
-      IconData(0xe3e2, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMasterCard =
-      IconData(0xe3e3, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMobilePayment =
-      IconData(0xe3e4, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoney =
-      IconData(0xe3e5, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoney01 =
-      IconData(0xe3e6, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoney02 =
-      IconData(0xe3e7, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyAdd =
-      IconData(0xe3e8, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyArrowDown =
-      IconData(0xe3e9, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyArrowLeft =
-      IconData(0xe3ea, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyArrowRight =
-      IconData(0xe3eb, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyArrowUp =
-      IconData(0xe3ec, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyBag =
-      IconData(0xe3ed, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyBagCoin =
-      IconData(0xe3ee, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyBagCoin1 =
-      IconData(0xe3ef, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyBagDollar =
-      IconData(0xe3f0, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyBagEuro =
-      IconData(0xe3f1, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyBagPound =
-      IconData(0xe3f2, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyBagYen =
-      IconData(0xe3f3, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyCheck =
-      IconData(0xe3f4, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyCoin =
-      IconData(0xe3f5, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyDollar =
-      IconData(0xe3f6, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyEuro =
-      IconData(0xe3f7, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyFavourite =
-      IconData(0xe3f8, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyIncome =
-      IconData(0xe3f9, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyMinus =
-      IconData(0xe3fa, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyPound =
-      IconData(0xe3fb, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyProfit =
-      IconData(0xe3fc, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyProfit01 =
-      IconData(0xe3fd, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyRemove =
-      IconData(0xe3fe, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyUser =
-      IconData(0xe3ff, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyWithdraw =
-      IconData(0xe400, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineMoneyYen =
-      IconData(0xe401, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlinePieChart =
-      IconData(0xe402, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlinePound =
-      IconData(0xe403, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineProfit =
-      IconData(0xe404, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineProfit01 =
-      IconData(0xe405, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineProfit02 =
-      IconData(0xe406, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlinePyramid =
-      IconData(0xe407, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineSafeBox =
-      IconData(0xe408, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineSafeBox01 =
-      IconData(0xe409, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineShield =
-      IconData(0xe40a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineTransfer =
-      IconData(0xe40b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineUmbrella =
-      IconData(0xe40c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWallet =
-      IconData(0xe40d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWallet01 =
-      IconData(0xe40e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletAdd =
-      IconData(0xe40f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletAdd01 =
-      IconData(0xe410, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowDown =
-      IconData(0xe411, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowDown01 =
-      IconData(0xe412, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowLeft =
-      IconData(0xe413, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowLeft01 =
-      IconData(0xe414, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowRight =
-      IconData(0xe415, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowRight01 =
-      IconData(0xe416, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowUp =
-      IconData(0xe417, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletArrowUp01 =
-      IconData(0xe418, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletCheck =
-      IconData(0xe419, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletCheck01 =
-      IconData(0xe41a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletMinus =
-      IconData(0xe41b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletMinus01 =
-      IconData(0xe41c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletRemove =
-      IconData(0xe41d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletRemove01 =
-      IconData(0xe41e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletUser =
-      IconData(0xe41f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWalletUser01 =
-      IconData(0xe420, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineWithdraw =
-      IconData(0xe421, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentOutlineYen =
-      IconData(0xe422, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidAtm =
-      IconData(0xe423, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidBank =
-      IconData(0xe424, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidBarChart =
-      IconData(0xe425, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidBarChart01 =
-      IconData(0xe426, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidBill =
-      IconData(0xe427, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidBriefcase =
-      IconData(0xe428, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidBriefcase01 =
-      IconData(0xe429, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCard =
-      IconData(0xe42a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardAdd =
-      IconData(0xe42b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardArrowDown =
-      IconData(0xe42c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardArrowLeft =
-      IconData(0xe42d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardArrowRight =
-      IconData(0xe42e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardArrowUp =
-      IconData(0xe42f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardCheck =
-      IconData(0xe430, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardMinus =
-      IconData(0xe431, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardRemove =
-      IconData(0xe432, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardUser =
-      IconData(0xe433, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCardWithdraw =
-      IconData(0xe434, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidChartArrowDown =
-      IconData(0xe435, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidChartArrowUp =
-      IconData(0xe436, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidChartHistogram =
-      IconData(0xe437, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCoin =
-      IconData(0xe438, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCoinDollar =
-      IconData(0xe439, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCoinEuro =
-      IconData(0xe43a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCoinPound =
-      IconData(0xe43b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCoinYen =
-      IconData(0xe43c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidCube =
-      IconData(0xe43d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidDollar =
-      IconData(0xe43e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidDonate =
-      IconData(0xe43f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidDonateCoin =
-      IconData(0xe440, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidEarnings =
-      IconData(0xe441, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidEuro =
-      IconData(0xe442, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidGold =
-      IconData(0xe443, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidLineChart =
-      IconData(0xe444, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidLineChart01 =
-      IconData(0xe445, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidLineChart02 =
-      IconData(0xe446, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMasterCard =
-      IconData(0xe447, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMobilePayment =
-      IconData(0xe448, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoney =
-      IconData(0xe449, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoney01 =
-      IconData(0xe44a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoney02 =
-      IconData(0xe44b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyAdd =
-      IconData(0xe44c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyArrowDown =
-      IconData(0xe44d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyArrowLeft =
-      IconData(0xe44e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyArrowRight =
-      IconData(0xe44f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyArrowUp =
-      IconData(0xe450, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyBag =
-      IconData(0xe451, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyBagCoin =
-      IconData(0xe452, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyBagCoin1 =
-      IconData(0xe453, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyBagDollar =
-      IconData(0xe454, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyBagEuro =
-      IconData(0xe455, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyBagPound =
-      IconData(0xe456, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyBagYen =
-      IconData(0xe457, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyCheck =
-      IconData(0xe458, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyCoin =
-      IconData(0xe459, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyDollar =
-      IconData(0xe45a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyEuro =
-      IconData(0xe45b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyFavourite =
-      IconData(0xe45c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyIncome =
-      IconData(0xe45d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyMinus =
-      IconData(0xe45e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyPound =
-      IconData(0xe45f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyProfit =
-      IconData(0xe460, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyProfit01 =
-      IconData(0xe461, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyRemove =
-      IconData(0xe462, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyUser =
-      IconData(0xe463, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyWithdraw =
-      IconData(0xe464, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidMoneyYen =
-      IconData(0xe465, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidPieChart =
-      IconData(0xe466, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidPound =
-      IconData(0xe467, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidProfit =
-      IconData(0xe468, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidProfit01 =
-      IconData(0xe469, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidProfit02 =
-      IconData(0xe46a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidPyramid =
-      IconData(0xe46b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidSafeBox =
-      IconData(0xe46c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidSafeBox01 =
-      IconData(0xe46d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidShield =
-      IconData(0xe46e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidTransfer =
-      IconData(0xe46f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidUmbrella =
-      IconData(0xe470, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWallet =
-      IconData(0xe471, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWallet01 =
-      IconData(0xe472, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletAdd =
-      IconData(0xe473, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletAdd01 =
-      IconData(0xe474, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowDown =
-      IconData(0xe475, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowDown01 =
-      IconData(0xe476, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowLeft =
-      IconData(0xe477, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowLeft01 =
-      IconData(0xe478, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowRight =
-      IconData(0xe479, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowRight01 =
-      IconData(0xe47a, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowUp =
-      IconData(0xe47b, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletArrowUp01 =
-      IconData(0xe47c, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletCheck =
-      IconData(0xe47d, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletCheck01 =
-      IconData(0xe47e, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletMinus =
-      IconData(0xe47f, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletMinus01 =
-      IconData(0xe480, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletRemove =
-      IconData(0xe481, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletRemove01 =
-      IconData(0xe482, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletUser =
-      IconData(0xe483, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWalletUser01 =
-      IconData(0xe484, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidWithdraw =
-      IconData(0xe485, fontFamily: _kIconFontFamily);
-  static const IconData financeAndPaymentSolidYen =
-      IconData(0xe486, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineAlignBottom =
-      IconData(0xe487, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineAlignCenter =
-      IconData(0xe488, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineAlignCenter1 =
-      IconData(0xe489, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineAlignLeft =
-      IconData(0xe48a, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineAlignRight =
-      IconData(0xe48b, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineAlignTop =
-      IconData(0xe48c, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineGrid =
-      IconData(0xe48d, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineGrid01 =
-      IconData(0xe48e, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineGrid02 =
-      IconData(0xe48f, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLandscape =
-      IconData(0xe490, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLandscape01 =
-      IconData(0xe491, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLandscape02 =
-      IconData(0xe492, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout =
-      IconData(0xe493, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout01 =
-      IconData(0xe494, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout02 =
-      IconData(0xe495, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout03 =
-      IconData(0xe496, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout04 =
-      IconData(0xe497, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout05 =
-      IconData(0xe498, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout06 =
-      IconData(0xe499, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout07 =
-      IconData(0xe49a, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout08 =
-      IconData(0xe49b, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout09 =
-      IconData(0xe49c, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLayout10 =
-      IconData(0xe49d, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineLeft =
-      IconData(0xe49e, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlinePixelGridCircle =
-      IconData(0xe49f, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlinePixelGridRectangle =
-      IconData(0xe4a0, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlinePotrait =
-      IconData(0xe4a1, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlinePotrait01 =
-      IconData(0xe4a2, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlinePotrait02 =
-      IconData(0xe4a3, fontFamily: _kIconFontFamily);
-  static const IconData gridOutlineRight =
-      IconData(0xe4a4, fontFamily: _kIconFontFamily);
-  static const IconData gridSolidPixelGridCircle =
-      IconData(0xe4a5, fontFamily: _kIconFontFamily);
-  static const IconData gridSolidPixelGridRectangle =
-      IconData(0xe4a6, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineActivity =
-      IconData(0xe4a7, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineAmbulance =
-      IconData(0xe4a8, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineBlood =
-      IconData(0xe4a9, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineBlood01 =
-      IconData(0xe4aa, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineCallHospital =
-      IconData(0xe4ab, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineCapsule =
-      IconData(0xe4ac, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineCapsule01 =
-      IconData(0xe4ad, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineCardiogram =
-      IconData(0xe4ae, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineClipboardActivity =
-      IconData(0xe4af, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineDna =
-      IconData(0xe4b0, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineEye =
-      IconData(0xe4b1, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineEyeDropper =
-      IconData(0xe4b2, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineGiveBlood =
-      IconData(0xe4b3, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineGivePill =
-      IconData(0xe4b4, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineHealthCare =
-      IconData(0xe4b5, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineHeart =
-      IconData(0xe4b6, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineHoney =
-      IconData(0xe4b7, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineHospital =
-      IconData(0xe4b8, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineHospital01 =
-      IconData(0xe4b9, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineHospitalBed =
-      IconData(0xe4ba, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineInjection =
-      IconData(0xe4bb, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineLocationHospital =
-      IconData(0xe4bc, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineMask =
-      IconData(0xe4bd, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineMedicalBook =
-      IconData(0xe4be, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineMedicalInformation =
-      IconData(0xe4bf, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineMedicalService =
-      IconData(0xe4c0, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlinePills =
-      IconData(0xe4c1, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlinePills01 =
-      IconData(0xe4c2, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlinePillTablet =
-      IconData(0xe4c3, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlinePlaster =
-      IconData(0xe4c4, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineStethoscope =
-      IconData(0xe4c5, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineSyrup =
-      IconData(0xe4c6, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineTestTube =
-      IconData(0xe4c7, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineThermometer =
-      IconData(0xe4c8, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineTooth =
-      IconData(0xe4c9, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineTransfusion =
-      IconData(0xe4ca, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineWheelChair =
-      IconData(0xe4cb, fontFamily: _kIconFontFamily);
-  static const IconData healthOutlineWheelChair01 =
-      IconData(0xe4cc, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidActivity =
-      IconData(0xe4cd, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidAmbulance =
-      IconData(0xe4ce, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidBlood =
-      IconData(0xe4cf, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidBlood01 =
-      IconData(0xe4d0, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidCallHospital =
-      IconData(0xe4d1, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidCapsule01 =
-      IconData(0xe4d2, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidCapsule1 =
-      IconData(0xe4d3, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidCardiogram =
-      IconData(0xe4d4, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidClipboardActivity =
-      IconData(0xe4d5, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidDna =
-      IconData(0xe4d6, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidEye =
-      IconData(0xe4d7, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidEyeDropper =
-      IconData(0xe4d8, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidGiveBlood =
-      IconData(0xe4d9, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidGivePill =
-      IconData(0xe4da, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidHealthCare =
-      IconData(0xe4db, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidHeart =
-      IconData(0xe4dc, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidHoney =
-      IconData(0xe4dd, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidHospital =
-      IconData(0xe4de, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidHospital01 =
-      IconData(0xe4df, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidHospitalBed =
-      IconData(0xe4e0, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidInjection =
-      IconData(0xe4e1, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidLocationHospital =
-      IconData(0xe4e2, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidMask =
-      IconData(0xe4e3, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidMedicalBook =
-      IconData(0xe4e4, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidMedicalInformation =
-      IconData(0xe4e5, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidMedicalService =
-      IconData(0xe4e6, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidPills =
-      IconData(0xe4e7, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidPills01 =
-      IconData(0xe4e8, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidPillTablet =
-      IconData(0xe4e9, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidPlaster =
-      IconData(0xe4ea, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidStethoscope =
-      IconData(0xe4eb, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidSyrup =
-      IconData(0xe4ec, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidTestTube =
-      IconData(0xe4ed, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidThermometer =
-      IconData(0xe4ee, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidTooth =
-      IconData(0xe4ef, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidTransfusion =
-      IconData(0xe4f0, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidWheelChair =
-      IconData(0xe4f1, fontFamily: _kIconFontFamily);
-  static const IconData healthSolidWheelChair01 =
-      IconData(0xe4f2, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineAddCircle =
-      IconData(0xe4f3, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineAddRectangle =
-      IconData(0xe4f4, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineAgenda =
-      IconData(0xe4f5, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineAlarm =
-      IconData(0xe4f6, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineApps =
-      IconData(0xe4f7, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineAppsAdd =
-      IconData(0xe4f8, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineAppsRemove =
-      IconData(0xe4f9, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineBoard =
-      IconData(0xe4fa, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineBookmark =
-      IconData(0xe4fb, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineBrightness =
-      IconData(0xe4fc, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineBrowser =
-      IconData(0xe4fd, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCalendar =
-      IconData(0xe4fe, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCamera =
-      IconData(0xe4ff, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCameraOff =
-      IconData(0xe500, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCheckCircle =
-      IconData(0xe501, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCheckMarkCircle =
-      IconData(0xe502, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCheckMarkRectangle =
-      IconData(0xe503, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCheckRectangle =
-      IconData(0xe504, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineClearCircle =
-      IconData(0xe505, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineClearRectangle =
-      IconData(0xe506, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineClockCircle =
-      IconData(0xe507, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineClockCircle1 =
-      IconData(0xe508, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineClockRectangle =
-      IconData(0xe509, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineClockRectangle1 =
-      IconData(0xe50a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCollection =
-      IconData(0xe50b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCompass =
-      IconData(0xe50c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineComputer =
-      IconData(0xe50d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCopy =
-      IconData(0xe50e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCopyCheck =
-      IconData(0xe50f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineCpu =
-      IconData(0xe510, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineDiamond =
-      IconData(0xe511, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineDisk =
-      IconData(0xe512, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineDislike =
-      IconData(0xe513, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineEdit =
-      IconData(0xe514, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineEditRectangle =
-      IconData(0xe515, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineEye =
-      IconData(0xe516, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineEye01 =
-      IconData(0xe517, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineEyeDisable =
-      IconData(0xe518, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFeedRectangle =
-      IconData(0xe519, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter =
-      IconData(0xe51a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter01 =
-      IconData(0xe51b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter02 =
-      IconData(0xe51c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter03 =
-      IconData(0xe51d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter04 =
-      IconData(0xe51e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter05 =
-      IconData(0xe51f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter06 =
-      IconData(0xe520, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFilter07 =
-      IconData(0xe521, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFlag =
-      IconData(0xe522, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineFocus =
-      IconData(0xe523, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineGift =
-      IconData(0xe524, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineGlobe =
-      IconData(0xe525, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineHelp =
-      IconData(0xe526, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineHelpPolygon =
-      IconData(0xe527, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineHome01 =
-      IconData(0xe528, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineHome02 =
-      IconData(0xe529, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineHome03 =
-      IconData(0xe52a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineHome04 =
-      IconData(0xe52b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineImageCircle =
-      IconData(0xe52c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineImageRectangle =
-      IconData(0xe52d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineInformation =
-      IconData(0xe52e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineInformationCircle =
-      IconData(0xe52f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineInformationPolygon =
-      IconData(0xe530, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineInformationRectangle =
-      IconData(0xe531, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineInteractive =
-      IconData(0xe532, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineInvoice =
-      IconData(0xe533, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLayers =
-      IconData(0xe534, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLifebuoy =
-      IconData(0xe535, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLike =
-      IconData(0xe536, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineListViewCircle =
-      IconData(0xe537, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineListViewRectangle =
-      IconData(0xe538, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLoading =
-      IconData(0xe539, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLoading01 =
-      IconData(0xe53a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLocation01 =
-      IconData(0xe53b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLocation02 =
-      IconData(0xe53c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLocation03 =
-      IconData(0xe53d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLock =
-      IconData(0xe53e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLock01 =
-      IconData(0xe53f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLogin =
-      IconData(0xe540, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLogin01 =
-      IconData(0xe541, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLogout =
-      IconData(0xe542, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLogout01 =
-      IconData(0xe543, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineLove =
-      IconData(0xe544, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMic =
-      IconData(0xe545, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMicMute =
-      IconData(0xe546, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMicrophone =
-      IconData(0xe547, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMicrophoneMute =
-      IconData(0xe548, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMinus =
-      IconData(0xe549, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMinus01 =
-      IconData(0xe54a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMoney =
-      IconData(0xe54b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMoreHorizontal =
-      IconData(0xe54c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMoreVertical =
-      IconData(0xe54d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineMouse =
-      IconData(0xe54e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNib =
-      IconData(0xe54f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotepad =
-      IconData(0xe550, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotification =
-      IconData(0xe551, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotification01 =
-      IconData(0xe552, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotification02 =
-      IconData(0xe553, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotification03 =
-      IconData(0xe554, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotification04 =
-      IconData(0xe555, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotification05 =
-      IconData(0xe556, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotificationCircle =
-      IconData(0xe557, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotificationRectangle =
-      IconData(0xe558, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotificationRinging =
-      IconData(0xe559, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotificationRinging1 =
-      IconData(0xe55a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotificationSilent =
-      IconData(0xe55b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineNotificationSilent1 =
-      IconData(0xe55c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineOpenBook =
-      IconData(0xe55d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePaintBucket =
-      IconData(0xe55e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePin =
-      IconData(0xe55f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePlugin =
-      IconData(0xe560, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePlus =
-      IconData(0xe561, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePlus01 =
-      IconData(0xe562, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePowerCircle =
-      IconData(0xe563, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePowerRectangle =
-      IconData(0xe564, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlinePresentation =
-      IconData(0xe565, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineRemove =
-      IconData(0xe566, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineRemove01 =
-      IconData(0xe567, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineRemove02 =
-      IconData(0xe568, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineRemoveCircle =
-      IconData(0xe569, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineRemoveRectangle =
-      IconData(0xe56a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineReplyRectangle =
-      IconData(0xe56b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSadCircle =
-      IconData(0xe56c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSadRectangle =
-      IconData(0xe56d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSearch01 =
-      IconData(0xe56e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSearch02 =
-      IconData(0xe56f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSearch03 =
-      IconData(0xe570, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSearchMinus =
-      IconData(0xe571, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSearchPlus =
-      IconData(0xe572, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSearchRemove =
-      IconData(0xe573, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSetting =
-      IconData(0xe574, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineShare =
-      IconData(0xe575, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineShareRectangle =
-      IconData(0xe576, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineShield =
-      IconData(0xe577, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineShieldCheck =
-      IconData(0xe578, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineShieldWarning =
-      IconData(0xe579, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineShoppingBag =
-      IconData(0xe57a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineShoppingBasket =
-      IconData(0xe57b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSmileEllipse =
-      IconData(0xe57c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSmileRectangle =
-      IconData(0xe57d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSortArrowDown =
-      IconData(0xe57e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSortArrowDown01 =
-      IconData(0xe57f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSortArrowUp =
-      IconData(0xe580, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSortArrowUp01 =
-      IconData(0xe581, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSortCircle =
-      IconData(0xe582, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSortRectangle =
-      IconData(0xe583, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineSpeedTest =
-      IconData(0xe584, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineStar =
-      IconData(0xe585, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTarget =
-      IconData(0xe586, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTick =
-      IconData(0xe587, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTickDouble =
-      IconData(0xe588, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTicket =
-      IconData(0xe589, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTicketPercent =
-      IconData(0xe58a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTraining =
-      IconData(0xe58b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTrash =
-      IconData(0xe58c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineTrash01 =
-      IconData(0xe58d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineUnlock =
-      IconData(0xe58e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineUnlock01 =
-      IconData(0xe58f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineUser =
-      IconData(0xe590, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineUserCircle =
-      IconData(0xe591, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineUserRectangle =
-      IconData(0xe592, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineWarning =
-      IconData(0xe593, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineWarningError =
-      IconData(0xe594, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineWarningPolygon =
-      IconData(0xe595, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineZoom =
-      IconData(0xe596, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineZoomIn =
-      IconData(0xe597, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineZoomOut =
-      IconData(0xe598, fontFamily: _kIconFontFamily);
-  static const IconData interfaceOutlineZoomText =
-      IconData(0xe599, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidAddCircle =
-      IconData(0xe59a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidAddRectangle =
-      IconData(0xe59b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidAgenda =
-      IconData(0xe59c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidAlarm =
-      IconData(0xe59d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidApps =
-      IconData(0xe59e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidAppsAdd =
-      IconData(0xe59f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidAppsRemove =
-      IconData(0xe5a0, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidBoard =
-      IconData(0xe5a1, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidBookmark =
-      IconData(0xe5a2, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidBrightness =
-      IconData(0xe5a3, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidBrowser =
-      IconData(0xe5a4, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCalendar =
-      IconData(0xe5a5, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCamera =
-      IconData(0xe5a6, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCameraOff =
-      IconData(0xe5a7, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCheckCircle =
-      IconData(0xe5a8, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCheckMarkCircle =
-      IconData(0xe5a9, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCheckMarkRectangle =
-      IconData(0xe5aa, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCheckRectangle =
-      IconData(0xe5ab, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidClearCircle =
-      IconData(0xe5ac, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidClearRectangle =
-      IconData(0xe5ad, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidClockCircle =
-      IconData(0xe5ae, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidClockCircle1 =
-      IconData(0xe5af, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidClockRectangle =
-      IconData(0xe5b0, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidClockRectangle1 =
-      IconData(0xe5b1, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCollection =
-      IconData(0xe5b2, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCompass =
-      IconData(0xe5b3, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidComputer =
-      IconData(0xe5b4, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCopy =
-      IconData(0xe5b5, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCopyCheck =
-      IconData(0xe5b6, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidCpu =
-      IconData(0xe5b7, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidDiamond =
-      IconData(0xe5b8, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidDisk =
-      IconData(0xe5b9, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidDislike =
-      IconData(0xe5ba, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidEdit =
-      IconData(0xe5bb, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidEditRectangle =
-      IconData(0xe5bc, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidEye =
-      IconData(0xe5bd, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidEye1 =
-      IconData(0xe5be, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidEyeDisable =
-      IconData(0xe5bf, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFeedRectangle =
-      IconData(0xe5c0, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter =
-      IconData(0xe5c1, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter01 =
-      IconData(0xe5c2, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter02 =
-      IconData(0xe5c3, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter03 =
-      IconData(0xe5c4, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter04 =
-      IconData(0xe5c5, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter05 =
-      IconData(0xe5c6, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter06 =
-      IconData(0xe5c7, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFilter07 =
-      IconData(0xe5c8, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFlag =
-      IconData(0xe5c9, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidFocus =
-      IconData(0xe5ca, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidGift =
-      IconData(0xe5cb, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidGlobe =
-      IconData(0xe5cc, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidHelp =
-      IconData(0xe5cd, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidHelpPolygon =
-      IconData(0xe5ce, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidHome01 =
-      IconData(0xe5cf, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidHome02 =
-      IconData(0xe5d0, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidHome03 =
-      IconData(0xe5d1, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidHome04 =
-      IconData(0xe5d2, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidImageCircle =
-      IconData(0xe5d3, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidImageRectangle =
-      IconData(0xe5d4, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidInformation =
-      IconData(0xe5d5, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidInformationCircle =
-      IconData(0xe5d6, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidInformationPolygon =
-      IconData(0xe5d7, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidInformationRectangle =
-      IconData(0xe5d8, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidInteractive =
-      IconData(0xe5d9, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidInvoice =
-      IconData(0xe5da, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLayers =
-      IconData(0xe5db, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLifebuoy =
-      IconData(0xe5dc, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLike =
-      IconData(0xe5dd, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidListViewCircle =
-      IconData(0xe5de, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidListViewRectangle =
-      IconData(0xe5df, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLoading =
-      IconData(0xe5e0, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLoading01 =
-      IconData(0xe5e1, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLocation01 =
-      IconData(0xe5e2, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLocation02 =
-      IconData(0xe5e3, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLocation03 =
-      IconData(0xe5e4, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLock =
-      IconData(0xe5e5, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLock01 =
-      IconData(0xe5e6, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLogin =
-      IconData(0xe5e7, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLogin01 =
-      IconData(0xe5e8, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLogout =
-      IconData(0xe5e9, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLogout01 =
-      IconData(0xe5ea, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidLove =
-      IconData(0xe5eb, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMic =
-      IconData(0xe5ec, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMicMute =
-      IconData(0xe5ed, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMicrophone =
-      IconData(0xe5ee, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMicrophoneMute =
-      IconData(0xe5ef, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMinus =
-      IconData(0xe5f0, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMinus01 =
-      IconData(0xe5f1, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMoney =
-      IconData(0xe5f2, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMoreHorizontal =
-      IconData(0xe5f3, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMoreVertical =
-      IconData(0xe5f4, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidMouse =
-      IconData(0xe5f5, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNib =
-      IconData(0xe5f6, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotepad =
-      IconData(0xe5f7, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotification =
-      IconData(0xe5f8, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotification01 =
-      IconData(0xe5f9, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotification02 =
-      IconData(0xe5fa, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotification03 =
-      IconData(0xe5fb, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotification04 =
-      IconData(0xe5fc, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotification05 =
-      IconData(0xe5fd, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotificationCircle =
-      IconData(0xe5fe, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotificationRectangle =
-      IconData(0xe5ff, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotificationRinging =
-      IconData(0xe600, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotificationRinging1 =
-      IconData(0xe601, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotificationSilent =
-      IconData(0xe602, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidNotificationSilent1 =
-      IconData(0xe603, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidOpenBook =
-      IconData(0xe604, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPaintBucket =
-      IconData(0xe605, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPin =
-      IconData(0xe606, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPlugin =
-      IconData(0xe607, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPlus =
-      IconData(0xe608, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPlus01 =
-      IconData(0xe609, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPowerCircle =
-      IconData(0xe60a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPowerRectangle =
-      IconData(0xe60b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidPresentation =
-      IconData(0xe60c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidRemove =
-      IconData(0xe60d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidRemove01 =
-      IconData(0xe60e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidRemove02 =
-      IconData(0xe60f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidRemoveCircle =
-      IconData(0xe610, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidRemoveRectangle =
-      IconData(0xe611, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidReplyRectangle =
-      IconData(0xe612, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSadCircle =
-      IconData(0xe613, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSadRectangle =
-      IconData(0xe614, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSearch01 =
-      IconData(0xe615, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSearch02 =
-      IconData(0xe616, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSearch03 =
-      IconData(0xe617, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSearchMinus =
-      IconData(0xe618, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSearchPlus =
-      IconData(0xe619, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSearchRemove =
-      IconData(0xe61a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSetting =
-      IconData(0xe61b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidShare =
-      IconData(0xe61c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidShareRectangle =
-      IconData(0xe61d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidShield =
-      IconData(0xe61e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidShieldCheck =
-      IconData(0xe61f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidShieldWarning =
-      IconData(0xe620, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidShoppingBag =
-      IconData(0xe621, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidShoppingBasket =
-      IconData(0xe622, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSmileEllipse =
-      IconData(0xe623, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSmileRectangle =
-      IconData(0xe624, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSortArrowDown =
-      IconData(0xe625, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSortArrowDown01 =
-      IconData(0xe626, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSortArrowUp =
-      IconData(0xe627, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSortArrowUp01 =
-      IconData(0xe628, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSortCircle =
-      IconData(0xe629, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSortRectangle =
-      IconData(0xe62a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidSpeedTest =
-      IconData(0xe62b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidStar =
-      IconData(0xe62c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTarget =
-      IconData(0xe62d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTick =
-      IconData(0xe62e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTickDouble =
-      IconData(0xe62f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTicket =
-      IconData(0xe630, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTicketPercent =
-      IconData(0xe631, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTraining =
-      IconData(0xe632, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTrash =
-      IconData(0xe633, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidTrash01 =
-      IconData(0xe634, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidUnlock =
-      IconData(0xe635, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidUnlock01 =
-      IconData(0xe636, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidUser =
-      IconData(0xe637, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidUserCircle =
-      IconData(0xe638, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidUserRectangle =
-      IconData(0xe639, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidWarning =
-      IconData(0xe63a, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidWarningError =
-      IconData(0xe63b, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidWarningPolygon =
-      IconData(0xe63c, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidZoom =
-      IconData(0xe63d, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidZoomIn =
-      IconData(0xe63e, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidZoomOut =
-      IconData(0xe63f, fontFamily: _kIconFontFamily);
-  static const IconData interfaceSolidZoomText =
-      IconData(0xe640, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineApps =
-      IconData(0xe641, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineApps01 =
-      IconData(0xe642, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineAppsCircle =
-      IconData(0xe643, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineAppsRectangle =
-      IconData(0xe644, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuCircleVertical =
-      IconData(0xe645, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuCircleVertical01 =
-      IconData(0xe646, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuHome =
-      IconData(0xe647, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuLineHorizontal =
-      IconData(0xe648, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuLineHorizontal01 =
-      IconData(0xe649, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuLineVertical =
-      IconData(0xe64a, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuLineVertical01 =
-      IconData(0xe64b, fontFamily: _kIconFontFamily);
-  static const IconData menuOutlineMenuUser =
-      IconData(0xe64c, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidApps =
-      IconData(0xe64d, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidApps01 =
-      IconData(0xe64e, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidAppsCircle =
-      IconData(0xe64f, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidAppsRectangle =
-      IconData(0xe650, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuCircleVertical =
-      IconData(0xe651, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuCircleVertical01 =
-      IconData(0xe652, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuHome =
-      IconData(0xe653, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuLineHorizontal =
-      IconData(0xe654, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuLineHorizontal01 =
-      IconData(0xe655, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuLineVertical =
-      IconData(0xe656, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuLineVertical01 =
-      IconData(0xe657, fontFamily: _kIconFontFamily);
-  static const IconData menuSolidMenuUser =
-      IconData(0xe658, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCamera =
-      IconData(0xe659, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCamera01 =
-      IconData(0xe65a, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCameraSilent =
-      IconData(0xe65b, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCameraSilent01 =
-      IconData(0xe65c, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCameraVideo =
-      IconData(0xe65d, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCameraVideo01 =
-      IconData(0xe65e, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCameraVideoSilent =
-      IconData(0xe65f, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineCdBurning =
-      IconData(0xe660, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineClapperboard =
-      IconData(0xe661, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineEarphone =
-      IconData(0xe662, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineEqualizer =
-      IconData(0xe663, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineEqualizer01 =
-      IconData(0xe664, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineFavourite =
-      IconData(0xe665, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineFilm =
-      IconData(0xe666, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineFilm01 =
-      IconData(0xe667, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineFilm02 =
-      IconData(0xe668, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineFilm03 =
-      IconData(0xe669, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineFloppyDisk =
-      IconData(0xe66a, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineHeadphones =
-      IconData(0xe66b, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineHeadphones1 =
-      IconData(0xe66c, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineHeadphonesSilent =
-      IconData(0xe66d, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImage =
-      IconData(0xe66e, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImage01 =
-      IconData(0xe66f, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageAdd =
-      IconData(0xe670, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageDownload =
-      IconData(0xe671, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageEdit =
-      IconData(0xe672, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageFavourite =
-      IconData(0xe673, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageMinus =
-      IconData(0xe674, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageRemove =
-      IconData(0xe675, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageTick =
-      IconData(0xe676, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineImageUpload =
-      IconData(0xe677, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineIpod =
-      IconData(0xe678, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineLoudspeaker =
-      IconData(0xe679, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineMusic =
-      IconData(0xe67a, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineMusic01 =
-      IconData(0xe67b, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineMusic02 =
-      IconData(0xe67c, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineMusic03 =
-      IconData(0xe67d, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineMusic04 =
-      IconData(0xe67e, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineMusic05 =
-      IconData(0xe67f, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineNext =
-      IconData(0xe680, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineNext01 =
-      IconData(0xe681, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePause =
-      IconData(0xe682, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePlay =
-      IconData(0xe683, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePlayAdd =
-      IconData(0xe684, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePlayFavourite =
-      IconData(0xe685, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePlaylist =
-      IconData(0xe686, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePlaylist01 =
-      IconData(0xe687, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePlayRemove =
-      IconData(0xe688, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePlayRemove01 =
-      IconData(0xe689, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePrevious =
-      IconData(0xe68a, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlinePrevious01 =
-      IconData(0xe68b, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineProjector =
-      IconData(0xe68c, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineQueue =
-      IconData(0xe68d, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineRecord =
-      IconData(0xe68e, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineRepeat =
-      IconData(0xe68f, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineReplay =
-      IconData(0xe690, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineShuffle =
-      IconData(0xe691, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineSong =
-      IconData(0xe692, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineSong01 =
-      IconData(0xe693, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineSpeaker =
-      IconData(0xe694, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineSpeakerDisable =
-      IconData(0xe695, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineSpeakerMinus =
-      IconData(0xe696, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineSpeakerMute =
-      IconData(0xe697, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineSpeakerPlus =
-      IconData(0xe698, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineStop =
-      IconData(0xe699, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineVideoAdd =
-      IconData(0xe69a, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineVideoFavourite =
-      IconData(0xe69b, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineVideoMinus =
-      IconData(0xe69c, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineVideoRemove =
-      IconData(0xe69d, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineVideoTick =
-      IconData(0xe69e, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineVynil =
-      IconData(0xe69f, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineVynil01 =
-      IconData(0xe6a0, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioOutlineWaves =
-      IconData(0xe6a1, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCamera =
-      IconData(0xe6a2, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCamera01 =
-      IconData(0xe6a3, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCameraSilent =
-      IconData(0xe6a4, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCameraSilent01 =
-      IconData(0xe6a5, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCameraVideo =
-      IconData(0xe6a6, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCameraVideo01 =
-      IconData(0xe6a7, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCameraVideoSilent =
-      IconData(0xe6a8, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidCdBurning =
-      IconData(0xe6a9, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidClapperboard =
-      IconData(0xe6aa, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidEarphone =
-      IconData(0xe6ab, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidEqualizer =
-      IconData(0xe6ac, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidEqualizer01 =
-      IconData(0xe6ad, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidFavourite =
-      IconData(0xe6ae, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidFilm =
-      IconData(0xe6af, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidFilm01 =
-      IconData(0xe6b0, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidFilm02 =
-      IconData(0xe6b1, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidFilm03 =
-      IconData(0xe6b2, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidFloppyDisk =
-      IconData(0xe6b3, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidHeadphones =
-      IconData(0xe6b4, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidHeadphones1 =
-      IconData(0xe6b5, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidHeadphonesSilent =
-      IconData(0xe6b6, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImage =
-      IconData(0xe6b7, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImage01 =
-      IconData(0xe6b8, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageAdd =
-      IconData(0xe6b9, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageDownload =
-      IconData(0xe6ba, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageEdit =
-      IconData(0xe6bb, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageFavourite =
-      IconData(0xe6bc, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageMinus =
-      IconData(0xe6bd, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageRemove =
-      IconData(0xe6be, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageTick =
-      IconData(0xe6bf, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidImageUpload =
-      IconData(0xe6c0, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidIpod =
-      IconData(0xe6c1, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidLoudspeaker =
-      IconData(0xe6c2, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidMusic =
-      IconData(0xe6c3, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidMusic01 =
-      IconData(0xe6c4, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidMusic02 =
-      IconData(0xe6c5, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidMusic03 =
-      IconData(0xe6c6, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidMusic04 =
-      IconData(0xe6c7, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidMusic05 =
-      IconData(0xe6c8, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidNext =
-      IconData(0xe6c9, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidNext01 =
-      IconData(0xe6ca, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPause =
-      IconData(0xe6cb, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPlay =
-      IconData(0xe6cc, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPlayAdd =
-      IconData(0xe6cd, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPlayFavourite =
-      IconData(0xe6ce, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPlaylist =
-      IconData(0xe6cf, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPlaylist01 =
-      IconData(0xe6d0, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPlayRemove =
-      IconData(0xe6d1, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPlayRemove01 =
-      IconData(0xe6d2, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPrevious =
-      IconData(0xe6d3, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidPrevious01 =
-      IconData(0xe6d4, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidProjector =
-      IconData(0xe6d5, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidQueue =
-      IconData(0xe6d6, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidRecord =
-      IconData(0xe6d7, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidRepeat =
-      IconData(0xe6d8, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidReplay =
-      IconData(0xe6d9, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidShuffle =
-      IconData(0xe6da, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidSong =
-      IconData(0xe6db, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidSong01 =
-      IconData(0xe6dc, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidSpeaker =
-      IconData(0xe6dd, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidSpeakerDisable =
-      IconData(0xe6de, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidSpeakerMinus =
-      IconData(0xe6df, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidSpeakerMute =
-      IconData(0xe6e0, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidSpeakerPlus =
-      IconData(0xe6e1, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidStop =
-      IconData(0xe6e2, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidVideoAdd =
-      IconData(0xe6e3, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidVideoFavourite =
-      IconData(0xe6e4, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidVideoMinus =
-      IconData(0xe6e5, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidVideoRemove =
-      IconData(0xe6e6, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidVideoTick =
-      IconData(0xe6e7, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidVynil =
-      IconData(0xe6e8, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidVynil01 =
-      IconData(0xe6e9, fontFamily: _kIconFontFamily);
-  static const IconData multimediaAndAudioSolidWaves =
-      IconData(0xe6ea, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineDestination =
-      IconData(0xe6eb, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineDestination01 =
-      IconData(0xe6ec, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineDestination02 =
-      IconData(0xe6ed, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineDestination03 =
-      IconData(0xe6ee, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineFlag =
-      IconData(0xe6ef, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineFlag01 =
-      IconData(0xe6f0, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineGlobe =
-      IconData(0xe6f1, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineGlobe01 =
-      IconData(0xe6f2, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineGps =
-      IconData(0xe6f3, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineGps01 =
-      IconData(0xe6f4, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineGpsOff =
-      IconData(0xe6f5, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineHomeLocation =
-      IconData(0xe6f6, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineHomeLocation01 =
-      IconData(0xe6f7, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineLocation =
-      IconData(0xe6f8, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineLocationAdd =
-      IconData(0xe6f9, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineLocationMinus =
-      IconData(0xe6fa, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineLocationRemove =
-      IconData(0xe6fb, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineLocationShare =
-      IconData(0xe6fc, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineLocationUser =
-      IconData(0xe6fd, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMap =
-      IconData(0xe6fe, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMap01 =
-      IconData(0xe6ff, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMap02 =
-      IconData(0xe700, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMap03 =
-      IconData(0xe701, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapGpsNavigation =
-      IconData(0xe702, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapGpsNavigation01 =
-      IconData(0xe703, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapGpsNavigation03 =
-      IconData(0xe704, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapGpsNavigation04 =
-      IconData(0xe705, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation =
-      IconData(0xe706, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation01 =
-      IconData(0xe707, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation02 =
-      IconData(0xe708, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation03 =
-      IconData(0xe709, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation04 =
-      IconData(0xe70a, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation05 =
-      IconData(0xe70b, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation06 =
-      IconData(0xe70c, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapLocation07 =
-      IconData(0xe70d, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapPeople =
-      IconData(0xe70e, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapPeople01 =
-      IconData(0xe70f, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapPin =
-      IconData(0xe710, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapPin01 =
-      IconData(0xe711, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapPin02 =
-      IconData(0xe712, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineMapPin03 =
-      IconData(0xe713, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineNavigation =
-      IconData(0xe714, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlinePeople =
-      IconData(0xe715, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlinePeople01 =
-      IconData(0xe716, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlinePin =
-      IconData(0xe717, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlinePin01 =
-      IconData(0xe718, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlinePin02 =
-      IconData(0xe719, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineRoad =
-      IconData(0xe71a, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineRoad01 =
-      IconData(0xe71b, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineRoadLocation =
-      IconData(0xe71c, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineRoadLocation01 =
-      IconData(0xe71d, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineRoadPin =
-      IconData(0xe71e, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineRoadPin01 =
-      IconData(0xe71f, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineSignpost =
-      IconData(0xe720, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineSignpost01 =
-      IconData(0xe721, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineSignpost02 =
-      IconData(0xe722, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineSignpost03 =
-      IconData(0xe723, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineSignpost04 =
-      IconData(0xe724, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineTurn =
-      IconData(0xe725, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineTurn01 =
-      IconData(0xe726, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineTurnLeft =
-      IconData(0xe727, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineTurnRight =
-      IconData(0xe728, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineUTurn =
-      IconData(0xe729, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsOutlineUTurn01 =
-      IconData(0xe72a, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidDestination =
-      IconData(0xe72b, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidDestination01 =
-      IconData(0xe72c, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidDestination02 =
-      IconData(0xe72d, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidDestination03 =
-      IconData(0xe72e, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidFlag =
-      IconData(0xe72f, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidFlag01 =
-      IconData(0xe730, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidGlobe =
-      IconData(0xe731, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidGlobe01 =
-      IconData(0xe732, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidGps =
-      IconData(0xe733, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidGps01 =
-      IconData(0xe734, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidGpsOff =
-      IconData(0xe735, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidHomeLocation =
-      IconData(0xe736, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidHomeLocation01 =
-      IconData(0xe737, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidLocation =
-      IconData(0xe738, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidLocationAdd =
-      IconData(0xe739, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidLocationMinus =
-      IconData(0xe73a, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidLocationRemove =
-      IconData(0xe73b, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidLocationShare =
-      IconData(0xe73c, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidLocationUser =
-      IconData(0xe73d, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMap =
-      IconData(0xe73e, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMap01 =
-      IconData(0xe73f, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMap02 =
-      IconData(0xe740, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMap03 =
-      IconData(0xe741, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapGpsNavigation =
-      IconData(0xe742, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapGpsNavigation01 =
-      IconData(0xe743, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapGpsNavigation03 =
-      IconData(0xe744, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapGpsNavigation04 =
-      IconData(0xe745, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation =
-      IconData(0xe746, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation01 =
-      IconData(0xe747, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation02 =
-      IconData(0xe748, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation03 =
-      IconData(0xe749, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation04 =
-      IconData(0xe74a, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation05 =
-      IconData(0xe74b, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation06 =
-      IconData(0xe74c, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapLocation07 =
-      IconData(0xe74d, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapPeople =
-      IconData(0xe74e, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapPeople01 =
-      IconData(0xe74f, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapPin =
-      IconData(0xe750, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapPin01 =
-      IconData(0xe751, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapPin02 =
-      IconData(0xe752, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidMapPin03 =
-      IconData(0xe753, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidNavigation =
-      IconData(0xe754, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidPeople =
-      IconData(0xe755, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidPeople01 =
-      IconData(0xe756, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidPin =
-      IconData(0xe757, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidPin01 =
-      IconData(0xe758, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidPin02 =
-      IconData(0xe759, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidRoad =
-      IconData(0xe75a, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidRoad01 =
-      IconData(0xe75b, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidRoadLocation =
-      IconData(0xe75c, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidRoadLocation01 =
-      IconData(0xe75d, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidRoadPin =
-      IconData(0xe75e, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidRoadPin01 =
-      IconData(0xe75f, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidSignpost =
-      IconData(0xe760, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidSignpost01 =
-      IconData(0xe761, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidSignpost02 =
-      IconData(0xe762, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidSignpost03 =
-      IconData(0xe763, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidSignpost04 =
-      IconData(0xe764, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidTurn =
-      IconData(0xe765, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidTurn01 =
-      IconData(0xe766, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidTurnLeft =
-      IconData(0xe767, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidTurnRight =
-      IconData(0xe768, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidUTurn =
-      IconData(0xe769, fontFamily: _kIconFontFamily);
-  static const IconData navigationMapsSolidUTurn01 =
-      IconData(0xe76a, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotes =
-      IconData(0xe76b, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotes01 =
-      IconData(0xe76c, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesAdd =
-      IconData(0xe76d, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesCheck =
-      IconData(0xe76e, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesDelete =
-      IconData(0xe76f, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesDownload =
-      IconData(0xe770, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEdit =
-      IconData(0xe771, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEdit01 =
-      IconData(0xe772, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditAdd =
-      IconData(0xe773, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditCheck =
-      IconData(0xe774, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditDelete =
-      IconData(0xe775, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditDownload =
-      IconData(0xe776, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditFavourite =
-      IconData(0xe777, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditMinus =
-      IconData(0xe778, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditSearch =
-      IconData(0xe779, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesEditUpload =
-      IconData(0xe77a, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesFavourite =
-      IconData(0xe77b, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesRemove =
-      IconData(0xe77c, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesSearch =
-      IconData(0xe77d, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineNotesUpload =
-      IconData(0xe77e, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTask =
-      IconData(0xe77f, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTask01 =
-      IconData(0xe780, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskAdd =
-      IconData(0xe781, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskCheck =
-      IconData(0xe782, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskDelete =
-      IconData(0xe783, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskDownload =
-      IconData(0xe784, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskFavourite =
-      IconData(0xe785, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskMinus =
-      IconData(0xe786, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskSearch =
-      IconData(0xe787, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskOutlineTaskUpload =
-      IconData(0xe788, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotes =
-      IconData(0xe789, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotes01 =
-      IconData(0xe78a, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesAdd =
-      IconData(0xe78b, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesCheck =
-      IconData(0xe78c, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesDelete =
-      IconData(0xe78d, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesDownload =
-      IconData(0xe78e, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesDownload1 =
-      IconData(0xe78f, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEdit =
-      IconData(0xe790, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEdit01 =
-      IconData(0xe791, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEditAdd =
-      IconData(0xe792, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEditCheck =
-      IconData(0xe793, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEditDelete =
-      IconData(0xe794, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEditFavourite =
-      IconData(0xe795, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEditMinus =
-      IconData(0xe796, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesEditUpload =
-      IconData(0xe797, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesFavourite =
-      IconData(0xe798, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesRemove =
-      IconData(0xe799, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesSearch =
-      IconData(0xe79a, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesSearch1 =
-      IconData(0xe79b, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidNotesUpload =
-      IconData(0xe79c, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTask =
-      IconData(0xe79d, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTask01 =
-      IconData(0xe79e, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskAdd =
-      IconData(0xe79f, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskCheck =
-      IconData(0xe7a0, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskDelete =
-      IconData(0xe7a1, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskDowload =
-      IconData(0xe7a2, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskFavourite =
-      IconData(0xe7a3, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskMinus =
-      IconData(0xe7a4, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskSearch =
-      IconData(0xe7a5, fontFamily: _kIconFontFamily);
-  static const IconData notesAndTaskSolidTaskUpload =
-      IconData(0xe7a6, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineAddTo =
-      IconData(0xe7a7, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineAirPlane =
-      IconData(0xe7a8, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxAdd =
-      IconData(0xe7a9, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxArrowDown =
-      IconData(0xe7aa, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxArrowUp =
-      IconData(0xe7ab, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxCancel =
-      IconData(0xe7ac, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxDone =
-      IconData(0xe7ad, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxLocation =
-      IconData(0xe7ae, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxLove =
-      IconData(0xe7af, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxMinus =
-      IconData(0xe7b0, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxSearch =
-      IconData(0xe7b1, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineBoxTime =
-      IconData(0xe7b2, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineCargo =
-      IconData(0xe7b3, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineCargoShip =
-      IconData(0xe7b4, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDelivery =
-      IconData(0xe7b5, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDeliveryAirPlane =
-      IconData(0xe7b6, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDeliveryCancel =
-      IconData(0xe7b7, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDeliveryConveyor =
-      IconData(0xe7b8, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDeliveryDone =
-      IconData(0xe7b9, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDeliveryParachute =
-      IconData(0xe7ba, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDeliveryTime =
-      IconData(0xe7bb, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineDonation =
-      IconData(0xe7bc, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineFastDelivery =
-      IconData(0xe7bd, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineFastTime =
-      IconData(0xe7be, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBox =
-      IconData(0xe7bf, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBox01 =
-      IconData(0xe7c0, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxAdd =
-      IconData(0xe7c1, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxArrowDown =
-      IconData(0xe7c2, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxArrowUp =
-      IconData(0xe7c3, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxDone =
-      IconData(0xe7c4, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxLove =
-      IconData(0xe7c5, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxMinus =
-      IconData(0xe7c6, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxRemove =
-      IconData(0xe7c7, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineOpenBoxSearch =
-      IconData(0xe7c8, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackage =
-      IconData(0xe7c9, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackage01 =
-      IconData(0xe7ca, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackage02 =
-      IconData(0xe7cb, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox =
-      IconData(0xe7cc, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox01 =
-      IconData(0xe7cd, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox02 =
-      IconData(0xe7ce, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox03 =
-      IconData(0xe7cf, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox04 =
-      IconData(0xe7d0, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox05 =
-      IconData(0xe7d1, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox06 =
-      IconData(0xe7d2, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackageBox07 =
-      IconData(0xe7d3, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackaging =
-      IconData(0xe7d4, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingAdd =
-      IconData(0xe7d5, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingArrowDown =
-      IconData(0xe7d6, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingArrowUp =
-      IconData(0xe7d7, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingCancel =
-      IconData(0xe7d8, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingDone =
-      IconData(0xe7d9, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingLocation =
-      IconData(0xe7da, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingLove =
-      IconData(0xe7db, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingMinus =
-      IconData(0xe7dc, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingSearch =
-      IconData(0xe7dd, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlinePackagingTime =
-      IconData(0xe7de, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineParcel =
-      IconData(0xe7df, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineReturn =
-      IconData(0xe7e0, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineReturn01 =
-      IconData(0xe7e1, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineShipping =
-      IconData(0xe7e2, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineTrolley =
-      IconData(0xe7e3, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliveryOutlineWarehouse =
-      IconData(0xe7e4, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidAddTo =
-      IconData(0xe7e5, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidAirPlane =
-      IconData(0xe7e6, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxAdd =
-      IconData(0xe7e7, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxArrowDown =
-      IconData(0xe7e8, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxArrowUp =
-      IconData(0xe7e9, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxCancel =
-      IconData(0xe7ea, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxDone =
-      IconData(0xe7eb, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxLocation =
-      IconData(0xe7ec, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxLove =
-      IconData(0xe7ed, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxMinus =
-      IconData(0xe7ee, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxSearch =
-      IconData(0xe7ef, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidBoxTime =
-      IconData(0xe7f0, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidCargo =
-      IconData(0xe7f1, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidCargoShip =
-      IconData(0xe7f2, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDelivery =
-      IconData(0xe7f3, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDeliveryAirPlane =
-      IconData(0xe7f4, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDeliveryCancel =
-      IconData(0xe7f5, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDeliveryConveyor =
-      IconData(0xe7f6, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDeliveryDone =
-      IconData(0xe7f7, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDeliveryParachute =
-      IconData(0xe7f8, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDeliveryTime =
-      IconData(0xe7f9, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidDonation =
-      IconData(0xe7fa, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidFastDelivery =
-      IconData(0xe7fb, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidFastTime =
-      IconData(0xe7fc, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBox =
-      IconData(0xe7fd, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBox01 =
-      IconData(0xe7fe, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxAdd =
-      IconData(0xe7ff, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxArrowDown =
-      IconData(0xe800, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxArrowUp =
-      IconData(0xe801, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxDone =
-      IconData(0xe802, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxLove =
-      IconData(0xe803, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxMinus =
-      IconData(0xe804, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxRemove =
-      IconData(0xe805, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidOpenBoxSearch =
-      IconData(0xe806, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackage =
-      IconData(0xe807, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackage01 =
-      IconData(0xe808, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackage02 =
-      IconData(0xe809, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox =
-      IconData(0xe80a, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox01 =
-      IconData(0xe80b, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox02 =
-      IconData(0xe80c, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox03 =
-      IconData(0xe80d, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox04 =
-      IconData(0xe80e, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox05 =
-      IconData(0xe80f, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox06 =
-      IconData(0xe810, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackageBox07 =
-      IconData(0xe811, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingAdd =
-      IconData(0xe812, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingArrowDown =
-      IconData(0xe813, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingArrowUp =
-      IconData(0xe814, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingCancel =
-      IconData(0xe815, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingDone =
-      IconData(0xe816, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingLocation =
-      IconData(0xe817, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingLove =
-      IconData(0xe818, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingMinus =
-      IconData(0xe819, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingSearch =
-      IconData(0xe81a, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidPackagingTime =
-      IconData(0xe81b, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidParcel =
-      IconData(0xe81c, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidReturn =
-      IconData(0xe81d, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidReturn01 =
-      IconData(0xe81e, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidReturn1 =
-      IconData(0xe81f, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidShipping =
-      IconData(0xe820, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidTrolley =
-      IconData(0xe821, fontFamily: _kIconFontFamily);
-  static const IconData shippingAndDeliverySolidWarehouse =
-      IconData(0xe822, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineAc =
-      IconData(0xe823, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineBarcode =
-      IconData(0xe824, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineCam =
-      IconData(0xe825, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineCompas =
-      IconData(0xe826, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineDoor =
-      IconData(0xe827, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineEyeScanner =
-      IconData(0xe828, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineFingerprint =
-      IconData(0xe829, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHome =
-      IconData(0xe82a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHome01 =
-      IconData(0xe82b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeAdd =
-      IconData(0xe82c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeAdd01 =
-      IconData(0xe82d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeArrowDown =
-      IconData(0xe82e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeArrowDown01 =
-      IconData(0xe82f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeArrowUp01 =
-      IconData(0xe830, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeCelcius =
-      IconData(0xe831, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeCelcius01 =
-      IconData(0xe832, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeCheck =
-      IconData(0xe833, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeCheck01 =
-      IconData(0xe834, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeCloud =
-      IconData(0xe835, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeCloud01 =
-      IconData(0xe836, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeDownload =
-      IconData(0xe837, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeDownload01 =
-      IconData(0xe838, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeEye =
-      IconData(0xe839, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeEye01 =
-      IconData(0xe83a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFavourite =
-      IconData(0xe83b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFavourite01 =
-      IconData(0xe83c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFilter =
-      IconData(0xe83d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFilter01 =
-      IconData(0xe83e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFlash =
-      IconData(0xe83f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFlash01 =
-      IconData(0xe840, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFluid =
-      IconData(0xe841, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeFluid01 =
-      IconData(0xe842, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeGraph =
-      IconData(0xe843, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeGraph01 =
-      IconData(0xe844, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeInformation =
-      IconData(0xe845, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeInformation01 =
-      IconData(0xe846, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeLink =
-      IconData(0xe847, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeLink01 =
-      IconData(0xe848, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeLocation =
-      IconData(0xe849, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeLocation01 =
-      IconData(0xe84a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeLock =
-      IconData(0xe84b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeLock01 =
-      IconData(0xe84c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeMail =
-      IconData(0xe84d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeMail01 =
-      IconData(0xe84e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeMinus =
-      IconData(0xe84f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeMinus01 =
-      IconData(0xe850, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeNotification =
-      IconData(0xe851, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeNotification01 =
-      IconData(0xe852, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomePower =
-      IconData(0xe853, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomePower01 =
-      IconData(0xe854, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeRemove =
-      IconData(0xe855, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeRemove01 =
-      IconData(0xe856, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeSetting =
-      IconData(0xe857, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeSetting01 =
-      IconData(0xe858, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeShare =
-      IconData(0xe859, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeShare01 =
-      IconData(0xe85a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeShield =
-      IconData(0xe85b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeShield01 =
-      IconData(0xe85c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeUpload =
-      IconData(0xe85d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeUpload01 =
-      IconData(0xe85e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeWarning =
-      IconData(0xe85f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeWarning01 =
-      IconData(0xe860, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeWave =
-      IconData(0xe861, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeWave01 =
-      IconData(0xe862, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeWave1 =
-      IconData(0xe863, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeWifi =
-      IconData(0xe864, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHomeWifi01 =
-      IconData(0xe865, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineHumidity =
-      IconData(0xe866, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineMusic =
-      IconData(0xe867, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlinePower =
-      IconData(0xe868, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlinePress =
-      IconData(0xe869, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineRemote =
-      IconData(0xe86a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSensor =
-      IconData(0xe86b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSmartKey =
-      IconData(0xe86c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSmartLight =
-      IconData(0xe86d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSmartLock =
-      IconData(0xe86e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSmartPhone =
-      IconData(0xe86f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSmartPlug =
-      IconData(0xe870, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSmartTv =
-      IconData(0xe871, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSmartWatch =
-      IconData(0xe872, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSolarPanel =
-      IconData(0xe873, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSpeaker =
-      IconData(0xe874, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineSwitch =
-      IconData(0xe875, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseOutlineThermostat =
-      IconData(0xe876, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidAc =
-      IconData(0xe877, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidBarcode =
-      IconData(0xe878, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidCam =
-      IconData(0xe879, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidDoor =
-      IconData(0xe87a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidEyeScanner =
-      IconData(0xe87b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidFingerprint =
-      IconData(0xe87c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHome =
-      IconData(0xe87d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHome01 =
-      IconData(0xe87e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeAdd =
-      IconData(0xe87f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeAdd01 =
-      IconData(0xe880, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeArrowDown =
-      IconData(0xe881, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeArrowDown01 =
-      IconData(0xe882, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeArrowUp =
-      IconData(0xe883, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeArrowUp01 =
-      IconData(0xe884, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeCelcius =
-      IconData(0xe885, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeCelcius01 =
-      IconData(0xe886, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeCheck =
-      IconData(0xe887, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeCheck01 =
-      IconData(0xe888, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeCloud =
-      IconData(0xe889, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeCloud01 =
-      IconData(0xe88a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeDownload =
-      IconData(0xe88b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeDownload01 =
-      IconData(0xe88c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeEye =
-      IconData(0xe88d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeEye01 =
-      IconData(0xe88e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFavourite =
-      IconData(0xe88f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFavourite01 =
-      IconData(0xe890, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFilter =
-      IconData(0xe891, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFilter01 =
-      IconData(0xe892, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFlash =
-      IconData(0xe893, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFlash01 =
-      IconData(0xe894, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFluid =
-      IconData(0xe895, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeFluid01 =
-      IconData(0xe896, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeGraph =
-      IconData(0xe897, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeGraph01 =
-      IconData(0xe898, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeInformation =
-      IconData(0xe899, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeInformation01 =
-      IconData(0xe89a, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeLink =
-      IconData(0xe89b, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeLink01 =
-      IconData(0xe89c, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeLocation =
-      IconData(0xe89d, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeLocation01 =
-      IconData(0xe89e, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeLock =
-      IconData(0xe89f, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeLock01 =
-      IconData(0xe8a0, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeMail =
-      IconData(0xe8a1, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeMail01 =
-      IconData(0xe8a2, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeMinus =
-      IconData(0xe8a3, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeMinus01 =
-      IconData(0xe8a4, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeNotification =
-      IconData(0xe8a5, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeNotification01 =
-      IconData(0xe8a6, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomePower =
-      IconData(0xe8a7, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomePower01 =
-      IconData(0xe8a8, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeRemove =
-      IconData(0xe8a9, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeRemove01 =
-      IconData(0xe8aa, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeSetting =
-      IconData(0xe8ab, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeSetting01 =
-      IconData(0xe8ac, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeShare =
-      IconData(0xe8ad, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeShare01 =
-      IconData(0xe8ae, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeShield =
-      IconData(0xe8af, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeShield01 =
-      IconData(0xe8b0, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeUpload =
-      IconData(0xe8b1, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeUpload01 =
-      IconData(0xe8b2, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeWarning =
-      IconData(0xe8b3, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeWarning01 =
-      IconData(0xe8b4, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeWave =
-      IconData(0xe8b5, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeWave01 =
-      IconData(0xe8b6, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeWifi =
-      IconData(0xe8b7, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHomeWifi01 =
-      IconData(0xe8b8, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidHumidity =
-      IconData(0xe8b9, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidInternet =
-      IconData(0xe8ba, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidMusic =
-      IconData(0xe8bb, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidPower =
-      IconData(0xe8bc, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidPress =
-      IconData(0xe8bd, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidRemote =
-      IconData(0xe8be, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSensor =
-      IconData(0xe8bf, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartKey =
-      IconData(0xe8c0, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartKey1 =
-      IconData(0xe8c1, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartLight =
-      IconData(0xe8c2, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartLock =
-      IconData(0xe8c3, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartPhone =
-      IconData(0xe8c4, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartPlug =
-      IconData(0xe8c5, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartTv =
-      IconData(0xe8c6, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSmartWatch =
-      IconData(0xe8c7, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSolarPanel =
-      IconData(0xe8c8, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSpeaker =
-      IconData(0xe8c9, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidSwitch =
-      IconData(0xe8ca, fontFamily: _kIconFontFamily);
-  static const IconData smartHouseSolidThermostat =
-      IconData(0xe8cb, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineDribbble =
-      IconData(0xe8cc, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineDrive =
-      IconData(0xe8cd, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineFacebook =
-      IconData(0xe8ce, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineFacebook01 =
-      IconData(0xe8cf, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineFigma =
-      IconData(0xe8d0, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineFiverr =
-      IconData(0xe8d1, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineGmail =
-      IconData(0xe8d2, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineGoogle =
-      IconData(0xe8d3, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineGooglePlus =
-      IconData(0xe8d4, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineHangout =
-      IconData(0xe8d5, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineInstagram =
-      IconData(0xe8d6, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineLinkedln =
-      IconData(0xe8d7, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineMessenger =
-      IconData(0xe8d8, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineNetflix =
-      IconData(0xe8d9, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlinePayoneer =
-      IconData(0xe8da, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlinePaypal =
-      IconData(0xe8db, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlinePinterest =
-      IconData(0xe8dc, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlinePinterest01 =
-      IconData(0xe8dd, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineSkype =
-      IconData(0xe8de, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineSlack =
-      IconData(0xe8df, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineSnapchat =
-      IconData(0xe8e0, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineSpotify =
-      IconData(0xe8e1, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineTelegram =
-      IconData(0xe8e2, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineTiktok =
-      IconData(0xe8e3, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineTwitter =
-      IconData(0xe8e4, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineTwitter01 =
-      IconData(0xe8e5, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineTwitter02 =
-      IconData(0xe8e6, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineWhatsapp =
-      IconData(0xe8e7, fontFamily: _kIconFontFamily);
-  static const IconData socialOutlineYoutube =
-      IconData(0xe8e8, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidDribbble =
-      IconData(0xe8e9, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidDrive =
-      IconData(0xe8ea, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidFacebook =
-      IconData(0xe8eb, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidFacebook01 =
-      IconData(0xe8ec, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidFigma =
-      IconData(0xe8ed, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidFiverr =
-      IconData(0xe8ee, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidGmail =
-      IconData(0xe8ef, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidGoogle =
-      IconData(0xe8f0, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidGooglePlus =
-      IconData(0xe8f1, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidHangout =
-      IconData(0xe8f2, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidInstagram =
-      IconData(0xe8f3, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidLinkedln =
-      IconData(0xe8f4, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidMessenger =
-      IconData(0xe8f5, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidNetflix =
-      IconData(0xe8f6, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidPayoneer =
-      IconData(0xe8f7, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidPaypal =
-      IconData(0xe8f8, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidPinterest =
-      IconData(0xe8f9, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidPinterest01 =
-      IconData(0xe8fa, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidSkype =
-      IconData(0xe8fb, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidSlack =
-      IconData(0xe8fc, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidSnapchat =
-      IconData(0xe8fd, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidSpotify =
-      IconData(0xe8fe, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidTelegram =
-      IconData(0xe8ff, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidTiktok =
-      IconData(0xe900, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidTwitter =
-      IconData(0xe901, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidTwitter01 =
-      IconData(0xe902, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidTwitter02 =
-      IconData(0xe903, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidWhatsapp =
-      IconData(0xe904, fontFamily: _kIconFontFamily);
-  static const IconData socialSolidYoutube =
-      IconData(0xe905, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineAlarm =
-      IconData(0xe906, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineAlarmAdd =
-      IconData(0xe907, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineAlarmCheck =
-      IconData(0xe908, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineAlarmDelete =
-      IconData(0xe909, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineAlarmMinus =
-      IconData(0xe90a, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineCalendar =
-      IconData(0xe90b, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineCalendar01 =
-      IconData(0xe90c, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineCalendarAdd =
-      IconData(0xe90d, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineCalendarCheck =
-      IconData(0xe90e, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineCalendarDelete =
-      IconData(0xe90f, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineCalendarMinus =
-      IconData(0xe910, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineHourglass =
-      IconData(0xe911, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineHourglassEnd =
-      IconData(0xe912, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineHourglassStart =
-      IconData(0xe913, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineStopwatch =
-      IconData(0xe914, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineStopwatchAdd =
-      IconData(0xe915, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineStopwatchCheck =
-      IconData(0xe916, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineStopwatchDelete =
-      IconData(0xe917, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineStopwatchFast =
-      IconData(0xe918, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineStopwatchMinus =
-      IconData(0xe919, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTime10 =
-      IconData(0xe91a, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTime24 =
-      IconData(0xe91b, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTime60 =
-      IconData(0xe91c, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeAdd =
-      IconData(0xe91d, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeCheck =
-      IconData(0xe91e, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeDelete =
-      IconData(0xe91f, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeFast =
-      IconData(0xe920, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeForward =
-      IconData(0xe921, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeHalfPast =
-      IconData(0xe922, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeMinus =
-      IconData(0xe923, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeOclock =
-      IconData(0xe924, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeQuarter =
-      IconData(0xe925, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineTimeQuarterPast =
-      IconData(0xe926, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineWatch =
-      IconData(0xe927, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateOutlineWatch01 =
-      IconData(0xe928, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidAlarm =
-      IconData(0xe929, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidAlarmAdd =
-      IconData(0xe92a, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidAlarmCheck =
-      IconData(0xe92b, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidAlarmDelete =
-      IconData(0xe92c, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidAlarmMinus =
-      IconData(0xe92d, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidCalendar =
-      IconData(0xe92e, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidCalendar01 =
-      IconData(0xe92f, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidCalendarAdd =
-      IconData(0xe930, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidCalendarCheck =
-      IconData(0xe931, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidCalendarDelete =
-      IconData(0xe932, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidCalendarMinus =
-      IconData(0xe933, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidHourglass =
-      IconData(0xe934, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidHourglassEnd =
-      IconData(0xe935, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidHourglassStart =
-      IconData(0xe936, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidStopwatch =
-      IconData(0xe937, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidStopwatchAdd =
-      IconData(0xe938, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidStopwatchCheck =
-      IconData(0xe939, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidStopwatchDelete =
-      IconData(0xe93a, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidStopwatchFast =
-      IconData(0xe93b, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidStopwatchMinus =
-      IconData(0xe93c, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTime10 =
-      IconData(0xe93d, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTime24 =
-      IconData(0xe93e, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTime60 =
-      IconData(0xe93f, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeAdd =
-      IconData(0xe940, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeCheck =
-      IconData(0xe941, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeDelete =
-      IconData(0xe942, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeFast =
-      IconData(0xe943, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeForward =
-      IconData(0xe944, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeHalfPast =
-      IconData(0xe945, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeMinus =
-      IconData(0xe946, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeOclock =
-      IconData(0xe947, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeQuarter =
-      IconData(0xe948, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidTimeQuarterPast =
-      IconData(0xe949, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidWatch =
-      IconData(0xe94a, fontFamily: _kIconFontFamily);
-  static const IconData timeAndDateSolidWatch01 =
-      IconData(0xe94b, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineCommunity =
-      IconData(0xe94c, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUser =
-      IconData(0xe94d, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserAdd =
-      IconData(0xe94e, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserBlock =
-      IconData(0xe94f, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserCircle =
-      IconData(0xe950, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserCircleAdd =
-      IconData(0xe951, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserCircleBlock =
-      IconData(0xe952, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserCircleMinus =
-      IconData(0xe953, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserCircleRemove =
-      IconData(0xe954, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserPolygon =
-      IconData(0xe955, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserRectangle =
-      IconData(0xe956, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserRemove =
-      IconData(0xe957, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUserRemove01 =
-      IconData(0xe958, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUsers01 =
-      IconData(0xe959, fontFamily: _kIconFontFamily);
-  static const IconData userOutlineUsers02 =
-      IconData(0xe95a, fontFamily: _kIconFontFamily);
-  static const IconData userSolidUserCircle =
-      IconData(0xe95b, fontFamily: _kIconFontFamily);
-  static const IconData userSolidUserCircleAdd =
-      IconData(0xe95c, fontFamily: _kIconFontFamily);
-  static const IconData userSolidUserCircleBlock =
-      IconData(0xe95d, fontFamily: _kIconFontFamily);
-  static const IconData userSolidUserCircleMinus =
-      IconData(0xe95e, fontFamily: _kIconFontFamily);
-  static const IconData userSolidUserCircleRemove =
-      IconData(0xe95f, fontFamily: _kIconFontFamily);
-  static const IconData userSolidUserRectangle =
-      IconData(0xe960, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloud =
-      IconData(0xe961, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudFlash =
-      IconData(0xe962, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudFlashRain =
-      IconData(0xe963, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoon =
-      IconData(0xe964, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoonFlash =
-      IconData(0xe965, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoonFlashRain =
-      IconData(0xe966, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoonRainHigh =
-      IconData(0xe967, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoonRainLow =
-      IconData(0xe968, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoonRainMid =
-      IconData(0xe969, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoonSnow =
-      IconData(0xe96a, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudHalfMoonWindRain =
-      IconData(0xe96b, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoon =
-      IconData(0xe96c, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoonFlash =
-      IconData(0xe96d, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoonFlashRain =
-      IconData(0xe96e, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoonRainHigh =
-      IconData(0xe96f, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoonRainLow =
-      IconData(0xe970, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoonRainMid =
-      IconData(0xe971, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoonSnow =
-      IconData(0xe972, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudMoonWindRain =
-      IconData(0xe973, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudRainHigh =
-      IconData(0xe974, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudRainLow =
-      IconData(0xe975, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudRainMid =
-      IconData(0xe976, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineClouds =
-      IconData(0xe977, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSnow =
-      IconData(0xe978, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSun =
-      IconData(0xe979, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSunFlash =
-      IconData(0xe97a, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSunFlashRain =
-      IconData(0xe97b, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSunRainHigh =
-      IconData(0xe97c, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSunRainLow =
-      IconData(0xe97d, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSunRainMid =
-      IconData(0xe97e, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSunSnow =
-      IconData(0xe97f, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudSunWindRain =
-      IconData(0xe980, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudWind =
-      IconData(0xe981, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineCloudWindRain =
-      IconData(0xe982, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineFlash =
-      IconData(0xe983, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineHalfMoon =
-      IconData(0xe984, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineHalfMoonPhase =
-      IconData(0xe985, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineLastQuarterMoon =
-      IconData(0xe986, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineSnow =
-      IconData(0xe987, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineSun =
-      IconData(0xe988, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineSunrise =
-      IconData(0xe989, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineSunset =
-      IconData(0xe98a, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineTemperatureCold =
-      IconData(0xe98b, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineTemperatureMinus =
-      IconData(0xe98c, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineTemperaturePlus =
-      IconData(0xe98d, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineTornado =
-      IconData(0xe98e, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineWave =
-      IconData(0xe98f, fontFamily: _kIconFontFamily);
+  static const _kFontFam = 'huge_icons_dipflixs_export';
+  static const String? _kFontPkg = null;
+
   static const IconData weatherOutlineWindHigh =
-      IconData(0xe990, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineWindLow =
-      IconData(0xe991, fontFamily: _kIconFontFamily);
-  static const IconData weatherOutlineWindMid =
-      IconData(0xe992, fontFamily: _kIconFontFamily);
-  static const IconData weatherSolidTemperatureCold =
-      IconData(0xe993, fontFamily: _kIconFontFamily);
-  static const IconData weatherSolidTemperatureMinus =
-      IconData(0xe994, fontFamily: _kIconFontFamily);
+      IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineWave =
+      IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineTornado =
+      IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineTemperaturePlus =
+      IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineTemperatureMinus =
+      IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineTemperatureCold =
+      IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineSunset =
+      IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineSunrise =
+      IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineSun =
+      IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineSnow =
+      IconData(0xe809, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineLastQuarterMoon =
+      IconData(0xe80a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineHalfMoonPhase =
+      IconData(0xe80b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineHalfMoon =
+      IconData(0xe80c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineFlash =
+      IconData(0xe80d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineClouds =
+      IconData(0xe80e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudWindRain =
+      IconData(0xe80f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudWind =
+      IconData(0xe810, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSunWindRain =
+      IconData(0xe811, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSunSnow =
+      IconData(0xe812, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSunRainMid =
+      IconData(0xe813, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSunRainLow =
+      IconData(0xe814, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSunRainHigh =
+      IconData(0xe815, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSunFlashRain =
+      IconData(0xe816, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSunFlash =
+      IconData(0xe817, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSun =
+      IconData(0xe818, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudSnow =
+      IconData(0xe819, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudRainMid =
+      IconData(0xe81a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudRainLow =
+      IconData(0xe81b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudRainHigh =
+      IconData(0xe81c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoonWindRain =
+      IconData(0xe81d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoonSnow =
+      IconData(0xe81e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoonRainMid =
+      IconData(0xe81f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoonRainLow =
+      IconData(0xe820, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoonRainHigh =
+      IconData(0xe821, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoonFlash =
+      IconData(0xe822, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoonFlashRain =
+      IconData(0xe823, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudMoon =
+      IconData(0xe824, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoonWindRain =
+      IconData(0xe825, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoonSnow =
+      IconData(0xe826, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoonRainMid =
+      IconData(0xe827, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoonRainLow =
+      IconData(0xe828, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoonRainHigh =
+      IconData(0xe829, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoonFlashRain =
+      IconData(0xe82a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoonFlash =
+      IconData(0xe82b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudHalfMoon =
+      IconData(0xe82c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudFlashRain =
+      IconData(0xe82d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloudFlash =
+      IconData(0xe82e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineCloud =
+      IconData(0xe82f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userSolidUserRectangle =
+      IconData(0xe830, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userSolidUserCircleRemove =
+      IconData(0xe831, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userSolidUserCircleBlock =
+      IconData(0xe832, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userSolidUserCircleMinus =
+      IconData(0xe833, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userSolidUserCircleAdd =
+      IconData(0xe834, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userSolidUserCircle =
+      IconData(0xe835, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUsers02 =
+      IconData(0xe836, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUsers01 =
+      IconData(0xe837, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserRemove01 =
+      IconData(0xe838, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserRemove =
+      IconData(0xe839, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserRectangle =
+      IconData(0xe83a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserPolygon =
+      IconData(0xe83b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserCircleRemove =
+      IconData(0xe83c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserCircleBlock =
+      IconData(0xe83d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserCircleMinus =
+      IconData(0xe83e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserCircleAdd =
+      IconData(0xe83f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserCircle =
+      IconData(0xe840, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserAdd =
+      IconData(0xe841, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUserBlock =
+      IconData(0xe842, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineUser =
+      IconData(0xe843, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData userOutlineCommunity =
+      IconData(0xe844, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidWatch01 =
+      IconData(0xe845, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidWatch =
+      IconData(0xe846, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTime60 =
+      IconData(0xe847, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTime24 =
+      IconData(0xe848, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTime10 =
+      IconData(0xe849, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeQuarterPast =
+      IconData(0xe84a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeQuarter =
+      IconData(0xe84b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeOclock =
+      IconData(0xe84c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeMinus =
+      IconData(0xe84d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeHalfPast =
+      IconData(0xe84e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeForward =
+      IconData(0xe84f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeFast =
+      IconData(0xe850, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeDelete =
+      IconData(0xe851, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeCheck =
+      IconData(0xe852, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidTimeAdd =
+      IconData(0xe853, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidStopwatchMinus =
+      IconData(0xe854, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidStopwatchFast =
+      IconData(0xe855, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidStopwatchDelete =
+      IconData(0xe856, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidStopwatchAdd =
+      IconData(0xe857, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidStopwatchCheck =
+      IconData(0xe858, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidHourglassEnd =
+      IconData(0xe859, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidStopwatch =
+      IconData(0xe85a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidHourglassStart =
+      IconData(0xe85b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidHourglass =
+      IconData(0xe85c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidCalendar01 =
+      IconData(0xe85d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidCalendarMinus =
+      IconData(0xe85e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidCalendarDelete =
+      IconData(0xe85f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidCalendarCheck =
+      IconData(0xe860, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidCalendar =
+      IconData(0xe861, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidCalendarAdd =
+      IconData(0xe862, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidAlarmMinus =
+      IconData(0xe863, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidAlarmDelete =
+      IconData(0xe864, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidAlarmCheck =
+      IconData(0xe865, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidAlarmAdd =
+      IconData(0xe866, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateSolidAlarm =
+      IconData(0xe867, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineWatch01 =
+      IconData(0xe868, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineWatch =
+      IconData(0xe869, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTime60 =
+      IconData(0xe86a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTime24 =
+      IconData(0xe86b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTime10 =
+      IconData(0xe86c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeQuarterPast =
+      IconData(0xe86d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeQuarter =
+      IconData(0xe86e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeOclock =
+      IconData(0xe86f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeMinus =
+      IconData(0xe870, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeHalfPast =
+      IconData(0xe871, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeForward =
+      IconData(0xe872, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeFast =
+      IconData(0xe873, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeDelete =
+      IconData(0xe874, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeCheck =
+      IconData(0xe875, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineTimeAdd =
+      IconData(0xe876, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineStopwatchMinus =
+      IconData(0xe877, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineStopwatchFast =
+      IconData(0xe878, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineStopwatchDelete =
+      IconData(0xe879, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineStopwatchCheck =
+      IconData(0xe87a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineStopwatchAdd =
+      IconData(0xe87b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineStopwatch =
+      IconData(0xe87c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineHourglassStart =
+      IconData(0xe87d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineHourglassEnd =
+      IconData(0xe87e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineHourglass =
+      IconData(0xe87f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineCalendar01 =
+      IconData(0xe880, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineCalendarMinus =
+      IconData(0xe881, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineCalendarDelete =
+      IconData(0xe882, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineCalendarCheck =
+      IconData(0xe883, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineCalendarAdd =
+      IconData(0xe884, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineCalendar =
+      IconData(0xe885, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineAlarmMinus =
+      IconData(0xe886, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineAlarmDelete =
+      IconData(0xe887, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineAlarmCheck =
+      IconData(0xe888, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineAlarmAdd =
+      IconData(0xe889, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData timeAndDateOutlineAlarm =
+      IconData(0xe88a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidYoutube =
+      IconData(0xe88b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidWhatsapp =
+      IconData(0xe88c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidTwitter02 =
+      IconData(0xe88d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidTwitter01 =
+      IconData(0xe88e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidTwitter =
+      IconData(0xe88f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidTiktok =
+      IconData(0xe890, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidTelegram =
+      IconData(0xe891, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidSpotify =
+      IconData(0xe892, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidSnapchat =
+      IconData(0xe893, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidSlack =
+      IconData(0xe894, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidSkype =
+      IconData(0xe895, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidPinterest01 =
+      IconData(0xe896, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidPinterest =
+      IconData(0xe897, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidPaypal =
+      IconData(0xe898, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidPayoneer =
+      IconData(0xe899, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidNetflix =
+      IconData(0xe89a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidMessenger =
+      IconData(0xe89b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidLinkedln =
+      IconData(0xe89c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidInstagram =
+      IconData(0xe89d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidHangout =
+      IconData(0xe89e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidGooglePlus =
+      IconData(0xe89f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidGoogle =
+      IconData(0xe8a0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidGmail =
+      IconData(0xe8a1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidFiverr =
+      IconData(0xe8a2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidFigma =
+      IconData(0xe8a3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidFacebook01 =
+      IconData(0xe8a4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidFacebook =
+      IconData(0xe8a5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidDrive =
+      IconData(0xe8a6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialSolidDribbble =
+      IconData(0xe8a7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineYoutube =
+      IconData(0xe8a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineWhatsapp =
+      IconData(0xe8a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineTwitter02 =
+      IconData(0xe8aa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineTwitter01 =
+      IconData(0xe8ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineTwitter =
+      IconData(0xe8ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineTiktok =
+      IconData(0xe8ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineTelegram =
+      IconData(0xe8ae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineSpotify =
+      IconData(0xe8af, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineSnapchat =
+      IconData(0xe8b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineSlack =
+      IconData(0xe8b1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineSkype =
+      IconData(0xe8b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlinePinterest01 =
+      IconData(0xe8b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlinePinterest =
+      IconData(0xe8b4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlinePaypal =
+      IconData(0xe8b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlinePayoneer =
+      IconData(0xe8b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineNetflix =
+      IconData(0xe8b7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineMessenger =
+      IconData(0xe8b8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineLinkedln =
+      IconData(0xe8b9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineInstagram =
+      IconData(0xe8ba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineHangout =
+      IconData(0xe8bb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineGooglePlus =
+      IconData(0xe8bc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineGoogle =
+      IconData(0xe8bd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineGmail =
+      IconData(0xe8be, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineFiverr =
+      IconData(0xe8bf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineFigma =
+      IconData(0xe8c0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineFacebook01 =
+      IconData(0xe8c1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineFacebook =
+      IconData(0xe8c2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineDrive =
+      IconData(0xe8c3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData socialOutlineDribbble =
+      IconData(0xe8c4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidThermostat =
+      IconData(0xe8c5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSwitch =
+      IconData(0xe8c6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSpeaker =
+      IconData(0xe8c7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSolarPanel =
+      IconData(0xe8c8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartWatch =
+      IconData(0xe8c9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartTv =
+      IconData(0xe8ca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartPlug =
+      IconData(0xe8cb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartPhone =
+      IconData(0xe8cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartLock =
+      IconData(0xe8cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartLight =
+      IconData(0xe8ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartKey1 =
+      IconData(0xe8cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSmartKey =
+      IconData(0xe8d0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidSensor =
+      IconData(0xe8d1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidRemote =
+      IconData(0xe8d2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidPress =
+      IconData(0xe8d3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidPower =
+      IconData(0xe8d4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidMusic =
+      IconData(0xe8d5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidInternet =
+      IconData(0xe8d6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHumidity =
+      IconData(0xe8d7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHome01 =
+      IconData(0xe8d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeWifi01 =
+      IconData(0xe8d9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeWifi =
+      IconData(0xe8da, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeWave01 =
+      IconData(0xe8db, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeWave =
+      IconData(0xe8dc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeWarning01 =
+      IconData(0xe8dd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeWarning =
+      IconData(0xe8de, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeUpload01 =
+      IconData(0xe8df, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeUpload =
+      IconData(0xe8e0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeShield01 =
+      IconData(0xe8e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeShield =
+      IconData(0xe8e2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeShare01 =
+      IconData(0xe8e3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeShare =
+      IconData(0xe8e4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeSetting01 =
+      IconData(0xe8e5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeSetting =
+      IconData(0xe8e6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeRemove01 =
+      IconData(0xe8e7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeRemove =
+      IconData(0xe8e8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomePower01 =
+      IconData(0xe8e9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomePower =
+      IconData(0xe8ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeNotification01 =
+      IconData(0xe8eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeNotification =
+      IconData(0xe8ec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeMinus01 =
+      IconData(0xe8ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeMinus =
+      IconData(0xe8ee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeMail01 =
+      IconData(0xe8ef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeMail =
+      IconData(0xe8f0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeLock01 =
+      IconData(0xe8f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeLock =
+      IconData(0xe8f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeLocation01 =
+      IconData(0xe8f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeLocation =
+      IconData(0xe8f4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeLink01 =
+      IconData(0xe8f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeLink =
+      IconData(0xe8f6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeInformation01 =
+      IconData(0xe8f7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeInformation =
+      IconData(0xe8f8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeGraph01 =
+      IconData(0xe8f9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeGraph =
+      IconData(0xe8fa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFluid01 =
+      IconData(0xe8fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFluid =
+      IconData(0xe8fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFlash01 =
+      IconData(0xe8fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFlash =
+      IconData(0xe8fe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFilter01 =
+      IconData(0xe8ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFilter =
+      IconData(0xe900, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFavourite01 =
+      IconData(0xe901, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeFavourite =
+      IconData(0xe902, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeEye01 =
+      IconData(0xe903, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeEye =
+      IconData(0xe904, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeDownload01 =
+      IconData(0xe905, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeDownload =
+      IconData(0xe906, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeCloud01 =
+      IconData(0xe907, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeCloud =
+      IconData(0xe908, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeCheck01 =
+      IconData(0xe909, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeCheck =
+      IconData(0xe90a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeCelcius01 =
+      IconData(0xe90b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeCelcius =
+      IconData(0xe90c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeArrowUp01 =
+      IconData(0xe90d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeArrowUp =
+      IconData(0xe90e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeArrowDown01 =
+      IconData(0xe90f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeArrowDown =
+      IconData(0xe910, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeAdd01 =
+      IconData(0xe911, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHomeAdd =
+      IconData(0xe912, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidHome =
+      IconData(0xe913, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidFingerprint =
+      IconData(0xe914, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidEyeScanner =
+      IconData(0xe915, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidDoor =
+      IconData(0xe916, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidCam =
+      IconData(0xe917, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidBarcode =
+      IconData(0xe918, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseSolidAc =
+      IconData(0xe919, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineThermostat =
+      IconData(0xe91a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSwitch =
+      IconData(0xe91b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSpeaker =
+      IconData(0xe91c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSolarPanel =
+      IconData(0xe91d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSmartWatch =
+      IconData(0xe91e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSmartTv =
+      IconData(0xe91f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSmartPlug =
+      IconData(0xe920, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSmartPhone =
+      IconData(0xe921, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSmartLock =
+      IconData(0xe922, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSmartLight =
+      IconData(0xe923, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSmartKey =
+      IconData(0xe924, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineSensor =
+      IconData(0xe925, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineRemote =
+      IconData(0xe926, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlinePress =
+      IconData(0xe927, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlinePower =
+      IconData(0xe928, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineMusic =
+      IconData(0xe929, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHumidity =
+      IconData(0xe92a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHome01 =
+      IconData(0xe92b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeWifi01 =
+      IconData(0xe92c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeWifi =
+      IconData(0xe92d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeWave1 =
+      IconData(0xe92e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeWave01 =
+      IconData(0xe92f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeWave =
+      IconData(0xe930, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeWarning01 =
+      IconData(0xe931, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeWarning =
+      IconData(0xe932, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeUpload01 =
+      IconData(0xe933, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeUpload =
+      IconData(0xe934, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeShield01 =
+      IconData(0xe935, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeShield =
+      IconData(0xe936, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeShare01 =
+      IconData(0xe937, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeShare =
+      IconData(0xe938, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeSetting01 =
+      IconData(0xe939, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeSetting =
+      IconData(0xe93a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeRemove01 =
+      IconData(0xe93b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeRemove =
+      IconData(0xe93c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomePower01 =
+      IconData(0xe93d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomePower =
+      IconData(0xe93e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeNotification01 =
+      IconData(0xe93f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeNotification =
+      IconData(0xe940, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeMinus01 =
+      IconData(0xe941, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeMinus =
+      IconData(0xe942, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeMail01 =
+      IconData(0xe943, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeMail =
+      IconData(0xe944, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeLock01 =
+      IconData(0xe945, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeLock =
+      IconData(0xe946, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeLocation01 =
+      IconData(0xe947, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeLocation =
+      IconData(0xe948, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeLink01 =
+      IconData(0xe949, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeLink =
+      IconData(0xe94a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeInformation01 =
+      IconData(0xe94b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeInformation =
+      IconData(0xe94c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeGraph01 =
+      IconData(0xe94d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeGraph =
+      IconData(0xe94e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFluid01 =
+      IconData(0xe94f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFluid =
+      IconData(0xe950, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFlash01 =
+      IconData(0xe951, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFlash =
+      IconData(0xe952, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFilter01 =
+      IconData(0xe953, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFilter =
+      IconData(0xe954, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFavourite01 =
+      IconData(0xe955, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeFavourite =
+      IconData(0xe956, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeEye01 =
+      IconData(0xe957, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeEye =
+      IconData(0xe958, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeDownload01 =
+      IconData(0xe959, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeDownload =
+      IconData(0xe95a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeCloud01 =
+      IconData(0xe95b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeCloud =
+      IconData(0xe95c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeCheck01 =
+      IconData(0xe95d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeCheck =
+      IconData(0xe95e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeCelcius01 =
+      IconData(0xe95f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeCelcius =
+      IconData(0xe960, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeArrowUp01 =
+      IconData(0xe961, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeArrowDown01 =
+      IconData(0xe962, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeArrowDown =
+      IconData(0xe963, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeAdd01 =
+      IconData(0xe964, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHomeAdd =
+      IconData(0xe965, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineHome =
+      IconData(0xe966, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineFingerprint =
+      IconData(0xe967, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineEyeScanner =
+      IconData(0xe968, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineDoor =
+      IconData(0xe969, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineCompas =
+      IconData(0xe96a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineCam =
+      IconData(0xe96b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineBarcode =
+      IconData(0xe96c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData smartHouseOutlineAc =
+      IconData(0xe96d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidWarehouse =
+      IconData(0xe96e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidTrolley =
+      IconData(0xe96f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidShipping =
+      IconData(0xe970, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidReturn1 =
+      IconData(0xe971, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidReturn01 =
+      IconData(0xe972, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidReturn =
+      IconData(0xe973, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidParcel =
+      IconData(0xe974, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingTime =
+      IconData(0xe975, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingSearch =
+      IconData(0xe976, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingMinus =
+      IconData(0xe977, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingLove =
+      IconData(0xe978, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingLocation =
+      IconData(0xe979, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingDone =
+      IconData(0xe97a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingCancel =
+      IconData(0xe97b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingArrowUp =
+      IconData(0xe97c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingArrowDown =
+      IconData(0xe97d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackagingAdd =
+      IconData(0xe97e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackage02 =
+      IconData(0xe97f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackage01 =
+      IconData(0xe980, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox07 =
+      IconData(0xe981, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox06 =
+      IconData(0xe982, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox05 =
+      IconData(0xe983, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox04 =
+      IconData(0xe984, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox03 =
+      IconData(0xe985, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox02 =
+      IconData(0xe986, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox01 =
+      IconData(0xe987, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackageBox =
+      IconData(0xe988, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidPackage =
+      IconData(0xe989, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBox01 =
+      IconData(0xe98a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxSearch =
+      IconData(0xe98b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxRemove =
+      IconData(0xe98c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxMinus =
+      IconData(0xe98d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxLove =
+      IconData(0xe98e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxDone =
+      IconData(0xe98f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxArrowUp =
+      IconData(0xe990, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxArrowDown =
+      IconData(0xe991, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBoxAdd =
+      IconData(0xe992, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidOpenBox =
+      IconData(0xe993, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidFastTime =
+      IconData(0xe994, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidFastDelivery =
+      IconData(0xe995, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDonation =
+      IconData(0xe996, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDeliveryTime =
+      IconData(0xe997, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDeliveryParachute =
+      IconData(0xe998, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDeliveryDone =
+      IconData(0xe999, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDeliveryConveyor =
+      IconData(0xe99a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDeliveryCancel =
+      IconData(0xe99b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDeliveryAirPlane =
+      IconData(0xe99c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidDelivery =
+      IconData(0xe99d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidCargoShip =
+      IconData(0xe99e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidCargo =
+      IconData(0xe99f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxTime =
+      IconData(0xe9a0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxSearch =
+      IconData(0xe9a1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxMinus =
+      IconData(0xe9a2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxLove =
+      IconData(0xe9a3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxLocation =
+      IconData(0xe9a4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxDone =
+      IconData(0xe9a5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxCancel =
+      IconData(0xe9a6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxArrowUp =
+      IconData(0xe9a7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxArrowDown =
+      IconData(0xe9a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidBoxAdd =
+      IconData(0xe9a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidAirPlane =
+      IconData(0xe9aa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliverySolidAddTo =
+      IconData(0xe9ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineWarehouse =
+      IconData(0xe9ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineTrolley =
+      IconData(0xe9ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineShipping =
+      IconData(0xe9ae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineReturn01 =
+      IconData(0xe9af, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineReturn =
+      IconData(0xe9b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineParcel =
+      IconData(0xe9b1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingTime =
+      IconData(0xe9b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingSearch =
+      IconData(0xe9b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingMinus =
+      IconData(0xe9b4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingLove =
+      IconData(0xe9b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingLocation =
+      IconData(0xe9b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingDone =
+      IconData(0xe9b7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingCancel =
+      IconData(0xe9b8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingArrowUp =
+      IconData(0xe9b9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingArrowDown =
+      IconData(0xe9ba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackagingAdd =
+      IconData(0xe9bb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackaging =
+      IconData(0xe9bc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackage02 =
+      IconData(0xe9bd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackage01 =
+      IconData(0xe9be, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox07 =
+      IconData(0xe9bf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox06 =
+      IconData(0xe9c0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox05 =
+      IconData(0xe9c1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox04 =
+      IconData(0xe9c2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox03 =
+      IconData(0xe9c3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox02 =
+      IconData(0xe9c4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox01 =
+      IconData(0xe9c5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackageBox =
+      IconData(0xe9c6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlinePackage =
+      IconData(0xe9c7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBox01 =
+      IconData(0xe9c8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxSearch =
+      IconData(0xe9c9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxRemove =
+      IconData(0xe9ca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxMinus =
+      IconData(0xe9cb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxLove =
+      IconData(0xe9cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxDone =
+      IconData(0xe9cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxArrowUp =
+      IconData(0xe9ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxArrowDown =
+      IconData(0xe9cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBoxAdd =
+      IconData(0xe9d0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineOpenBox =
+      IconData(0xe9d1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineFastTime =
+      IconData(0xe9d2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineFastDelivery =
+      IconData(0xe9d3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDonation =
+      IconData(0xe9d4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDeliveryTime =
+      IconData(0xe9d5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDeliveryParachute =
+      IconData(0xe9d6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDeliveryDone =
+      IconData(0xe9d7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDeliveryConveyor =
+      IconData(0xe9d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDeliveryCancel =
+      IconData(0xe9d9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDeliveryAirPlane =
+      IconData(0xe9da, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineDelivery =
+      IconData(0xe9db, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineCargoShip =
+      IconData(0xe9dc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineCargo =
+      IconData(0xe9dd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxTime =
+      IconData(0xe9de, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxSearch =
+      IconData(0xe9df, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxMinus =
+      IconData(0xe9e0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxLove =
+      IconData(0xe9e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxLocation =
+      IconData(0xe9e2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxDone =
+      IconData(0xe9e3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxCancel =
+      IconData(0xe9e4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxArrowUp =
+      IconData(0xe9e5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxArrowDown =
+      IconData(0xe9e6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineBoxAdd =
+      IconData(0xe9e7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineAirPlane =
+      IconData(0xe9e8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shippingAndDeliveryOutlineAddTo =
+      IconData(0xe9e9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTask01 =
+      IconData(0xe9ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskUpload =
+      IconData(0xe9eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskSearch =
+      IconData(0xe9ec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskMinus =
+      IconData(0xe9ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskFavourite =
+      IconData(0xe9ee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskDowload =
+      IconData(0xe9ef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskDelete =
+      IconData(0xe9f0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskCheck =
+      IconData(0xe9f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTaskAdd =
+      IconData(0xe9f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidTask =
+      IconData(0xe9f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotes01 =
+      IconData(0xe9f4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesUpload =
+      IconData(0xe9f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesSearch1 =
+      IconData(0xe9f6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesSearch =
+      IconData(0xe9f7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesRemove =
+      IconData(0xe9f8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesFavourite =
+      IconData(0xe9f9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEdit01 =
+      IconData(0xe9fa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEditUpload =
+      IconData(0xe9fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEditMinus =
+      IconData(0xe9fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEditFavourite =
+      IconData(0xe9fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEditDelete =
+      IconData(0xe9fe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEditCheck =
+      IconData(0xe9ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEditAdd =
+      IconData(0xea00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesEdit =
+      IconData(0xea01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesDownload1 =
+      IconData(0xea02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesDownload =
+      IconData(0xea03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesDelete =
+      IconData(0xea04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesCheck =
+      IconData(0xea05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotesAdd =
+      IconData(0xea06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskSolidNotes =
+      IconData(0xea07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTask01 =
+      IconData(0xea08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskUpload =
+      IconData(0xea09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskSearch =
+      IconData(0xea0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskMinus =
+      IconData(0xea0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskFavourite =
+      IconData(0xea0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskDownload =
+      IconData(0xea0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskDelete =
+      IconData(0xea0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskCheck =
+      IconData(0xea0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTaskAdd =
+      IconData(0xea10, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineTask =
+      IconData(0xea11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotes01 =
+      IconData(0xea12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesUpload =
+      IconData(0xea13, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesSearch =
+      IconData(0xea14, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesRemove =
+      IconData(0xea15, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesFavourite =
+      IconData(0xea16, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEdit01 =
+      IconData(0xea17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditUpload =
+      IconData(0xea18, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditSearch =
+      IconData(0xea19, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditMinus =
+      IconData(0xea1a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditFavourite =
+      IconData(0xea1b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditDownload =
+      IconData(0xea1c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditDelete =
+      IconData(0xea1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditCheck =
+      IconData(0xea1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEditAdd =
+      IconData(0xea1f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesEdit =
+      IconData(0xea20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesDownload =
+      IconData(0xea21, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesDelete =
+      IconData(0xea22, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesCheck =
+      IconData(0xea23, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotesAdd =
+      IconData(0xea24, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData notesAndTaskOutlineNotes =
+      IconData(0xea25, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidUturn01 =
+      IconData(0xea26, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidUturn =
+      IconData(0xea27, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidTurn01 =
+      IconData(0xea28, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidTurnRight =
+      IconData(0xea29, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidTurnLeft =
+      IconData(0xea2a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidTurn =
+      IconData(0xea2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidSignpost04 =
+      IconData(0xea2c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidSignpost03 =
+      IconData(0xea2d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidSignpost02 =
+      IconData(0xea2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidSignpost01 =
+      IconData(0xea2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidSignpost =
+      IconData(0xea30, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidRoad01 =
+      IconData(0xea31, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidRoadPin01 =
+      IconData(0xea32, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidRoadPin =
+      IconData(0xea33, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidRoadLocation01 =
+      IconData(0xea34, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidRoadLocation =
+      IconData(0xea35, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidRoad =
+      IconData(0xea36, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidPin02 =
+      IconData(0xea37, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidPin01 =
+      IconData(0xea38, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidPin =
+      IconData(0xea39, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidPeople01 =
+      IconData(0xea3a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidPeople =
+      IconData(0xea3b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidNavigation =
+      IconData(0xea3c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMap03 =
+      IconData(0xea3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMap02 =
+      IconData(0xea3e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMap01 =
+      IconData(0xea3f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapPin03 =
+      IconData(0xea40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapPin02 =
+      IconData(0xea41, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapPin01 =
+      IconData(0xea42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapPin =
+      IconData(0xea43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapPeople01 =
+      IconData(0xea44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapPeople =
+      IconData(0xea45, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation07 =
+      IconData(0xea46, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation06 =
+      IconData(0xea47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation05 =
+      IconData(0xea48, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation04 =
+      IconData(0xea49, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation03 =
+      IconData(0xea4a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation02 =
+      IconData(0xea4b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation01 =
+      IconData(0xea4c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapLocation =
+      IconData(0xea4d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapGpsNavigation04 =
+      IconData(0xea4e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapGpsNavigation03 =
+      IconData(0xea4f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapGpsNavigation01 =
+      IconData(0xea50, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMapGpsNavigation =
+      IconData(0xea51, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidMap =
+      IconData(0xea52, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidLocationUser =
+      IconData(0xea53, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidLocationShare =
+      IconData(0xea54, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidLocationRemove =
+      IconData(0xea55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidLocationMinus =
+      IconData(0xea56, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidLocationAdd =
+      IconData(0xea57, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidLocation =
+      IconData(0xea58, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidHomeLocation01 =
+      IconData(0xea59, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidHomeLocation =
+      IconData(0xea5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidGps01 =
+      IconData(0xea5b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidGpsOff =
+      IconData(0xea5c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidGps =
+      IconData(0xea5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidGlobe01 =
+      IconData(0xea5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidGlobe =
+      IconData(0xea5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidFlag01 =
+      IconData(0xea60, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidFlag =
+      IconData(0xea61, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidDestination03 =
+      IconData(0xea62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidDestination02 =
+      IconData(0xea63, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidDestination01 =
+      IconData(0xea64, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsSolidDestination =
+      IconData(0xea65, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineUturn01 =
+      IconData(0xea66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineUturn =
+      IconData(0xea67, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineTurn01 =
+      IconData(0xea68, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineTurnRight =
+      IconData(0xea69, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineTurnLeft =
+      IconData(0xea6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineTurn =
+      IconData(0xea6b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineSignpost04 =
+      IconData(0xea6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineSignpost03 =
+      IconData(0xea6d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineSignpost02 =
+      IconData(0xea6e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineSignpost01 =
+      IconData(0xea6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineSignpost =
+      IconData(0xea70, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineRoad01 =
+      IconData(0xea71, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineRoadPin01 =
+      IconData(0xea72, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineRoadPin =
+      IconData(0xea73, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineRoadLocation01 =
+      IconData(0xea74, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineRoadLocation =
+      IconData(0xea75, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineRoad =
+      IconData(0xea76, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlinePin02 =
+      IconData(0xea77, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlinePin01 =
+      IconData(0xea78, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlinePin =
+      IconData(0xea79, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlinePeople01 =
+      IconData(0xea7a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlinePeople =
+      IconData(0xea7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineNavigation =
+      IconData(0xea7c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMap03 =
+      IconData(0xea7d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMap02 =
+      IconData(0xea7e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMap01 =
+      IconData(0xea7f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapPin03 =
+      IconData(0xea80, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapPin02 =
+      IconData(0xea81, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapPin01 =
+      IconData(0xea82, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapPin =
+      IconData(0xea83, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapPeople01 =
+      IconData(0xea84, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapPeople =
+      IconData(0xea85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation07 =
+      IconData(0xea86, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation06 =
+      IconData(0xea87, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation05 =
+      IconData(0xea88, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation04 =
+      IconData(0xea89, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation03 =
+      IconData(0xea8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation02 =
+      IconData(0xea8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation01 =
+      IconData(0xea8c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapLocation =
+      IconData(0xea8d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapGpsNavigation04 =
+      IconData(0xea8e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapGpsNavigation03 =
+      IconData(0xea8f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapGpsNavigation01 =
+      IconData(0xea90, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMapGpsNavigation =
+      IconData(0xea91, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineMap =
+      IconData(0xea92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineLocationUser =
+      IconData(0xea93, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineLocationShare =
+      IconData(0xea94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineLocationRemove =
+      IconData(0xea95, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineLocationMinus =
+      IconData(0xea96, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineLocationAdd =
+      IconData(0xea97, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineLocation =
+      IconData(0xea98, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineHomeLocation01 =
+      IconData(0xea99, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineHomeLocation =
+      IconData(0xea9a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineGps01 =
+      IconData(0xea9b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineGpsOff =
+      IconData(0xea9c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineGps =
+      IconData(0xea9d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineGlobe01 =
+      IconData(0xea9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineGlobe =
+      IconData(0xea9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineFlag01 =
+      IconData(0xeaa0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineFlag =
+      IconData(0xeaa1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineDestination03 =
+      IconData(0xeaa2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineDestination02 =
+      IconData(0xeaa3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineDestination01 =
+      IconData(0xeaa4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData navigationMapsOutlineDestination =
+      IconData(0xeaa5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidWaves =
+      IconData(0xeaa6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidVynil01 =
+      IconData(0xeaa7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidVynil =
+      IconData(0xeaa8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidVideoTick =
+      IconData(0xeaa9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidVideoRemove =
+      IconData(0xeaaa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidVideoMinus =
+      IconData(0xeaab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidVideoFavourite =
+      IconData(0xeaac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidVideoAdd =
+      IconData(0xeaad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidStop =
+      IconData(0xeaae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidSpeakerPlus =
+      IconData(0xeaaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidSpeakerMute =
+      IconData(0xeab0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidSpeakerMinus =
+      IconData(0xeab1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidSpeakerDisable =
+      IconData(0xeab2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidSpeaker =
+      IconData(0xeab3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidSong01 =
+      IconData(0xeab4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidSong =
+      IconData(0xeab5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidShuffle =
+      IconData(0xeab6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidReplay =
+      IconData(0xeab7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidRepeat =
+      IconData(0xeab8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidRecord =
+      IconData(0xeab9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidQueue =
+      IconData(0xeaba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidProjector =
+      IconData(0xeabb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPrevious01 =
+      IconData(0xeabc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPrevious =
+      IconData(0xeabd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPlaylist01 =
+      IconData(0xeabe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPlaylist =
+      IconData(0xeabf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPlayRemove01 =
+      IconData(0xeac0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPlayRemove =
+      IconData(0xeac1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPlayFavourite =
+      IconData(0xeac2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPlayAdd =
+      IconData(0xeac3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPlay =
+      IconData(0xeac4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidPause =
+      IconData(0xeac5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidNext01 =
+      IconData(0xeac6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidNext =
+      IconData(0xeac7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidMusic05 =
+      IconData(0xeac8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidMusic04 =
+      IconData(0xeac9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidMusic03 =
+      IconData(0xeaca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidMusic02 =
+      IconData(0xeacb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidMusic01 =
+      IconData(0xeacc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidMusic =
+      IconData(0xeacd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidLoudspeaker =
+      IconData(0xeace, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidIpod =
+      IconData(0xeacf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImage01 =
+      IconData(0xead0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageUpload =
+      IconData(0xead1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageTick =
+      IconData(0xead2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageRemove =
+      IconData(0xead3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageMinus =
+      IconData(0xead4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageFavourite =
+      IconData(0xead5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageEdit =
+      IconData(0xead6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageDownload =
+      IconData(0xead7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImageAdd =
+      IconData(0xead8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidImage =
+      IconData(0xead9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidHeadphones1 =
+      IconData(0xeada, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidHeadphonesSilent =
+      IconData(0xeadb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidHeadphones =
+      IconData(0xeadc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidFloppyDisk =
+      IconData(0xeadd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidFilm03 =
+      IconData(0xeade, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidFilm02 =
+      IconData(0xeadf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidFilm01 =
+      IconData(0xeae0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidFilm =
+      IconData(0xeae1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidFavourite =
+      IconData(0xeae2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidEqualizer01 =
+      IconData(0xeae3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidEqualizer =
+      IconData(0xeae4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidEarphone =
+      IconData(0xeae5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidClapperboard =
+      IconData(0xeae6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCdBurning =
+      IconData(0xeae7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCamera01 =
+      IconData(0xeae8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCameraVideo01 =
+      IconData(0xeae9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCameraVideoSilent =
+      IconData(0xeaea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCameraVideo =
+      IconData(0xeaeb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCameraSilent01 =
+      IconData(0xeaec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCameraSilent =
+      IconData(0xeaed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioSolidCamera =
+      IconData(0xeaee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineWaves =
+      IconData(0xeaef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineVynil01 =
+      IconData(0xeaf0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineVynil =
+      IconData(0xeaf1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineVideoTick =
+      IconData(0xeaf2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineVideoRemove =
+      IconData(0xeaf3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineVideoMinus =
+      IconData(0xeaf4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineVideoFavourite =
+      IconData(0xeaf5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineVideoAdd =
+      IconData(0xeaf6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineStop =
+      IconData(0xeaf7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineSpeakerPlus =
+      IconData(0xeaf8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineSpeakerMute =
+      IconData(0xeaf9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineSpeakerMinus =
+      IconData(0xeafa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineSpeakerDisable =
+      IconData(0xeafb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineSpeaker =
+      IconData(0xeafc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineSong01 =
+      IconData(0xeafd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineSong =
+      IconData(0xeafe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineShuffle =
+      IconData(0xeaff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineReplay =
+      IconData(0xeb00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineRepeat =
+      IconData(0xeb01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineRecord =
+      IconData(0xeb02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineQueue =
+      IconData(0xeb03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineProjector =
+      IconData(0xeb04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePrevious01 =
+      IconData(0xeb05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePrevious =
+      IconData(0xeb06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePlaylist01 =
+      IconData(0xeb07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePlaylist =
+      IconData(0xeb08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePlayRemove01 =
+      IconData(0xeb09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePlayRemove =
+      IconData(0xeb0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePlayFavourite =
+      IconData(0xeb0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePlayAdd =
+      IconData(0xeb0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePlay =
+      IconData(0xeb0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlinePause =
+      IconData(0xeb0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineNext01 =
+      IconData(0xeb0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineNext =
+      IconData(0xeb10, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineMusic05 =
+      IconData(0xeb11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineMusic04 =
+      IconData(0xeb12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineMusic03 =
+      IconData(0xeb13, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineMusic02 =
+      IconData(0xeb14, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineMusic01 =
+      IconData(0xeb15, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineMusic =
+      IconData(0xeb16, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineLoudspeaker =
+      IconData(0xeb17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineIpod =
+      IconData(0xeb18, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImage01 =
+      IconData(0xeb19, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageUpload =
+      IconData(0xeb1a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageTick =
+      IconData(0xeb1b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageRemove =
+      IconData(0xeb1c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageMinus =
+      IconData(0xeb1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageFavourite =
+      IconData(0xeb1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageEdit =
+      IconData(0xeb1f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageDownload =
+      IconData(0xeb20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImageAdd =
+      IconData(0xeb21, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineImage =
+      IconData(0xeb22, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineHeadphones1 =
+      IconData(0xeb23, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineHeadphonesSilent =
+      IconData(0xeb24, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineHeadphones =
+      IconData(0xeb25, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineFloppyDisk =
+      IconData(0xeb26, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineFilm03 =
+      IconData(0xeb27, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineFilm02 =
+      IconData(0xeb28, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineFilm01 =
+      IconData(0xeb29, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineFilm =
+      IconData(0xeb2a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineFavourite =
+      IconData(0xeb2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineEqualizer01 =
+      IconData(0xeb2c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineEqualizer =
+      IconData(0xeb2d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineEarphone =
+      IconData(0xeb2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineClapperboard =
+      IconData(0xeb2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCdBurning =
+      IconData(0xeb30, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCamera01 =
+      IconData(0xeb31, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCameraVideo01 =
+      IconData(0xeb32, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCameraVideoSilent =
+      IconData(0xeb33, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCameraVideo =
+      IconData(0xeb34, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCameraSilent01 =
+      IconData(0xeb35, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCameraSilent =
+      IconData(0xeb36, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData multimediaAndAudioOutlineCamera =
+      IconData(0xeb37, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuUser =
+      IconData(0xeb38, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuLineVertical01 =
+      IconData(0xeb39, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuLineVertical =
+      IconData(0xeb3a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuLineHorizontal01 =
+      IconData(0xeb3b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuLineHorizontal =
+      IconData(0xeb3c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuHome =
+      IconData(0xeb3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuCircleVertical01 =
+      IconData(0xeb3e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidMenuCircleVertical =
+      IconData(0xeb3f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidApps01 =
+      IconData(0xeb40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidAppsRectangle =
+      IconData(0xeb41, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidAppsCircle =
+      IconData(0xeb42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuSolidApps =
+      IconData(0xeb43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuUser =
+      IconData(0xeb44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuLineVertical01 =
+      IconData(0xeb45, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuLineVertical =
+      IconData(0xeb46, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuLineHorizontal01 =
+      IconData(0xeb47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuLineHorizontal =
+      IconData(0xeb48, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuHome =
+      IconData(0xeb49, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuCircleVertical01 =
+      IconData(0xeb4a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineMenuCircleVertical =
+      IconData(0xeb4b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineApps01 =
+      IconData(0xeb4c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineAppsRectangle =
+      IconData(0xeb4d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineAppsCircle =
+      IconData(0xeb4e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menuOutlineApps =
+      IconData(0xeb4f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidZoomText =
+      IconData(0xeb50, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidZoomOut =
+      IconData(0xeb51, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidZoomIn =
+      IconData(0xeb52, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidZoom =
+      IconData(0xeb53, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidWarningPolygon =
+      IconData(0xeb54, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidWarningError =
+      IconData(0xeb55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidWarning =
+      IconData(0xeb56, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidUserRectangle =
+      IconData(0xeb57, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidUserCircle =
+      IconData(0xeb58, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidUser =
+      IconData(0xeb59, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidUnlock01 =
+      IconData(0xeb5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidUnlock =
+      IconData(0xeb5b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTrash01 =
+      IconData(0xeb5c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTrash =
+      IconData(0xeb5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTraining =
+      IconData(0xeb5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTicketPercent =
+      IconData(0xeb5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTicket =
+      IconData(0xeb60, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTickDouble =
+      IconData(0xeb61, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTick =
+      IconData(0xeb62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidTarget =
+      IconData(0xeb63, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidStar =
+      IconData(0xeb64, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSpeedTest =
+      IconData(0xeb65, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSortRectangle =
+      IconData(0xeb66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSortCircle =
+      IconData(0xeb67, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSortArrowUp01 =
+      IconData(0xeb68, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSortArrowUp =
+      IconData(0xeb69, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSortArrowDown01 =
+      IconData(0xeb6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSortArrowDown =
+      IconData(0xeb6b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSmileRectangle =
+      IconData(0xeb6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSmileEllipse =
+      IconData(0xeb6d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidShoppingBasket =
+      IconData(0xeb6e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidShoppingBag =
+      IconData(0xeb6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidShieldWarning =
+      IconData(0xeb70, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidShieldCheck =
+      IconData(0xeb71, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidShield =
+      IconData(0xeb72, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidShareRectangle =
+      IconData(0xeb73, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidShare =
+      IconData(0xeb74, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSetting =
+      IconData(0xeb75, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSearch03 =
+      IconData(0xeb76, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSearch02 =
+      IconData(0xeb77, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSearch01 =
+      IconData(0xeb78, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSearchRemove =
+      IconData(0xeb79, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSearchPlus =
+      IconData(0xeb7a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSearchMinus =
+      IconData(0xeb7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSadRectangle =
+      IconData(0xeb7c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidSadCircle =
+      IconData(0xeb7d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidReplyRectangle =
+      IconData(0xeb7e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidRemove02 =
+      IconData(0xeb7f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidRemove01 =
+      IconData(0xeb80, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidRemoveRectangle =
+      IconData(0xeb81, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidRemoveCircle =
+      IconData(0xeb82, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidRemove =
+      IconData(0xeb83, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPresentation =
+      IconData(0xeb84, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPowerRectangle =
+      IconData(0xeb85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPowerCircle =
+      IconData(0xeb86, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPlus01 =
+      IconData(0xeb87, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPlus =
+      IconData(0xeb88, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPlugin =
+      IconData(0xeb89, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPin =
+      IconData(0xeb8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidPaintBucket =
+      IconData(0xeb8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidOpenBook =
+      IconData(0xeb8c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotification05 =
+      IconData(0xeb8d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotification04 =
+      IconData(0xeb8e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotification03 =
+      IconData(0xeb8f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotification02 =
+      IconData(0xeb90, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotification01 =
+      IconData(0xeb91, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotificationSilent1 =
+      IconData(0xeb92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotificationSilent =
+      IconData(0xeb93, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotificationRinging1 =
+      IconData(0xeb94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotificationRinging =
+      IconData(0xeb95, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotificationRectangle =
+      IconData(0xeb96, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotificationCircle =
+      IconData(0xeb97, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotification =
+      IconData(0xeb98, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNotepad =
+      IconData(0xeb99, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidNib =
+      IconData(0xeb9a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMouse =
+      IconData(0xeb9b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMoreVertical =
+      IconData(0xeb9c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMoreHorizontal =
+      IconData(0xeb9d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMoney =
+      IconData(0xeb9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMinus01 =
+      IconData(0xeb9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMinus =
+      IconData(0xeba0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMicrophoneMute =
+      IconData(0xeba1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMicrophone =
+      IconData(0xeba2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMicMute =
+      IconData(0xeba3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidMic =
+      IconData(0xeba4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLove =
+      IconData(0xeba5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLogout01 =
+      IconData(0xeba6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLogout =
+      IconData(0xeba7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLogin01 =
+      IconData(0xeba8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLogin =
+      IconData(0xeba9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLock01 =
+      IconData(0xebaa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLock =
+      IconData(0xebab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLocation03 =
+      IconData(0xebac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLocation02 =
+      IconData(0xebad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLocation01 =
+      IconData(0xebae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLoading01 =
+      IconData(0xebaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLoading =
+      IconData(0xebb0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidListViewRectangle =
+      IconData(0xebb1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidListViewCircle =
+      IconData(0xebb2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLike =
+      IconData(0xebb3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLifebuoy =
+      IconData(0xebb4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidLayers =
+      IconData(0xebb5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidInvoice =
+      IconData(0xebb6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidInteractive =
+      IconData(0xebb7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidInformationRectangle =
+      IconData(0xebb8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidInformationPolygon =
+      IconData(0xebb9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidInformationCircle =
+      IconData(0xebba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidInformation =
+      IconData(0xebbb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidImageRectangle =
+      IconData(0xebbc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidImageCircle =
+      IconData(0xebbd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidHome04 =
+      IconData(0xebbe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidHome03 =
+      IconData(0xebbf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidHome02 =
+      IconData(0xebc0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidHome01 =
+      IconData(0xebc1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidHelpPolygon =
+      IconData(0xebc2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidHelp =
+      IconData(0xebc3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidGlobe =
+      IconData(0xebc4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidGift =
+      IconData(0xebc5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFocus =
+      IconData(0xebc6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFlag =
+      IconData(0xebc7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter07 =
+      IconData(0xebc8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter06 =
+      IconData(0xebc9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter05 =
+      IconData(0xebca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter04 =
+      IconData(0xebcb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter03 =
+      IconData(0xebcc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter02 =
+      IconData(0xebcd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter01 =
+      IconData(0xebce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFilter =
+      IconData(0xebcf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidFeedRectangle =
+      IconData(0xebd0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidEye1 =
+      IconData(0xebd1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidEyeDisable =
+      IconData(0xebd2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidEye =
+      IconData(0xebd3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidEditRectangle =
+      IconData(0xebd4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidEdit =
+      IconData(0xebd5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidDislike =
+      IconData(0xebd6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidDisk =
+      IconData(0xebd7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidDiamond =
+      IconData(0xebd8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCpu =
+      IconData(0xebd9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCopyCheck =
+      IconData(0xebda, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCopy =
+      IconData(0xebdb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidComputer =
+      IconData(0xebdc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCompass =
+      IconData(0xebdd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCollection =
+      IconData(0xebde, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidClockRectangle1 =
+      IconData(0xebdf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidClockRectangle =
+      IconData(0xebe0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidClockCircle1 =
+      IconData(0xebe1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidClockCircle =
+      IconData(0xebe2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidClearRectangle =
+      IconData(0xebe3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidClearCircle =
+      IconData(0xebe4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCheckRectangle =
+      IconData(0xebe5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCheckMarkRectangle =
+      IconData(0xebe6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCheckMarkCircle =
+      IconData(0xebe7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCheckCircle =
+      IconData(0xebe8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCameraOff =
+      IconData(0xebe9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCamera =
+      IconData(0xebea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidCalendar =
+      IconData(0xebeb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidBrowser =
+      IconData(0xebec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidBrightness =
+      IconData(0xebed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidBookmark =
+      IconData(0xebee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidBoard =
+      IconData(0xebef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidAppsRemove =
+      IconData(0xebf0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidAppsAdd =
+      IconData(0xebf1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidApps =
+      IconData(0xebf2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidAlarm =
+      IconData(0xebf3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidAgenda =
+      IconData(0xebf4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidAddRectangle =
+      IconData(0xebf5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceSolidAddCircle =
+      IconData(0xebf6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineZoomText =
+      IconData(0xebf7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineZoomOut =
+      IconData(0xebf8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineZoomIn =
+      IconData(0xebf9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineZoom =
+      IconData(0xebfa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineWarningPolygon =
+      IconData(0xebfb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineWarningError =
+      IconData(0xebfc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineWarning =
+      IconData(0xebfd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineUserRectangle =
+      IconData(0xebfe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineUserCircle =
+      IconData(0xebff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineUser =
+      IconData(0xec00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineUnlock01 =
+      IconData(0xec01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineUnlock =
+      IconData(0xec02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTrash01 =
+      IconData(0xec03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTrash =
+      IconData(0xec04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTraining =
+      IconData(0xec05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTicketPercent =
+      IconData(0xec06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTicket =
+      IconData(0xec07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTickDouble =
+      IconData(0xec08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTick =
+      IconData(0xec09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineTarget =
+      IconData(0xec0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineStar =
+      IconData(0xec0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSpeedTest =
+      IconData(0xec0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSortRectangle =
+      IconData(0xec0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSortCircle =
+      IconData(0xec0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSortArrowUp01 =
+      IconData(0xec0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSortArrowUp =
+      IconData(0xec10, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSortArrowDown01 =
+      IconData(0xec11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSortArrowDown =
+      IconData(0xec12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSmileRectangle =
+      IconData(0xec13, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSmileEllipse =
+      IconData(0xec14, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineShoppingBasket =
+      IconData(0xec15, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineShoppingBag =
+      IconData(0xec16, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineShieldWarning =
+      IconData(0xec17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineShieldCheck =
+      IconData(0xec18, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineShield =
+      IconData(0xec19, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineShareRectangle =
+      IconData(0xec1a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineShare =
+      IconData(0xec1b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSetting =
+      IconData(0xec1c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSearch03 =
+      IconData(0xec1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSearch02 =
+      IconData(0xec1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSearch01 =
+      IconData(0xec1f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSearchRemove =
+      IconData(0xec20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSearchPlus =
+      IconData(0xec21, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSearchMinus =
+      IconData(0xec22, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSadRectangle =
+      IconData(0xec23, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineSadCircle =
+      IconData(0xec24, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineReplyRectangle =
+      IconData(0xec25, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineRemove02 =
+      IconData(0xec26, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineRemove01 =
+      IconData(0xec27, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineRemoveRectangle =
+      IconData(0xec28, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineRemoveCircle =
+      IconData(0xec29, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineRemove =
+      IconData(0xec2a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePresentation =
+      IconData(0xec2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePowerRectangle =
+      IconData(0xec2c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePowerCircle =
+      IconData(0xec2d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePlus01 =
+      IconData(0xec2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePlus =
+      IconData(0xec2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePlugin =
+      IconData(0xec30, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePin =
+      IconData(0xec31, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlinePaintBucket =
+      IconData(0xec32, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineOpenBook =
+      IconData(0xec33, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotification05 =
+      IconData(0xec34, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotification04 =
+      IconData(0xec35, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotification03 =
+      IconData(0xec36, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotification02 =
+      IconData(0xec37, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotification01 =
+      IconData(0xec38, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotificationSilent1 =
+      IconData(0xec39, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotificationSilent =
+      IconData(0xec3a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotificationRinging1 =
+      IconData(0xec3b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotificationRinging =
+      IconData(0xec3c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotificationRectangle =
+      IconData(0xec3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotificationCircle =
+      IconData(0xec3e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotification =
+      IconData(0xec3f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNotepad =
+      IconData(0xec40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineNib =
+      IconData(0xec41, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMouse =
+      IconData(0xec42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMoreVertical =
+      IconData(0xec43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMoreHorizontal =
+      IconData(0xec44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMoney =
+      IconData(0xec45, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMinus01 =
+      IconData(0xec46, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMinus =
+      IconData(0xec47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMicrophoneMute =
+      IconData(0xec48, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMicrophone =
+      IconData(0xec49, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMicMute =
+      IconData(0xec4a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineMic =
+      IconData(0xec4b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLove =
+      IconData(0xec4c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLogout01 =
+      IconData(0xec4d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLogout =
+      IconData(0xec4e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLogin01 =
+      IconData(0xec4f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLogin =
+      IconData(0xec50, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLock01 =
+      IconData(0xec51, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLock =
+      IconData(0xec52, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLocation03 =
+      IconData(0xec53, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLocation02 =
+      IconData(0xec54, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLocation01 =
+      IconData(0xec55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLoading01 =
+      IconData(0xec56, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLoading =
+      IconData(0xec57, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineListViewRectangle =
+      IconData(0xec58, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineListViewCircle =
+      IconData(0xec59, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLike =
+      IconData(0xec5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLifebuoy =
+      IconData(0xec5b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineLayers =
+      IconData(0xec5c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineInvoice =
+      IconData(0xec5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineInteractive =
+      IconData(0xec5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineInformationRectangle =
+      IconData(0xec5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineInformationPolygon =
+      IconData(0xec60, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineInformationCircle =
+      IconData(0xec61, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineInformation =
+      IconData(0xec62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineImageRectangle =
+      IconData(0xec63, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineImageCircle =
+      IconData(0xec64, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineHome04 =
+      IconData(0xec65, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineHome03 =
+      IconData(0xec66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineHome02 =
+      IconData(0xec67, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineHome01 =
+      IconData(0xec68, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineHelpPolygon =
+      IconData(0xec69, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineHelp =
+      IconData(0xec6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineGlobe =
+      IconData(0xec6b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineGift =
+      IconData(0xec6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFocus =
+      IconData(0xec6d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFlag =
+      IconData(0xec6e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter07 =
+      IconData(0xec6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter06 =
+      IconData(0xec70, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter05 =
+      IconData(0xec71, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter04 =
+      IconData(0xec72, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter03 =
+      IconData(0xec73, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter02 =
+      IconData(0xec74, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter01 =
+      IconData(0xec75, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFilter =
+      IconData(0xec76, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineFeedRectangle =
+      IconData(0xec77, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineEye01 =
+      IconData(0xec78, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineEyeDisable =
+      IconData(0xec79, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineEye =
+      IconData(0xec7a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineEditRectangle =
+      IconData(0xec7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineEdit =
+      IconData(0xec7c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineDislike =
+      IconData(0xec7d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineDisk =
+      IconData(0xec7e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineDiamond =
+      IconData(0xec7f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCpu =
+      IconData(0xec80, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCopyCheck =
+      IconData(0xec81, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCopy =
+      IconData(0xec82, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineComputer =
+      IconData(0xec83, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCompass =
+      IconData(0xec84, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCollection =
+      IconData(0xec85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineClockRectangle1 =
+      IconData(0xec86, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineClockRectangle =
+      IconData(0xec87, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineClockCircle1 =
+      IconData(0xec88, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineClockCircle =
+      IconData(0xec89, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineClearRectangle =
+      IconData(0xec8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineClearCircle =
+      IconData(0xec8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCheckRectangle =
+      IconData(0xec8c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCheckMarkRectangle =
+      IconData(0xec8d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCheckMarkCircle =
+      IconData(0xec8e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCheckCircle =
+      IconData(0xec8f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCameraOff =
+      IconData(0xec90, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCamera =
+      IconData(0xec91, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineCalendar =
+      IconData(0xec92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineBrowser =
+      IconData(0xec93, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineBrightness =
+      IconData(0xec94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineBookmark =
+      IconData(0xec95, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineBoard =
+      IconData(0xec96, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineAppsRemove =
+      IconData(0xec97, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineAppsAdd =
+      IconData(0xec98, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineApps =
+      IconData(0xec99, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineAlarm =
+      IconData(0xec9a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineAgenda =
+      IconData(0xec9b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineAddRectangle =
+      IconData(0xec9c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData interfaceOutlineAddCircle =
+      IconData(0xec9d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidWheelChair01 =
+      IconData(0xec9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidWheelChair =
+      IconData(0xec9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidTransfusion =
+      IconData(0xeca0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidTooth =
+      IconData(0xeca1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidThermometer =
+      IconData(0xeca2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidTestTube =
+      IconData(0xeca3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidSyrup =
+      IconData(0xeca4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidStethoscope =
+      IconData(0xeca5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidPlaster =
+      IconData(0xeca6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidPills01 =
+      IconData(0xeca7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidPills =
+      IconData(0xeca8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidPillTablet =
+      IconData(0xeca9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidMedicalService =
+      IconData(0xecaa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidMedicalInformation =
+      IconData(0xecab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidMedicalBook =
+      IconData(0xecac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidMask =
+      IconData(0xecad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidLocationHospital =
+      IconData(0xecae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidInjection =
+      IconData(0xecaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidHospital01 =
+      IconData(0xecb0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidHospitalBed =
+      IconData(0xecb1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidHospital =
+      IconData(0xecb2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidHoney =
+      IconData(0xecb3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidHeart =
+      IconData(0xecb4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidHealthCare =
+      IconData(0xecb5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidGivePill =
+      IconData(0xecb6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidGiveBlood =
+      IconData(0xecb7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidEyeDropper =
+      IconData(0xecb8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidEye =
+      IconData(0xecb9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidDna =
+      IconData(0xecba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidClipboardActivity =
+      IconData(0xecbb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidCardiogram =
+      IconData(0xecbc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidCapsule1 =
+      IconData(0xecbd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidCapsule01 =
+      IconData(0xecbe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidCallHospital =
+      IconData(0xecbf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidBlood01 =
+      IconData(0xecc0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidBlood =
+      IconData(0xecc1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidAmbulance =
+      IconData(0xecc2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthSolidActivity =
+      IconData(0xecc3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineWheelChair01 =
+      IconData(0xecc4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineWheelChair =
+      IconData(0xecc5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineTransfusion =
+      IconData(0xecc6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineTooth =
+      IconData(0xecc7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineThermometer =
+      IconData(0xecc8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineTestTube =
+      IconData(0xecc9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineSyrup =
+      IconData(0xecca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineStethoscope =
+      IconData(0xeccb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlinePlaster =
+      IconData(0xeccc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlinePills01 =
+      IconData(0xeccd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlinePills =
+      IconData(0xecce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlinePillTablet =
+      IconData(0xeccf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineMedicalService =
+      IconData(0xecd0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineMedicalInformation =
+      IconData(0xecd1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineMedicalBook =
+      IconData(0xecd2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineMask =
+      IconData(0xecd3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineLocationHospital =
+      IconData(0xecd4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineInjection =
+      IconData(0xecd5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineHospital01 =
+      IconData(0xecd6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineHospitalBed =
+      IconData(0xecd7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineHospital =
+      IconData(0xecd8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineHoney =
+      IconData(0xecd9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineHeart =
+      IconData(0xecda, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineHealthCare =
+      IconData(0xecdb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineGivePill =
+      IconData(0xecdc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineGiveBlood =
+      IconData(0xecdd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineEyeDropper =
+      IconData(0xecde, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineEye =
+      IconData(0xecdf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineDna =
+      IconData(0xece0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineClipboardActivity =
+      IconData(0xece1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineCardiogram =
+      IconData(0xece2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineCapsule01 =
+      IconData(0xece3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineCapsule =
+      IconData(0xece4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineCallHospital =
+      IconData(0xece5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineBlood01 =
+      IconData(0xece6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineBlood =
+      IconData(0xece7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineAmbulance =
+      IconData(0xece8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData healthOutlineActivity =
+      IconData(0xece9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridSolidPixelGridRectangle =
+      IconData(0xecea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridSolidPixelGridCircle =
+      IconData(0xeceb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineRight =
+      IconData(0xecec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlinePotrait02 =
+      IconData(0xeced, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlinePotrait01 =
+      IconData(0xecee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlinePotrait =
+      IconData(0xecef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlinePixelGridRectangle =
+      IconData(0xecf0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlinePixelGridCircle =
+      IconData(0xecf1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLeft =
+      IconData(0xecf2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout10 =
+      IconData(0xecf3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout09 =
+      IconData(0xecf4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout08 =
+      IconData(0xecf5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout07 =
+      IconData(0xecf6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout06 =
+      IconData(0xecf7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout05 =
+      IconData(0xecf8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout04 =
+      IconData(0xecf9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout03 =
+      IconData(0xecfa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout02 =
+      IconData(0xecfb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout01 =
+      IconData(0xecfc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLayout =
+      IconData(0xecfd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLandscape02 =
+      IconData(0xecfe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLandscape01 =
+      IconData(0xecff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineLandscape =
+      IconData(0xed00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineGrid02 =
+      IconData(0xed01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineGrid01 =
+      IconData(0xed02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineGrid =
+      IconData(0xed03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineAlignTop =
+      IconData(0xed04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineAlignRight =
+      IconData(0xed05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineAlignLeft =
+      IconData(0xed06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineAlignCenter1 =
+      IconData(0xed07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineAlignCenter =
+      IconData(0xed08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData gridOutlineAlignBottom =
+      IconData(0xed09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidYen =
+      IconData(0xed0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWithdraw =
+      IconData(0xed0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWallet01 =
+      IconData(0xed0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletUser01 =
+      IconData(0xed0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletUser =
+      IconData(0xed0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletRemove01 =
+      IconData(0xed0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletRemove =
+      IconData(0xed10, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletMinus01 =
+      IconData(0xed11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletMinus =
+      IconData(0xed12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletCheck01 =
+      IconData(0xed13, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletCheck =
+      IconData(0xed14, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowUp01 =
+      IconData(0xed15, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowUp =
+      IconData(0xed16, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowRight01 =
+      IconData(0xed17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowRight =
+      IconData(0xed18, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowLeft01 =
+      IconData(0xed19, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowLeft =
+      IconData(0xed1a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowDown01 =
+      IconData(0xed1b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletArrowDown =
+      IconData(0xed1c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletAdd01 =
+      IconData(0xed1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWalletAdd =
+      IconData(0xed1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidWallet =
+      IconData(0xed1f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidUmbrella =
+      IconData(0xed20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidTransfer =
+      IconData(0xed21, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidShield =
+      IconData(0xed22, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidSafeBox01 =
+      IconData(0xed23, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidSafeBox =
+      IconData(0xed24, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidPyramid =
+      IconData(0xed25, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidProfit02 =
+      IconData(0xed26, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidProfit01 =
+      IconData(0xed27, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidProfit =
+      IconData(0xed28, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidPound =
+      IconData(0xed29, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidPieChart =
+      IconData(0xed2a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoney02 =
+      IconData(0xed2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoney01 =
+      IconData(0xed2c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyYen =
+      IconData(0xed2d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyWithdraw =
+      IconData(0xed2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyUser =
+      IconData(0xed2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyRemove =
+      IconData(0xed30, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyProfit01 =
+      IconData(0xed31, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyProfit =
+      IconData(0xed32, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyPound =
+      IconData(0xed33, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyMinus =
+      IconData(0xed34, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyIncome =
+      IconData(0xed35, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyFavourite =
+      IconData(0xed36, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyEuro =
+      IconData(0xed37, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyDollar =
+      IconData(0xed38, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyCoin =
+      IconData(0xed39, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyCheck =
+      IconData(0xed3a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyBagYen =
+      IconData(0xed3b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyBagPound =
+      IconData(0xed3c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyBagEuro =
+      IconData(0xed3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyBagDollar =
+      IconData(0xed3e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyBagCoin1 =
+      IconData(0xed3f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyBagCoin =
+      IconData(0xed40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyBag =
+      IconData(0xed41, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyArrowUp =
+      IconData(0xed42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyArrowRight =
+      IconData(0xed43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyArrowLeft =
+      IconData(0xed44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyArrowDown =
+      IconData(0xed45, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoneyAdd =
+      IconData(0xed46, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMoney =
+      IconData(0xed47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMobilePayment =
+      IconData(0xed48, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidMasterCard =
+      IconData(0xed49, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidLineChart02 =
+      IconData(0xed4a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidLineChart01 =
+      IconData(0xed4b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidLineChart =
+      IconData(0xed4c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidGold =
+      IconData(0xed4d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidEuro =
+      IconData(0xed4e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidEarnings =
+      IconData(0xed4f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidDonateCoin =
+      IconData(0xed50, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidDonate =
+      IconData(0xed51, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidDollar =
+      IconData(0xed52, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCube =
+      IconData(0xed53, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCoinYen =
+      IconData(0xed54, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCoinPound =
+      IconData(0xed55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCoinEuro =
+      IconData(0xed56, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCoinDollar =
+      IconData(0xed57, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCoin =
+      IconData(0xed58, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidChartHistogram =
+      IconData(0xed59, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidChartArrowUp =
+      IconData(0xed5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidChartArrowDown =
+      IconData(0xed5b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardWithdraw =
+      IconData(0xed5c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardUser =
+      IconData(0xed5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardRemove =
+      IconData(0xed5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardMinus =
+      IconData(0xed5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardCheck =
+      IconData(0xed60, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardArrowUp =
+      IconData(0xed61, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardArrowRight =
+      IconData(0xed62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardArrowLeft =
+      IconData(0xed63, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardArrowDown =
+      IconData(0xed64, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCardAdd =
+      IconData(0xed65, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidCard =
+      IconData(0xed66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidBriefcase01 =
+      IconData(0xed67, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidBriefcase =
+      IconData(0xed68, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidBill =
+      IconData(0xed69, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidBarChart01 =
+      IconData(0xed6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidBarChart =
+      IconData(0xed6b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidBank =
+      IconData(0xed6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentSolidAtm =
+      IconData(0xed6d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineYen =
+      IconData(0xed6e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWithdraw =
+      IconData(0xed6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWallet01 =
+      IconData(0xed70, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletUser01 =
+      IconData(0xed71, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletUser =
+      IconData(0xed72, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletRemove01 =
+      IconData(0xed73, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletRemove =
+      IconData(0xed74, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletMinus01 =
+      IconData(0xed75, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletMinus =
+      IconData(0xed76, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletCheck01 =
+      IconData(0xed77, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletCheck =
+      IconData(0xed78, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowUp01 =
+      IconData(0xed79, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowUp =
+      IconData(0xed7a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowRight01 =
+      IconData(0xed7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowRight =
+      IconData(0xed7c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowLeft01 =
+      IconData(0xed7d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowLeft =
+      IconData(0xed7e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowDown01 =
+      IconData(0xed7f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletArrowDown =
+      IconData(0xed80, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletAdd01 =
+      IconData(0xed81, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWalletAdd =
+      IconData(0xed82, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineWallet =
+      IconData(0xed83, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineUmbrella =
+      IconData(0xed84, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineTransfer =
+      IconData(0xed85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineShield =
+      IconData(0xed86, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineSafeBox01 =
+      IconData(0xed87, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineSafeBox =
+      IconData(0xed88, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlinePyramid =
+      IconData(0xed89, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineProfit02 =
+      IconData(0xed8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineProfit01 =
+      IconData(0xed8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineProfit =
+      IconData(0xed8c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlinePound =
+      IconData(0xed8d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlinePieChart =
+      IconData(0xed8e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoney02 =
+      IconData(0xed8f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoney01 =
+      IconData(0xed90, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyYen =
+      IconData(0xed91, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyWithdraw =
+      IconData(0xed92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyUser =
+      IconData(0xed93, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyRemove =
+      IconData(0xed94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyProfit01 =
+      IconData(0xed95, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyProfit =
+      IconData(0xed96, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyPound =
+      IconData(0xed97, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyMinus =
+      IconData(0xed98, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyIncome =
+      IconData(0xed99, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyFavourite =
+      IconData(0xed9a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyEuro =
+      IconData(0xed9b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyDollar =
+      IconData(0xed9c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyCoin =
+      IconData(0xed9d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyCheck =
+      IconData(0xed9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyBagYen =
+      IconData(0xed9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyBagPound =
+      IconData(0xeda0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyBagEuro =
+      IconData(0xeda1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyBagDollar =
+      IconData(0xeda2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyBagCoin1 =
+      IconData(0xeda3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyBagCoin =
+      IconData(0xeda4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyBag =
+      IconData(0xeda5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyArrowUp =
+      IconData(0xeda6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyArrowRight =
+      IconData(0xeda7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyArrowLeft =
+      IconData(0xeda8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyArrowDown =
+      IconData(0xeda9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoneyAdd =
+      IconData(0xedaa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMoney =
+      IconData(0xedab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMobilePayment =
+      IconData(0xedac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineMasterCard =
+      IconData(0xedad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineLineChart02 =
+      IconData(0xedae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineLineChart01 =
+      IconData(0xedaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineLineChart =
+      IconData(0xedb0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineHartHistogram =
+      IconData(0xedb1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineHartArrowUp =
+      IconData(0xedb2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineHartArrowDown =
+      IconData(0xedb3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineGold =
+      IconData(0xedb4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineEuro =
+      IconData(0xedb5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineEarnings =
+      IconData(0xedb6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineDonateCoin =
+      IconData(0xedb7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineDonate =
+      IconData(0xedb8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineDollar =
+      IconData(0xedb9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCube =
+      IconData(0xedba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCoinYen =
+      IconData(0xedbb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCoinPound =
+      IconData(0xedbc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCoinEuro =
+      IconData(0xedbd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCoinDollar =
+      IconData(0xedbe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCoin =
+      IconData(0xedbf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardWithdraw =
+      IconData(0xedc0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardUser =
+      IconData(0xedc1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardRemove =
+      IconData(0xedc2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardMinus =
+      IconData(0xedc3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardCheck =
+      IconData(0xedc4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardArrowUp =
+      IconData(0xedc5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardArrowRight =
+      IconData(0xedc6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardArrowLeft =
+      IconData(0xedc7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardArrowDown =
+      IconData(0xedc8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCardAdd =
+      IconData(0xedc9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineCard =
+      IconData(0xedca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineBriefcase01 =
+      IconData(0xedcb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineBriefcase =
+      IconData(0xedcc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineBill =
+      IconData(0xedcd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineBarChart01 =
+      IconData(0xedce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineBarChart =
+      IconData(0xedcf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineBank =
+      IconData(0xedd0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData financeAndPaymentOutlineAtm =
+      IconData(0xedd1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolder03 =
+      IconData(0xedd2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolder02 =
+      IconData(0xedd3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolder01 =
+      IconData(0xedd4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderUpload01 =
+      IconData(0xedd5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderUpload =
+      IconData(0xedd6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderShare =
+      IconData(0xedd7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderSearch01 =
+      IconData(0xedd8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderSearch =
+      IconData(0xedd9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderRemove01 =
+      IconData(0xedda, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderRemove =
+      IconData(0xeddb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderReload =
+      IconData(0xeddc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderMinus01 =
+      IconData(0xeddd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderMinus =
+      IconData(0xedde, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderFavourite01 =
+      IconData(0xeddf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderFavourite =
+      IconData(0xede0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderDownload01 =
+      IconData(0xede1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderDownload =
+      IconData(0xede2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderAdd01 =
+      IconData(0xede3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderAdd =
+      IconData(0xede4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderAccept01 =
+      IconData(0xede5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolderAccept =
+      IconData(0xede6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFolder =
+      IconData(0xede7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFiles01 =
+      IconData(0xede8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFiles =
+      IconData(0xede9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFile04 =
+      IconData(0xedea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFile03 =
+      IconData(0xedeb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFile02 =
+      IconData(0xedec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFile01 =
+      IconData(0xeded, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileVideo =
+      IconData(0xedee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileUpload01 =
+      IconData(0xedef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileUpload =
+      IconData(0xedf0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileSharing =
+      IconData(0xedf1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileSearch01 =
+      IconData(0xedf2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileSearch =
+      IconData(0xedf3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileRemove01 =
+      IconData(0xedf4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileRemove =
+      IconData(0xedf5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileReload =
+      IconData(0xedf6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFilePng =
+      IconData(0xedf7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFilePdf =
+      IconData(0xedf8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileMusic =
+      IconData(0xedf9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileMinus01 =
+      IconData(0xedfa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileMinus =
+      IconData(0xedfb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileJpg =
+      IconData(0xedfc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileFavourite01 =
+      IconData(0xedfd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileFavourite =
+      IconData(0xedfe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileDownload01 =
+      IconData(0xedff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileDownload =
+      IconData(0xee00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileDoc =
+      IconData(0xee01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileAdd01 =
+      IconData(0xee02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileAdd =
+      IconData(0xee03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileAccept01 =
+      IconData(0xee04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFileAccept =
+      IconData(0xee05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidFile =
+      IconData(0xee06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidAttachment =
+      IconData(0xee07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchive2 =
+      IconData(0xee08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchive01 =
+      IconData(0xee09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveUpload =
+      IconData(0xee0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveSearch =
+      IconData(0xee0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveRemove =
+      IconData(0xee0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveFavourite =
+      IconData(0xee0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveDownload =
+      IconData(0xee0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveDone =
+      IconData(0xee0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveClear =
+      IconData(0xee10, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchiveAdd =
+      IconData(0xee11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderSolidArchive =
+      IconData(0xee12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolder03 =
+      IconData(0xee13, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolder02 =
+      IconData(0xee14, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolder01 =
+      IconData(0xee15, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderUpload01 =
+      IconData(0xee16, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderUpload =
+      IconData(0xee17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderShare =
+      IconData(0xee18, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderSearch01 =
+      IconData(0xee19, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderSearch =
+      IconData(0xee1a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderRemove01 =
+      IconData(0xee1b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderRemove =
+      IconData(0xee1c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderReload =
+      IconData(0xee1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderMinus01 =
+      IconData(0xee1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderMinus =
+      IconData(0xee1f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderFavourite01 =
+      IconData(0xee20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderFavourite =
+      IconData(0xee21, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderDownload01 =
+      IconData(0xee22, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderDownload =
+      IconData(0xee23, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderAdd01 =
+      IconData(0xee24, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderAdd =
+      IconData(0xee25, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderAccept01 =
+      IconData(0xee26, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolderAccept =
+      IconData(0xee27, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFolder =
+      IconData(0xee28, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFiles01 =
+      IconData(0xee29, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFiles =
+      IconData(0xee2a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFile04 =
+      IconData(0xee2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFile03 =
+      IconData(0xee2c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFile02 =
+      IconData(0xee2d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFile01 =
+      IconData(0xee2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileVideo =
+      IconData(0xee2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileUpload01 =
+      IconData(0xee30, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileUpload =
+      IconData(0xee31, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileSharing =
+      IconData(0xee32, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileSearch01 =
+      IconData(0xee33, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileSearch =
+      IconData(0xee34, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileRemove01 =
+      IconData(0xee35, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileRemove =
+      IconData(0xee36, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileReload =
+      IconData(0xee37, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFilePng =
+      IconData(0xee38, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFilePdf =
+      IconData(0xee39, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileMusic =
+      IconData(0xee3a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileMinus01 =
+      IconData(0xee3b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileMinus =
+      IconData(0xee3c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileJpg =
+      IconData(0xee3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileFavourite01 =
+      IconData(0xee3e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileFavourite =
+      IconData(0xee3f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileDownload01 =
+      IconData(0xee40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileDownload =
+      IconData(0xee41, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileDoc =
+      IconData(0xee42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileAdd01 =
+      IconData(0xee43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileAdd =
+      IconData(0xee44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileAccept01 =
+      IconData(0xee45, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFileAccept =
+      IconData(0xee46, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineFile =
+      IconData(0xee47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineAttachment =
+      IconData(0xee48, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchive1 =
+      IconData(0xee49, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchive01 =
+      IconData(0xee4a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveUpload =
+      IconData(0xee4b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveSearch =
+      IconData(0xee4c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveRemove =
+      IconData(0xee4d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveFavourite =
+      IconData(0xee4e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveDownload =
+      IconData(0xee4f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveDone =
+      IconData(0xee50, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveClear =
+      IconData(0xee51, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchiveAdd =
+      IconData(0xee52, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData filesAndFolderOutlineArchive =
+      IconData(0xee53, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidWhistle =
+      IconData(0xee54, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidVideoCall =
+      IconData(0xee55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTrophy =
+      IconData(0xee56, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTransform =
+      IconData(0xee57, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTestTube2 =
+      IconData(0xee58, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTestTube1 =
+      IconData(0xee59, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTestTube =
+      IconData(0xee5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTelescope =
+      IconData(0xee5b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTeacher01 =
+      IconData(0xee5c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTeacher =
+      IconData(0xee5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidTableLamp =
+      IconData(0xee5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidStudents =
+      IconData(0xee5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidStudentCard =
+      IconData(0xee60, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidStudent =
+      IconData(0xee61, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidStationery =
+      IconData(0xee62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidSquareRoot =
+      IconData(0xee63, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidSmartphoneLearning =
+      IconData(0xee64, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidSchool =
+      IconData(0xee65, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidRuler =
+      IconData(0xee66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidReport =
+      IconData(0xee67, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidRank =
+      IconData(0xee68, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidQuiz =
+      IconData(0xee69, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidProtractor1 =
+      IconData(0xee6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidProtractor =
+      IconData(0xee6b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidProjector =
+      IconData(0xee6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPlusRectangle =
+      IconData(0xee6d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPlusCircle =
+      IconData(0xee6e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPhysics =
+      IconData(0xee6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPencilPaper =
+      IconData(0xee70, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPencilBook =
+      IconData(0xee71, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPencil =
+      IconData(0xee72, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPen =
+      IconData(0xee73, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidPaintBoard =
+      IconData(0xee74, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidOnlineLearning =
+      IconData(0xee75, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidNotebook1 =
+      IconData(0xee76, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidNotebook =
+      IconData(0xee77, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMultiplyRectangle =
+      IconData(0xee78, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMultiplyCircle =
+      IconData(0xee79, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMonitor =
+      IconData(0xee7a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMinusRectangle =
+      IconData(0xee7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMinusCircle =
+      IconData(0xee7c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMicroscope =
+      IconData(0xee7d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMedal1 =
+      IconData(0xee7e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMedal =
+      IconData(0xee7f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMatrix =
+      IconData(0xee80, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidMaths =
+      IconData(0xee81, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidLockers =
+      IconData(0xee82, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidLibrary =
+      IconData(0xee83, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidIdea =
+      IconData(0xee84, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidHelp02 =
+      IconData(0xee85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidHelp01 =
+      IconData(0xee86, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidHelp =
+      IconData(0xee87, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidGraduationCap =
+      IconData(0xee88, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidGlobe1 =
+      IconData(0xee89, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidGlobe =
+      IconData(0xee8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidGlasses =
+      IconData(0xee8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidFountainPen =
+      IconData(0xee8c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidFlask =
+      IconData(0xee8d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidFiles =
+      IconData(0xee8e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidExam =
+      IconData(0xee8f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidEqualityRectangle =
+      IconData(0xee90, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidEqualityCircle =
+      IconData(0xee91, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidElearning =
+      IconData(0xee92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidDna =
+      IconData(0xee93, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidDivideRectangle =
+      IconData(0xee94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidDivideCircle =
+      IconData(0xee95, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidDiploma1 =
+      IconData(0xee96, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidDiploma =
+      IconData(0xee97, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidDesk =
+      IconData(0xee98, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidCubeStack =
+      IconData(0xee99, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidCompass =
+      IconData(0xee9a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidClipboard =
+      IconData(0xee9b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidChemistry02 =
+      IconData(0xee9c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidChemistry01 =
+      IconData(0xee9d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidChemistry =
+      IconData(0xee9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidChart =
+      IconData(0xee9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidCartesian =
+      IconData(0xeea0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidCanvas =
+      IconData(0xeea1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidCalendar =
+      IconData(0xeea2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidCalculator1 =
+      IconData(0xeea3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidCalculator =
+      IconData(0xeea4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBus =
+      IconData(0xeea5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBrowser =
+      IconData(0xeea6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBooks =
+      IconData(0xeea7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBook04 =
+      IconData(0xeea8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBook03 =
+      IconData(0xeea9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBook02 =
+      IconData(0xeeaa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBook01 =
+      IconData(0xeeab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookUpload1 =
+      IconData(0xeeac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookUpload =
+      IconData(0xeead, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookSearch1 =
+      IconData(0xeeae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookSearch =
+      IconData(0xeeaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookRemove1 =
+      IconData(0xeeb0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookRemove =
+      IconData(0xeeb1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookMinus1 =
+      IconData(0xeeb2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookMinus =
+      IconData(0xeeb3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookInfo1 =
+      IconData(0xeeb4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookInfo =
+      IconData(0xeeb5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookHelp1 =
+      IconData(0xeeb6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookHelp =
+      IconData(0xeeb7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookFavourite1 =
+      IconData(0xeeb8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookFavourite =
+      IconData(0xeeb9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookDownload1 =
+      IconData(0xeeba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookDownload =
+      IconData(0xeebb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookCheck1 =
+      IconData(0xeebc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookCheck =
+      IconData(0xeebd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookAdd1 =
+      IconData(0xeebe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBookAdd =
+      IconData(0xeebf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBook =
+      IconData(0xeec0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBoard1 =
+      IconData(0xeec1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBoard =
+      IconData(0xeec2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBlackboard =
+      IconData(0xeec3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBellSchool =
+      IconData(0xeec4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBasketBall =
+      IconData(0xeec5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidBackpack =
+      IconData(0xeec6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidAudioBook =
+      IconData(0xeec7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidAssignment =
+      IconData(0xeec8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidArchive =
+      IconData(0xeec9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidAnnouncement =
+      IconData(0xeeca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationSolidAbacus =
+      IconData(0xeecb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineWhistle =
+      IconData(0xeecc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineVideoCall =
+      IconData(0xeecd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTrophy =
+      IconData(0xeece, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTransform =
+      IconData(0xeecf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTestTube1 =
+      IconData(0xeed0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTestTube =
+      IconData(0xeed1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTelescope =
+      IconData(0xeed2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTeacher01 =
+      IconData(0xeed3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTeacher =
+      IconData(0xeed4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineTableLamp =
+      IconData(0xeed5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineStudents =
+      IconData(0xeed6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineStudentCard =
+      IconData(0xeed7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineStudent =
+      IconData(0xeed8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineStationery =
+      IconData(0xeed9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineSquareRoot =
+      IconData(0xeeda, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineSmartphoneLearning =
+      IconData(0xeedb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineSchool =
+      IconData(0xeedc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineRuler =
+      IconData(0xeedd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineReport =
+      IconData(0xeede, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineRank =
+      IconData(0xeedf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineQuiz =
+      IconData(0xeee0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineProtractor1 =
+      IconData(0xeee1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineProtractor =
+      IconData(0xeee2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineProjector =
+      IconData(0xeee3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePlusRectangle =
+      IconData(0xeee4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePlusCircle =
+      IconData(0xeee5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePhysics =
+      IconData(0xeee6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePencilPaper =
+      IconData(0xeee7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePencilBook =
+      IconData(0xeee8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePencil =
+      IconData(0xeee9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePen =
+      IconData(0xeeea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlinePaintBoard =
+      IconData(0xeeeb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineOnlineLearning =
+      IconData(0xeeec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineNotebook1 =
+      IconData(0xeeed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineNotebook =
+      IconData(0xeeee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMultiplyRectangle =
+      IconData(0xeeef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMultiplyCircle =
+      IconData(0xeef0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMonitor =
+      IconData(0xeef1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMinusRectangle =
+      IconData(0xeef2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMinusCircle =
+      IconData(0xeef3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMicroscope =
+      IconData(0xeef4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMedal1 =
+      IconData(0xeef5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMedal =
+      IconData(0xeef6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMatrix =
+      IconData(0xeef7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineMaths =
+      IconData(0xeef8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineLockers =
+      IconData(0xeef9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineLibrary =
+      IconData(0xeefa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineIdea =
+      IconData(0xeefb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineHelp02 =
+      IconData(0xeefc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineHelp01 =
+      IconData(0xeefd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineHelp =
+      IconData(0xeefe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineGraduationCap =
+      IconData(0xeeff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineGlobe =
+      IconData(0xef00, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineGlasses =
+      IconData(0xef01, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineFountainPen =
+      IconData(0xef02, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineFlask =
+      IconData(0xef03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineFiles =
+      IconData(0xef04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineExam =
+      IconData(0xef05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineEqualityRectangle =
+      IconData(0xef06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineEqualityCircle =
+      IconData(0xef07, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineElearning =
+      IconData(0xef08, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineDna =
+      IconData(0xef09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineDivideRectangle =
+      IconData(0xef0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineDivideCircle =
+      IconData(0xef0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineDiploma1 =
+      IconData(0xef0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineDiploma =
+      IconData(0xef0d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineDesk =
+      IconData(0xef0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineCubeStack =
+      IconData(0xef0f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineCompass =
+      IconData(0xef10, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineClipboard =
+      IconData(0xef11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineChemistry02 =
+      IconData(0xef12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineChemistry01 =
+      IconData(0xef13, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineChemistry =
+      IconData(0xef14, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineChart =
+      IconData(0xef15, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineCartesian =
+      IconData(0xef16, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineCanvas =
+      IconData(0xef17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineCalendar =
+      IconData(0xef18, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineCalculator1 =
+      IconData(0xef19, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineCalculator =
+      IconData(0xef1a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBus =
+      IconData(0xef1b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBrowser =
+      IconData(0xef1c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBooks =
+      IconData(0xef1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBook04 =
+      IconData(0xef1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBook03 =
+      IconData(0xef1f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBook02 =
+      IconData(0xef20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBook01 =
+      IconData(0xef21, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookUpload1 =
+      IconData(0xef22, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookUpload =
+      IconData(0xef23, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookSearch1 =
+      IconData(0xef24, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookSearch =
+      IconData(0xef25, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookRemove1 =
+      IconData(0xef26, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookRemove =
+      IconData(0xef27, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookMinus1 =
+      IconData(0xef28, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookMinus =
+      IconData(0xef29, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookInfo1 =
+      IconData(0xef2a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookInfo =
+      IconData(0xef2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookHelp1 =
+      IconData(0xef2c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookHelp =
+      IconData(0xef2d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookFavourite =
+      IconData(0xef2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookDownload1 =
+      IconData(0xef2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookDownload =
+      IconData(0xef30, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookCheck =
+      IconData(0xef31, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookAdd1 =
+      IconData(0xef32, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBookAdd =
+      IconData(0xef33, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBook =
+      IconData(0xef34, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBoard1 =
+      IconData(0xef35, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBoard =
+      IconData(0xef36, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBlackboard =
+      IconData(0xef37, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBellSchool =
+      IconData(0xef38, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBasketBall =
+      IconData(0xef39, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineBackpack =
+      IconData(0xef3a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineAudioBook =
+      IconData(0xef3b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineAssignment =
+      IconData(0xef3c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineArchive =
+      IconData(0xef3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineAnnouncement =
+      IconData(0xef3e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData educationOutlineAbacus =
+      IconData(0xef3f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidUnderLine =
+      IconData(0xef40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidTextWrap =
+      IconData(0xef41, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidTextSpacing =
+      IconData(0xef42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidTextRotationVertical =
+      IconData(0xef43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidTextRotationNone =
+      IconData(0xef44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidTextArea =
+      IconData(0xef45, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidText =
+      IconData(0xef46, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidTable =
+      IconData(0xef47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidSubject =
+      IconData(0xef48, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidStrikethrough01 =
+      IconData(0xef49, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidStrikethrough =
+      IconData(0xef4a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidStickyNote =
+      IconData(0xef4b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidSpellCheck =
+      IconData(0xef4c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidPostAdd =
+      IconData(0xef4d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidParagraph =
+      IconData(0xef4e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidPageSeparator =
+      IconData(0xef4f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidLinkUnlink =
+      IconData(0xef50, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidLink =
+      IconData(0xef51, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidItalic =
+      IconData(0xef52, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidInputCursorMove =
+      IconData(0xef53, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidIndentIncrease =
+      IconData(0xef54, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidIndentDecrease =
+      IconData(0xef55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidHeading =
+      IconData(0xef56, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFormatShapes =
+      IconData(0xef57, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFormatQuote =
+      IconData(0xef58, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFormatLineSpacing =
+      IconData(0xef59, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFormatClear =
+      IconData(0xef5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFontSize01 =
+      IconData(0xef5b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFontSize =
+      IconData(0xef5c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFontRectangle =
+      IconData(0xef5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidFontColor =
+      IconData(0xef5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidDocumentText =
+      IconData(0xef5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidDescription =
+      IconData(0xef60, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidBold =
+      IconData(0xef61, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidArticle =
+      IconData(0xef62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidAlignTop =
+      IconData(0xef63, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidAlignRight =
+      IconData(0xef64, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidAlignLeft =
+      IconData(0xef65, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidAlignJustify =
+      IconData(0xef66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidAlignCenter =
+      IconData(0xef67, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorSolidAlignBottom =
+      IconData(0xef68, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineUnderline =
+      IconData(0xef69, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineTextWrap =
+      IconData(0xef6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineTextSpacing =
+      IconData(0xef6b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineTextRotationVertical =
+      IconData(0xef6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineTextRotationNone =
+      IconData(0xef6d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineTextArea =
+      IconData(0xef6e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineText =
+      IconData(0xef6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineTable =
+      IconData(0xef70, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineSubject =
+      IconData(0xef71, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineStrikethrough01 =
+      IconData(0xef72, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineStrikethrough =
+      IconData(0xef73, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineSpellcheck =
+      IconData(0xef74, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlinePostAdd =
+      IconData(0xef75, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineParagraph =
+      IconData(0xef76, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlinePageSeparator =
+      IconData(0xef77, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineNote =
+      IconData(0xef78, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineLinkUnlink =
+      IconData(0xef79, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineLink =
+      IconData(0xef7a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineItalic =
+      IconData(0xef7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineInputCursorMove =
+      IconData(0xef7c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineIndentIncrease =
+      IconData(0xef7d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineIndentDecrease =
+      IconData(0xef7e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineHeading =
+      IconData(0xef7f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFormatShapes =
+      IconData(0xef80, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFormatQuote =
+      IconData(0xef81, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFormatLineSpacing =
+      IconData(0xef82, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFormatClear =
+      IconData(0xef83, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFontSize01 =
+      IconData(0xef84, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFontSize =
+      IconData(0xef85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFontRectangle =
+      IconData(0xef86, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineFontColor =
+      IconData(0xef87, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineDocumentText =
+      IconData(0xef88, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineDescription =
+      IconData(0xef89, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineBold =
+      IconData(0xef8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineArticle =
+      IconData(0xef8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineAlignTop =
+      IconData(0xef8c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineAlignRight =
+      IconData(0xef8d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineAlignLeft =
+      IconData(0xef8e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineAlignJustify =
+      IconData(0xef8f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineAlignDown =
+      IconData(0xef90, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData editorOutlineAlignCenter =
+      IconData(0xef91, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidWithdraw =
+      IconData(0xef92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidWallet01 =
+      IconData(0xef93, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidWallet =
+      IconData(0xef94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidVoucher =
+      IconData(0xef95, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidTrolley01 =
+      IconData(0xef96, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidTrolley =
+      IconData(0xef97, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidTag01 =
+      IconData(0xef98, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidTag =
+      IconData(0xef99, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidStore03 =
+      IconData(0xef9a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidStore02 =
+      IconData(0xef9b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidStore01 =
+      IconData(0xef9c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidStore =
+      IconData(0xef9d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasket03 =
+      IconData(0xef9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasket02 =
+      IconData(0xef9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasket01 =
+      IconData(0xefa0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasketRemove =
+      IconData(0xefa1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasketMinus =
+      IconData(0xefa2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasketLove =
+      IconData(0xefa3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasketCheck =
+      IconData(0xefa4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasketArrowOut =
+      IconData(0xefa5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasketArrowDown =
+      IconData(0xefa6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasketAdd =
+      IconData(0xefa7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBasket =
+      IconData(0xefa8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBagRemove =
+      IconData(0xefa9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBagMinus =
+      IconData(0xefaa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBagLove =
+      IconData(0xefab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBagCheck =
+      IconData(0xefac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBagAdd =
+      IconData(0xefad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShoppingBag =
+      IconData(0xefae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidShield =
+      IconData(0xefaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidReward =
+      IconData(0xefb0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidReceipt =
+      IconData(0xefb1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidPackageBox01 =
+      IconData(0xefb2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidPackageBox =
+      IconData(0xefb3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidMoney01 =
+      IconData(0xefb4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidMoneyBag =
+      IconData(0xefb5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidMoney =
+      IconData(0xefb6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidLocation =
+      IconData(0xefb7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidInvoice01 =
+      IconData(0xefb8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidInvoice =
+      IconData(0xefb9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidHanger =
+      IconData(0xefba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidGlassBroken =
+      IconData(0xefbb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidFavourite =
+      IconData(0xefbc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidDeposit =
+      IconData(0xefbd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCart02 =
+      IconData(0xefbe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCart01 =
+      IconData(0xefbf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCartRemove =
+      IconData(0xefc0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCartMinus =
+      IconData(0xefc1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCartCheck =
+      IconData(0xefc2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCartArrowUp =
+      IconData(0xefc3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCartArrowDown =
+      IconData(0xefc4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCartAdd =
+      IconData(0xefc5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCart =
+      IconData(0xefc6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidCard =
+      IconData(0xefc7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBookmark =
+      IconData(0xefc8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBoard =
+      IconData(0xefc9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBag01 =
+      IconData(0xefca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBagRemove =
+      IconData(0xefcb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBagMinus =
+      IconData(0xefcc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBagFavourite =
+      IconData(0xefcd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBagCheck =
+      IconData(0xefce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBagAdd =
+      IconData(0xefcf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBag =
+      IconData(0xefd0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceSolidBadgePercent =
+      IconData(0xefd1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineWithdraw =
+      IconData(0xefd2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineWallet01 =
+      IconData(0xefd3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineWallet =
+      IconData(0xefd4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineVoucher =
+      IconData(0xefd5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineTrolley01 =
+      IconData(0xefd6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineTrolley =
+      IconData(0xefd7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineTag01 =
+      IconData(0xefd8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineTag =
+      IconData(0xefd9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineStore03 =
+      IconData(0xefda, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineStore02 =
+      IconData(0xefdb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineStore01 =
+      IconData(0xefdc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineStore =
+      IconData(0xefdd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasket03 =
+      IconData(0xefde, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasket02 =
+      IconData(0xefdf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasket01 =
+      IconData(0xefe0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasketRemove =
+      IconData(0xefe1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasketMinus =
+      IconData(0xefe2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasketLove =
+      IconData(0xefe3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasketCheck =
+      IconData(0xefe4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasketArrowOut =
+      IconData(0xefe5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasketArrowDown =
+      IconData(0xefe6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasketAdd =
+      IconData(0xefe7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBasket =
+      IconData(0xefe8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBagRemove =
+      IconData(0xefe9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBagMinus =
+      IconData(0xefea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBagLove =
+      IconData(0xefeb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBagCheck =
+      IconData(0xefec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBagAdd =
+      IconData(0xefed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShoppingBag =
+      IconData(0xefee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineShield =
+      IconData(0xefef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineReward =
+      IconData(0xeff0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineReceipt =
+      IconData(0xeff1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlinePackageBox01 =
+      IconData(0xeff2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlinePackageBox =
+      IconData(0xeff3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineMoney01 =
+      IconData(0xeff4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineMoneyBag =
+      IconData(0xeff5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineMoney =
+      IconData(0xeff6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineLocation =
+      IconData(0xeff7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineInvoice01 =
+      IconData(0xeff8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineInvoice =
+      IconData(0xeff9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineHanger =
+      IconData(0xeffa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineGlassBroken =
+      IconData(0xeffb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineFavourite =
+      IconData(0xeffc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineDeposit =
+      IconData(0xeffd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCart02 =
+      IconData(0xeffe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCart01 =
+      IconData(0xefff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCartRemove =
+      IconData(0xf000, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCartMinus =
+      IconData(0xf001, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCartCheck =
+      IconData(0xf002, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCartArrowUp =
+      IconData(0xf003, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCartArrowDown =
+      IconData(0xf004, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCartAdd =
+      IconData(0xf005, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCart =
+      IconData(0xf006, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineCard =
+      IconData(0xf007, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBookmark =
+      IconData(0xf008, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBoard =
+      IconData(0xf009, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBag01 =
+      IconData(0xf00a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBagRemove =
+      IconData(0xf00b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBagMinus =
+      IconData(0xf00c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBagFavourite =
+      IconData(0xf00d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBagCheck =
+      IconData(0xf00e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBagAdd =
+      IconData(0xf00f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBag =
+      IconData(0xf010, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ecommerceOutlineBadgePercent =
+      IconData(0xf011, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceSolidUserRectangle =
+      IconData(0xf012, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceSolidUserCircle =
+      IconData(0xf013, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWirelessCharging =
+      IconData(0xf014, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWifiSignalOff =
+      IconData(0xf015, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWifiSignalNoInternet =
+      IconData(0xf016, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWifiSignalBad =
+      IconData(0xf017, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWifiSignal =
+      IconData(0xf018, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWifiOff =
+      IconData(0xf019, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWifi =
+      IconData(0xf01a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineWidgets =
+      IconData(0xf01b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineViewPrivacy =
+      IconData(0xf01c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineViewOff =
+      IconData(0xf01d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineView =
+      IconData(0xf01e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineVideoOff =
+      IconData(0xf01f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineVideo =
+      IconData(0xf020, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineVibrateMode =
+      IconData(0xf021, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineUserRectangle =
+      IconData(0xf022, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineUserCircle =
+      IconData(0xf023, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineUser =
+      IconData(0xf024, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineUsb =
+      IconData(0xf025, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineUnlock =
+      IconData(0xf026, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineTaskCheck =
+      IconData(0xf027, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineTablet =
+      IconData(0xf028, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSwitch =
+      IconData(0xf029, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineStorage =
+      IconData(0xf02a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineStandbyMode =
+      IconData(0xf02b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSimCard =
+      IconData(0xf02c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSignalCellulerOff =
+      IconData(0xf02d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSignalCellulerNoInternet1 =
+      IconData(0xf02e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSignalCellulerNoInternet =
+      IconData(0xf02f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSignalCellulerBad =
+      IconData(0xf030, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSignalCelluler =
+      IconData(0xf031, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineShutDown =
+      IconData(0xf032, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSetting =
+      IconData(0xf033, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSecurity =
+      IconData(0xf034, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineSdStorage =
+      IconData(0xf035, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineScreenshot =
+      IconData(0xf036, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineScreenRotate =
+      IconData(0xf037, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineRotateLock =
+      IconData(0xf038, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineRestart =
+      IconData(0xf039, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineQrScan =
+      IconData(0xf03a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlinePhoneLock =
+      IconData(0xf03b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineNotification01 =
+      IconData(0xf03c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineNotificationOff =
+      IconData(0xf03d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineNotification =
+      IconData(0xf03e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineNightMode =
+      IconData(0xf03f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineMusicOff =
+      IconData(0xf040, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineMusic =
+      IconData(0xf041, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineMobileDataOff =
+      IconData(0xf042, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineMobileData =
+      IconData(0xf043, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineMobile =
+      IconData(0xf044, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineLock =
+      IconData(0xf045, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineLocation =
+      IconData(0xf046, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineLightMode =
+      IconData(0xf047, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineLaptop =
+      IconData(0xf048, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineHotspotOff =
+      IconData(0xf049, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineHotspot =
+      IconData(0xf04a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineGraphicEq =
+      IconData(0xf04b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineGpsOff =
+      IconData(0xf04c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineGps =
+      IconData(0xf04d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineFlashOff =
+      IconData(0xf04e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineFlashLight =
+      IconData(0xf04f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineFlashAuto =
+      IconData(0xf050, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineFlash =
+      IconData(0xf051, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineFingerPrint =
+      IconData(0xf052, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineFilter01 =
+      IconData(0xf053, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineFilter =
+      IconData(0xf054, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineDoNotDisturb =
+      IconData(0xf055, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineDigitalHealth =
+      IconData(0xf056, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineDevices =
+      IconData(0xf057, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineDarkMode =
+      IconData(0xf058, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineComputer =
+      IconData(0xf059, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineColorInversion =
+      IconData(0xf05a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineCast =
+      IconData(0xf05b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineCameraSwitch =
+      IconData(0xf05c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineCameraOff =
+      IconData(0xf05d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineCamera =
+      IconData(0xf05e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBluetoothOff =
+      IconData(0xf05f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBluetoothConnected =
+      IconData(0xf060, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBluetooth =
+      IconData(0xf061, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatterySavingMode =
+      IconData(0xf062, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryLowbet =
+      IconData(0xf063, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryHorizontalSavingMode =
+      IconData(0xf064, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryHorizontalLowbet =
+      IconData(0xf065, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryHorizontalFull =
+      IconData(0xf066, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryHorizontalCharging =
+      IconData(0xf067, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryHorizontal =
+      IconData(0xf068, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryChargingFull =
+      IconData(0xf069, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryCharging =
+      IconData(0xf06a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBatteryAlert =
+      IconData(0xf06b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineBattery =
+      IconData(0xf06c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineAutoRotation =
+      IconData(0xf06d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineAuto =
+      IconData(0xf06e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineAirplaneModeOff =
+      IconData(0xf06f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineAirplaneMode =
+      IconData(0xf070, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineAccessibility =
+      IconData(0xf071, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData deviceOutlineAboutPhone =
+      IconData(0xf072, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineWifi =
+      IconData(0xf073, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineVoiceMail =
+      IconData(0xf074, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineSticker =
+      IconData(0xf075, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineSignal =
+      IconData(0xf076, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineSentFast =
+      IconData(0xf077, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineSend =
+      IconData(0xf078, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailbox =
+      IconData(0xf079, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailSilent =
+      IconData(0xf07a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailPlus =
+      IconData(0xf07b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailNotification =
+      IconData(0xf07c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailNegative =
+      IconData(0xf07d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailFavourite =
+      IconData(0xf07e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailFast =
+      IconData(0xf07f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailFail =
+      IconData(0xf080, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailDelay =
+      IconData(0xf081, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailBlock =
+      IconData(0xf082, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailArrowUp =
+      IconData(0xf083, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailArrowRight =
+      IconData(0xf084, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailArrowLeft =
+      IconData(0xf085, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMailArrowDown =
+      IconData(0xf086, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineMail =
+      IconData(0xf087, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineIdCard =
+      IconData(0xf088, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineFeather =
+      IconData(0xf089, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatting =
+      IconData(0xf08a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChat02 =
+      IconData(0xf08b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChat01 =
+      IconData(0xf08c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatUser =
+      IconData(0xf08d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatSmile =
+      IconData(0xf08e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatSilent =
+      IconData(0xf08f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatSearch =
+      IconData(0xf090, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatSad =
+      IconData(0xf091, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatPlus =
+      IconData(0xf092, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatNotification1 =
+      IconData(0xf093, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatNotification =
+      IconData(0xf094, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatNegative =
+      IconData(0xf095, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatLove =
+      IconData(0xf096, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatLock =
+      IconData(0xf097, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatInformation =
+      IconData(0xf098, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatFavourite =
+      IconData(0xf099, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatClose =
+      IconData(0xf09a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatClock =
+      IconData(0xf09b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatBlock =
+      IconData(0xf09c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatArrowUp =
+      IconData(0xf09d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatArrowDown =
+      IconData(0xf09e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChatAccept =
+      IconData(0xf09f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineChat =
+      IconData(0xf0a0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCalling =
+      IconData(0xf0a1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallVoicemail =
+      IconData(0xf0a2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallUser =
+      IconData(0xf0a3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallOut01 =
+      IconData(0xf0a4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallOut =
+      IconData(0xf0a5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallLove =
+      IconData(0xf0a6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallIn01 =
+      IconData(0xf0a7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallIn =
+      IconData(0xf0a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCallBlock =
+      IconData(0xf0a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineCall =
+      IconData(0xf0aa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData communicationOutlineBroadcast =
+      IconData(0xf0ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidTarget =
+      IconData(0xf0ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidPresentationChart =
+      IconData(0xf0ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidLike =
+      IconData(0xf0ae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidHome01 =
+      IconData(0xf0af, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidHome =
+      IconData(0xf0b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidDeal =
+      IconData(0xf0b1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartWave1 =
+      IconData(0xf0b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartWave01 =
+      IconData(0xf0b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartWaveRectangle =
+      IconData(0xf0b4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartPie01 =
+      IconData(0xf0b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartPie =
+      IconData(0xf0b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartNotification =
+      IconData(0xf0b7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartLine =
+      IconData(0xf0b8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartBar1 =
+      IconData(0xf0b9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartBar01 =
+      IconData(0xf0ba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartArrowUp01 =
+      IconData(0xf0bb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartArrowUpRectangle =
+      IconData(0xf0bc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartArrowUp =
+      IconData(0xf0bd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartArrowDown01 =
+      IconData(0xf0be, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartArrowDownRectangle =
+      IconData(0xf0bf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidChartArrowDown =
+      IconData(0xf0c0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidCalculator =
+      IconData(0xf0c1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidBriefcase04 =
+      IconData(0xf0c2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidBriefcase03 =
+      IconData(0xf0c3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidBriefcase02 =
+      IconData(0xf0c4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidBriefcase01 =
+      IconData(0xf0c5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidBriefcase =
+      IconData(0xf0c6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidBarChart01 =
+      IconData(0xf0c7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidBarChart =
+      IconData(0xf0c8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessSolidArchive =
+      IconData(0xf0c9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineTarget =
+      IconData(0xf0ca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlinePresentationChart =
+      IconData(0xf0cb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineLike =
+      IconData(0xf0cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineHome01 =
+      IconData(0xf0cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineHome =
+      IconData(0xf0ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineDeal =
+      IconData(0xf0cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartWave01 =
+      IconData(0xf0d0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartWaveRectangle =
+      IconData(0xf0d1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartWave =
+      IconData(0xf0d2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartPie01 =
+      IconData(0xf0d3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartPie =
+      IconData(0xf0d4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartNotification =
+      IconData(0xf0d5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartLine =
+      IconData(0xf0d6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartBar01 =
+      IconData(0xf0d7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartBar =
+      IconData(0xf0d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartArrowUp01 =
+      IconData(0xf0d9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartArrowUpRectangle =
+      IconData(0xf0da, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartArrowUp =
+      IconData(0xf0db, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartArrowDown01 =
+      IconData(0xf0dc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartArrowDownRectangle =
+      IconData(0xf0dd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineChartArrowDown =
+      IconData(0xf0de, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineCalculator =
+      IconData(0xf0df, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineBriefcase04 =
+      IconData(0xf0e0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineBriefcase03 =
+      IconData(0xf0e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineBriefcase02 =
+      IconData(0xf0e2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineBriefcase01 =
+      IconData(0xf0e3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineBriefcase =
+      IconData(0xf0e4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineBarChart01 =
+      IconData(0xf0e5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineBarChart =
+      IconData(0xf0e6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData businessOutlineArchive =
+      IconData(0xf0e7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidZoomOutRectangle =
+      IconData(0xf0e8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidZoomOutCircle =
+      IconData(0xf0e9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidZoomOut =
+      IconData(0xf0ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidZoomInRectangle =
+      IconData(0xf0eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidZoomIn =
+      IconData(0xf0ec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidUpload01 =
+      IconData(0xf0ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidUpload =
+      IconData(0xf0ee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidUpArrow01 =
+      IconData(0xf0ef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidUpArrow =
+      IconData(0xf0f0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidUndoCircle =
+      IconData(0xf0f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidUndo =
+      IconData(0xf0f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidRightArrow01 =
+      IconData(0xf0f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidRightArrow =
+      IconData(0xf0f4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidReloadRectangle =
+      IconData(0xf0f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidReloadCircle =
+      IconData(0xf0f6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidReload =
+      IconData(0xf0f7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidRedoRectangle01 =
+      IconData(0xf0f8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidRedoRectangle =
+      IconData(0xf0f9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidRedoCircle =
+      IconData(0xf0fa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidRedo =
+      IconData(0xf0fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidPreviousArrow =
+      IconData(0xf0fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidOut01 =
+      IconData(0xf0fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidOut =
+      IconData(0xf0fe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidNextArrow =
+      IconData(0xf0ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidMinimize02 =
+      IconData(0xf100, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidMinimize01 =
+      IconData(0xf101, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidMinimize =
+      IconData(0xf102, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidMaximize02 =
+      IconData(0xf103, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidMaximize01 =
+      IconData(0xf104, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidMaximize =
+      IconData(0xf105, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidLeftArrow01 =
+      IconData(0xf106, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidLeftArrow =
+      IconData(0xf107, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidIn01 =
+      IconData(0xf108, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidIn =
+      IconData(0xf109, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidExchangeRectangle =
+      IconData(0xf10a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidExchange =
+      IconData(0xf10b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDownload01 =
+      IconData(0xf10c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDownload =
+      IconData(0xf10d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDownArrow01 =
+      IconData(0xf10e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDownArrow =
+      IconData(0xf10f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionUp01 =
+      IconData(0xf110, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionUpRectangle =
+      IconData(0xf111, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionUpCircle =
+      IconData(0xf112, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionUp =
+      IconData(0xf113, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionRight01 =
+      IconData(0xf114, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionRightRectangle =
+      IconData(0xf115, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionRightCircle =
+      IconData(0xf116, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionRight =
+      IconData(0xf117, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionLeft01 =
+      IconData(0xf118, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionLeftRectangle =
+      IconData(0xf119, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionLeftCircle =
+      IconData(0xf11a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionLeft =
+      IconData(0xf11b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionDown01 =
+      IconData(0xf11c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionDownRectangle =
+      IconData(0xf11d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionDownCircle =
+      IconData(0xf11e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidDirectionDown =
+      IconData(0xf11f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowUpRectangle =
+      IconData(0xf120, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowUpCircle =
+      IconData(0xf121, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowUp =
+      IconData(0xf122, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowTransfer1 =
+      IconData(0xf123, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowTransferRectangle1 =
+      IconData(0xf124, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowTransferRectangle =
+      IconData(0xf125, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowTransfer =
+      IconData(0xf126, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowSort1 =
+      IconData(0xf127, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowSortRectangle1 =
+      IconData(0xf128, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowSortRectangle =
+      IconData(0xf129, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowSort =
+      IconData(0xf12a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowRightRectangle =
+      IconData(0xf12b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowRightCircle =
+      IconData(0xf12c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowRight =
+      IconData(0xf12d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowReturnRectangle =
+      IconData(0xf12e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowReturnCircle =
+      IconData(0xf12f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowReturn =
+      IconData(0xf130, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowMoveRectangle =
+      IconData(0xf131, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowMoveCircle =
+      IconData(0xf132, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowMove =
+      IconData(0xf133, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowLeftRectangle =
+      IconData(0xf134, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowLeftCircle =
+      IconData(0xf135, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowLeft =
+      IconData(0xf136, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowDownRectangle =
+      IconData(0xf137, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowDownCircle =
+      IconData(0xf138, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowDown =
+      IconData(0xf139, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowBackRectangle =
+      IconData(0xf13a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsSolidArrowBackCircle =
+      IconData(0xf13b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineZoomOutRectangle =
+      IconData(0xf13c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineZoomOutCircle =
+      IconData(0xf13d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineZoomOut =
+      IconData(0xf13e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineZoomInRectangle =
+      IconData(0xf13f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineZoomIn =
+      IconData(0xf140, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineUpload01 =
+      IconData(0xf141, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineUpload =
+      IconData(0xf142, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineUpArrow01 =
+      IconData(0xf143, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineUpArrow =
+      IconData(0xf144, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineUndoCircle =
+      IconData(0xf145, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineUndo =
+      IconData(0xf146, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineRightArrow01 =
+      IconData(0xf147, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineRightArrow =
+      IconData(0xf148, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineReloadRectangle =
+      IconData(0xf149, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineReloadCircle =
+      IconData(0xf14a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineReload =
+      IconData(0xf14b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineRedoRectangle1 =
+      IconData(0xf14c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineRedoRectangle =
+      IconData(0xf14d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineRedoCircle =
+      IconData(0xf14e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineRedo =
+      IconData(0xf14f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlinePreviousArrow =
+      IconData(0xf150, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineOut01 =
+      IconData(0xf151, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineOut =
+      IconData(0xf152, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineNextArrow =
+      IconData(0xf153, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineMinimize02 =
+      IconData(0xf154, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineMinimize01 =
+      IconData(0xf155, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineMinimize =
+      IconData(0xf156, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineMaximize02 =
+      IconData(0xf157, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineMaximize01 =
+      IconData(0xf158, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineMaximize =
+      IconData(0xf159, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineLeftArrow01 =
+      IconData(0xf15a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineLeftArrow =
+      IconData(0xf15b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineIn01 =
+      IconData(0xf15c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineIn =
+      IconData(0xf15d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineExchangeRectangle =
+      IconData(0xf15e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineExchange =
+      IconData(0xf15f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDownload01 =
+      IconData(0xf160, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDownload =
+      IconData(0xf161, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDownArrow01 =
+      IconData(0xf162, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDownArrow =
+      IconData(0xf163, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionUp01 =
+      IconData(0xf164, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionUpRectangle =
+      IconData(0xf165, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionUpCircle =
+      IconData(0xf166, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionUp =
+      IconData(0xf167, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionRight01 =
+      IconData(0xf168, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionRightRectangle =
+      IconData(0xf169, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionRightCircle =
+      IconData(0xf16a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionRight =
+      IconData(0xf16b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionLeft01 =
+      IconData(0xf16c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionLeftRectangle =
+      IconData(0xf16d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionLeftCircle =
+      IconData(0xf16e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionLeft =
+      IconData(0xf16f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionDown01 =
+      IconData(0xf170, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionDownRectangle =
+      IconData(0xf171, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionDownCircle =
+      IconData(0xf172, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineDirectionDown =
+      IconData(0xf173, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowUpRectangle =
+      IconData(0xf174, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowUpCircle =
+      IconData(0xf175, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowUp =
+      IconData(0xf176, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowTransfer1 =
+      IconData(0xf177, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowTransferRectangle1 =
+      IconData(0xf178, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowTransferRectangle =
+      IconData(0xf179, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowTransfer =
+      IconData(0xf17a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowSort1 =
+      IconData(0xf17b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowSortRectangle1 =
+      IconData(0xf17c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowSortRectangle =
+      IconData(0xf17d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowSort =
+      IconData(0xf17e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowRightRectangle =
+      IconData(0xf17f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowRightCircle =
+      IconData(0xf180, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowRight =
+      IconData(0xf181, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowReturnRectangle =
+      IconData(0xf182, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowReturnCircle =
+      IconData(0xf183, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowReturn =
+      IconData(0xf184, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowMoveRectangle =
+      IconData(0xf185, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowMoveCircle =
+      IconData(0xf186, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowMove =
+      IconData(0xf187, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowLeftRectangle =
+      IconData(0xf188, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowLeftCircle =
+      IconData(0xf189, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowLeft =
+      IconData(0xf18a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowDownRectangle =
+      IconData(0xf18b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowDownCircle =
+      IconData(0xf18c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowDown =
+      IconData(0xf18d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowBackRectangle =
+      IconData(0xf18e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowBackCircle =
+      IconData(0xf18f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrowsOutlineArrowBack =
+      IconData(0xf190, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData weatherSolidTemperaturePlus =
-      IconData(0xe995, fontFamily: _kIconFontFamily);
+      IconData(0xf191, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherSolidTemperatureMinus =
+      IconData(0xf192, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherSolidTemperatureCold =
+      IconData(0xf193, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineWindMid =
+      IconData(0xf194, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData weatherOutlineWindLow =
+      IconData(0xf195, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
