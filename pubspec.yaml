@@ -12,9 +12,9 @@ dependencies:
 
 flutter:
   assets:
-    - lib/fonts/huge_icons.otf
+    - lib/fonts/huge_icons.ttf
 
   fonts:
-    - family: HugeIconsDipflix`sExport
+    - family: huge_icons_dipflixs_export
       fonts:
-        - asset: lib/fonts/huge_icons.otf
+        - asset: lib/fonts/huge_icons.ttf
