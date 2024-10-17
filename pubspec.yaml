@@ -1,0 +1,20 @@
+name: huge_icons
+description: "Dipflix`s export huge icons"
+version: 0.0.1
+
+environment:
+  sdk: ^3.1.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  assets:
+    - huge_icons.otf
+
+  fonts:
+    - family: HugeIconsDipflix`sExport
+      fonts:
+        - asset: huge_icons.otf
